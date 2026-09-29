@@ -1,0 +1,6141 @@
+[
+  {
+    "prompt_id": "eval_043",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cdo-review"
+    ],
+    "predicted": [
+      "chief-data-officer-advisor"
+    ],
+    "stage1_candidates": [
+      "cdo-review",
+      "chief-data-officer-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 7566.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_045",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "xlsx"
+    ],
+    "predicted": [
+      "xlsx"
+    ],
+    "stage1_candidates": [
+      "xlsx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1186.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_059",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "SurveyMonkey Automation"
+    ],
+    "predicted": [
+      "SurveyMonkey Automation"
+    ],
+    "stage1_candidates": [
+      "SurveyMonkey Automation"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_048",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "chro-advisor"
+    ],
+    "predicted": [
+      "chro-advisor"
+    ],
+    "stage1_candidates": [
+      "chro-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1294.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_058",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pptx"
+    ],
+    "predicted": [
+      "pptx"
+    ],
+    "stage1_candidates": [
+      "pptx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_006",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "internal-comms"
+    ],
+    "predicted": [
+      "internal-comms"
+    ],
+    "stage1_candidates": [
+      "internal-comms"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 12.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_073",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "api-design-reviewer"
+    ],
+    "stage1_candidates": [
+      "api-design-reviewer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1388.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_042",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "brand-guidelines"
+    ],
+    "predicted": [
+      "brand-guidelines"
+    ],
+    "stage1_candidates": [
+      "brand-guidelines"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_106",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "mcp-builder"
+    ],
+    "predicted": [
+      "NetSuite Automation"
+    ],
+    "stage1_candidates": [
+      "NetSuite Automation"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1658.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_035",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ship-gate"
+    ],
+    "predicted": [
+      "ship-gate"
+    ],
+    "stage1_candidates": [
+      "ship-gate"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 32.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_007",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Ashby Automation"
+    ],
+    "predicted": [
+      "tailored-resume-generator"
+    ],
+    "stage1_candidates": [
+      "tailored-resume-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": true,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING",
+      "ABSTAIN"
+    ],
+    "total_latency_ms": 1203.7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_052",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ux-researcher-designer"
+    ],
+    "predicted": [
+      "persona"
+    ],
+    "stage1_candidates": [
+      "persona"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 31.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_078",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "observability-designer"
+    ],
+    "predicted": [
+      "observability-designer"
+    ],
+    "stage1_candidates": [
+      "observability-designer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_041",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "brand-guidelines"
+    ],
+    "predicted": [
+      "brand-guidelines"
+    ],
+    "stage1_candidates": [
+      "brand-guidelines"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_008",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Ashby Automation"
+    ],
+    "predicted": [
+      "Ashby Automation"
+    ],
+    "stage1_candidates": [
+      "Ashby Automation",
+      "interview-system-designer",
+      "linkedin-engagement",
+      "marketing-context",
+      "tailored-resume-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1041.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_075",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "marketing-demand-acquisition"
+    ],
+    "predicted": [
+      "marketing-demand-acquisition"
+    ],
+    "stage1_candidates": [
+      "ad-creative",
+      "marketing-demand-acquisition",
+      "paid-ads"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1072.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_046",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "xlsx"
+    ],
+    "predicted": [
+      "xlsx"
+    ],
+    "stage1_candidates": [
+      "xlsx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 11.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_074",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "ci-cd-pipeline-builder"
+    ],
+    "stage1_candidates": [
+      "ci-cd-pipeline-builder",
+      "pipeline"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1100.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_026",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "interview"
+    ],
+    "predicted": [
+      "interview"
+    ],
+    "stage1_candidates": [
+      "Mistral AI Automation",
+      "interview"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1629.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_047",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "chro-advisor"
+    ],
+    "predicted": [
+      "product-strategist"
+    ],
+    "stage1_candidates": [
+      "product-strategist"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1432.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_088",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "changelog-generator"
+    ],
+    "predicted": [
+      "changelog-generator"
+    ],
+    "stage1_candidates": [
+      "changelog-generator"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_050",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "algorithmic-art"
+    ],
+    "predicted": [
+      "algorithmic-art"
+    ],
+    "stage1_candidates": [
+      "algorithmic-art"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 13.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_017",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "project-health"
+    ],
+    "predicted": [
+      "project-health"
+    ],
+    "stage1_candidates": [
+      "project-health"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_105",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "mcp-builder"
+    ],
+    "predicted": [
+      "connect"
+    ],
+    "stage1_candidates": [
+      "Apify Automation",
+      "Clockify Automation",
+      "GroqCloud Automation",
+      "Mistral AI Automation",
+      "OpenAI Automation",
+      "Replicate Automation",
+      "Workday Automation",
+      "behuman",
+      "connect",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1333.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_107",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "senior-qa"
+    ],
+    "predicted": [
+      "coverage",
+      "ship-gate",
+      "webapp-testing"
+    ],
+    "stage1_candidates": [
+      "compliance-readiness",
+      "coverage",
+      "ship-gate",
+      "webapp-testing"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1479.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_022",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "DevOps Engineer"
+    ],
+    "predicted": [
+      "ci-cd-pipeline-builder"
+    ],
+    "stage1_candidates": [
+      "ci-cd-pipeline-builder",
+      "pipeline"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1016.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_116",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cs-financial-analyst"
+    ],
+    "predicted": [
+      "financial-analyst"
+    ],
+    "stage1_candidates": [
+      "financial-analyst",
+      "research-finance"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1033.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_023",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "knowledge-ops"
+    ],
+    "predicted": [
+      "knowledge-ops"
+    ],
+    "stage1_candidates": [
+      "knowledge-ops"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_097",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cloud-security"
+    ],
+    "predicted": [
+      "cloud-security"
+    ],
+    "stage1_candidates": [
+      "cloud-security"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1220.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_021",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "DevOps Engineer"
+    ],
+    "predicted": [
+      "embedded-iot-mentor"
+    ],
+    "stage1_candidates": [
+      "New Relic Automation",
+      "cs-product-analyst",
+      "embedded-iot-mentor",
+      "performance-profiler"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1225.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_110",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "agenthub"
+    ],
+    "stage1_candidates": [
+      "agenthub",
+      "brief",
+      "deep-research",
+      "experiment-designer",
+      "product-discovery",
+      "run",
+      "statistical-analyst"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1512.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_086",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-creator"
+    ],
+    "predicted": [
+      "skill-creator"
+    ],
+    "stage1_candidates": [
+      "code-to-prd",
+      "skill-creator",
+      "skill-doctor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1088.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_119",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cs-growth-strategist"
+    ],
+    "predicted": [
+      "revenue-operations"
+    ],
+    "stage1_candidates": [
+      "cro-review",
+      "revenue-operations"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1271.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_092",
+    "set_size": 2,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-doctor",
+      "strict-api"
+    ],
+    "predicted": [
+      "skill-doctor",
+      "strict-api"
+    ],
+    "stage1_candidates": [
+      "api-design-reviewer",
+      "skill-doctor",
+      "strict-api"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1861.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_120",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cs-growth-strategist"
+    ],
+    "predicted": [
+      "churn-prevention",
+      "customer-success-manager"
+    ],
+    "stage1_candidates": [
+      "churn-prevention",
+      "customer-success-manager"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1869.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_063",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Coinbase Automation"
+    ],
+    "predicted": [
+      "Coinbase Automation"
+    ],
+    "stage1_candidates": [
+      "Coinbase Automation"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_069",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "doc-coauthoring"
+    ],
+    "predicted": [
+      "contract-and-proposal-writer"
+    ],
+    "stage1_candidates": [
+      "contract-and-proposal-writer",
+      "rfp-responder"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1174.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_024",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "knowledge-ops"
+    ],
+    "predicted": [
+      "knowledge-ops"
+    ],
+    "stage1_candidates": [
+      "knowledge-ops"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_064",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Coinbase Automation"
+    ],
+    "predicted": [
+      "Coinbase Automation"
+    ],
+    "stage1_candidates": [
+      "Coinbase Automation"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_091",
+    "set_size": 2,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-doctor",
+      "strict-api"
+    ],
+    "predicted": [
+      "skill-doctor",
+      "strict-api"
+    ],
+    "stage1_candidates": [
+      "skill-doctor",
+      "strict-api"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1122.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_094",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "canvas-design"
+    ],
+    "predicted": [
+      "ad-creative"
+    ],
+    "stage1_candidates": [
+      "ad-creative",
+      "marketing-context",
+      "marketing-ideas",
+      "marketing-ops",
+      "marketing-psychology",
+      "prompt-engineer-toolkit"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1395.7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_020",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cloud-security"
+    ],
+    "predicted": [
+      "cloud-security"
+    ],
+    "stage1_candidates": [
+      "cloud-security"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_054",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-financial-analyst"
+    ],
+    "predicted": [
+      "financial-health"
+    ],
+    "stage1_candidates": [
+      "financial-analyst",
+      "financial-health",
+      "research-finance"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1396.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_112",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "deep-research"
+    ],
+    "predicted": [
+      "competitive-teardown",
+      "marketing-strategy-pmm"
+    ],
+    "stage1_candidates": [
+      "competitive-intel",
+      "competitive-teardown",
+      "marketing-strategy-pmm"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1440.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_031",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "code-to-prd"
+    ],
+    "predicted": [
+      "code-to-prd"
+    ],
+    "stage1_candidates": [
+      "code-to-prd"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_087",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "changelog-generator"
+    ],
+    "predicted": [
+      "changelog-generator"
+    ],
+    "stage1_candidates": [
+      "changelog",
+      "changelog-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1300.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_037",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "strict-api"
+    ],
+    "predicted": [
+      "api-design-reviewer"
+    ],
+    "stage1_candidates": [
+      "api-design-reviewer",
+      "changelog"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1638.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_096",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "claude-api"
+    ],
+    "predicted": [
+      "llm-cost-optimizer"
+    ],
+    "stage1_candidates": [
+      "llm-cost-optimizer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1331.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_084",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "webapp-testing"
+    ],
+    "predicted": [
+      "webapp-testing"
+    ],
+    "stage1_candidates": [
+      "webapp-testing"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_049",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "algorithmic-art"
+    ],
+    "predicted": [
+      "algorithmic-art"
+    ],
+    "stage1_candidates": [
+      "algorithmic-art"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 11.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_027",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "design-system"
+    ],
+    "predicted": [
+      "design-system"
+    ],
+    "stage1_candidates": [
+      "design-system"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_039",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "academy-guide"
+    ],
+    "predicted": [
+      "academy-guide"
+    ],
+    "stage1_candidates": [
+      "academy-guide",
+      "claude-coach"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1200.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_089",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "deep-research"
+    ],
+    "predicted": [
+      "deep-research"
+    ],
+    "stage1_candidates": [
+      "deep-research",
+      "senior-pm"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1205.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_104",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "skill-doctor"
+    ],
+    "predicted": [
+      "skill-doctor"
+    ],
+    "stage1_candidates": [
+      "business-growth-skills",
+      "business-operations-skills",
+      "c-level-skills",
+      "engineering-advanced-skills",
+      "finance-skills",
+      "skill-doctor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1738.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_056",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Gorgias Automation"
+    ],
+    "predicted": [
+      "Toggl Automation",
+      "analytics-tracking"
+    ],
+    "stage1_candidates": [
+      "Toggl Automation",
+      "analytics-tracking"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": true,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING",
+      "ABSTAIN"
+    ],
+    "total_latency_ms": 1021.7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_113",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "ab-test-setup"
+    ],
+    "predicted": [
+      "Microsoft Clarity Automation",
+      "social-media-analyzer"
+    ],
+    "stage1_candidates": [
+      "Gong Automation",
+      "Microsoft Clarity Automation",
+      "Product Manager",
+      "boardroom",
+      "brand-guidelines",
+      "campaign-analytics",
+      "capa-officer",
+      "change-management",
+      "execute",
+      "hard-call",
+      "md-review",
+      "meetings",
+      "red-team",
+      "site-architecture",
+      "social-media-analyzer",
+      "twitter-algorithm-optimizer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1048.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_109",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "agenthub"
+    ],
+    "stage1_candidates": [
+      "agenthub",
+      "prd"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1615.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_061",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pdf"
+    ],
+    "predicted": [
+      "pdf"
+    ],
+    "stage1_candidates": [
+      "pdf"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_011",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "marketing-strategy-pmm"
+    ],
+    "predicted": [
+      "marketing-strategy-pmm"
+    ],
+    "stage1_candidates": [
+      "marketing-context",
+      "marketing-strategy-pmm"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1198.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_098",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cloud-security"
+    ],
+    "predicted": [
+      "cloud-security"
+    ],
+    "stage1_candidates": [
+      "cloud-security"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_121",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "knowledge-ops"
+    ],
+    "predicted": [
+      "onboarding-cro"
+    ],
+    "stage1_candidates": [
+      "codebase-onboarding",
+      "onboard",
+      "onboarding-cro"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 981.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_081",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "linkedin-engagement"
+    ],
+    "predicted": [
+      "linkedin-engagement"
+    ],
+    "stage1_candidates": [
+      "linkedin-engagement"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1548.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_117",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "SurveyMonkey Automation"
+    ],
+    "predicted": [
+      "customer-success-manager"
+    ],
+    "stage1_candidates": [
+      "customer-success-manager",
+      "linkedin-profile",
+      "meeting-analyzer",
+      "meeting-insights-analyzer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1416.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_038",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "strict-api"
+    ],
+    "predicted": [
+      "strict-api"
+    ],
+    "stage1_candidates": [
+      "strict-api"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_114",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "ab-test-setup"
+    ],
+    "predicted": [
+      "copywriting"
+    ],
+    "stage1_candidates": [
+      "copywriting",
+      "landing",
+      "landing-page-generator",
+      "linkedin-strategy"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1066.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_003",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ab-test-setup"
+    ],
+    "predicted": [
+      "ab-test-setup"
+    ],
+    "stage1_candidates": [
+      "ab-test-setup",
+      "cs-product-analyst",
+      "experiment-designer",
+      "landing",
+      "landing-page-generator",
+      "statistical-analyst"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1435.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_066",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "inbox-triage"
+    ],
+    "predicted": [
+      "Excel Automation"
+    ],
+    "stage1_candidates": [
+      "Excel Automation"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 975.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_080",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-doctor"
+    ],
+    "predicted": [
+      "skill-doctor"
+    ],
+    "stage1_candidates": [
+      "skill-doctor"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 8.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_010",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "docx"
+    ],
+    "predicted": [
+      "docx"
+    ],
+    "stage1_candidates": [
+      "docx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1416.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_044",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cdo-review"
+    ],
+    "predicted": [
+      "cdo-review"
+    ],
+    "stage1_candidates": [
+      "cdo-review",
+      "chief-data-officer-advisor",
+      "interview-system-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1143.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_053",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-financial-analyst"
+    ],
+    "predicted": [
+      "saas-health"
+    ],
+    "stage1_candidates": [
+      "cro-advisor",
+      "saas-health",
+      "saas-metrics-coach"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1035.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_033",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "discernment-nudge"
+    ],
+    "predicted": [
+      "market-research"
+    ],
+    "stage1_candidates": [
+      "market-research"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1609.3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_019",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cloud-security"
+    ],
+    "predicted": [
+      "cloud-security"
+    ],
+    "stage1_candidates": [
+      "cloud-security"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_079",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-doctor"
+    ],
+    "predicted": [
+      "developer-growth-analysis"
+    ],
+    "stage1_candidates": [
+      "developer-growth-analysis",
+      "skill-doctor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1710.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_068",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "chief-data-officer-advisor"
+    ],
+    "predicted": [
+      "chief-data-officer-advisor"
+    ],
+    "stage1_candidates": [
+      "chief-data-officer-advisor",
+      "ma-playbook"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1432.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_093",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "canvas-design"
+    ],
+    "predicted": [
+      "canvas-design"
+    ],
+    "stage1_candidates": [
+      "canvas-design",
+      "landing"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1157.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_071",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "vpe-advisor"
+    ],
+    "predicted": [
+      "vpe-advisor"
+    ],
+    "stage1_candidates": [
+      "vpe-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1086.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_013",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "claude-api"
+    ],
+    "predicted": [
+      "claude-api"
+    ],
+    "stage1_candidates": [
+      "claude-api"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 963.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_100",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "marketing-demand-acquisition"
+    ],
+    "predicted": [
+      "marketing-demand-acquisition"
+    ],
+    "stage1_candidates": [
+      "campaign-analytics",
+      "marketing-demand-acquisition"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1400.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_077",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "observability-designer"
+    ],
+    "predicted": [
+      "observability-designer"
+    ],
+    "stage1_candidates": [
+      "New Relic Automation",
+      "observability-designer",
+      "slo-architect"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1157.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_040",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "academy-guide"
+    ],
+    "predicted": [
+      "academy-guide"
+    ],
+    "stage1_candidates": [
+      "academy-guide"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 28.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_060",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "SurveyMonkey Automation"
+    ],
+    "predicted": [
+      "SurveyMonkey Automation"
+    ],
+    "stage1_candidates": [
+      "SurveyMonkey Automation"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_085",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-creator"
+    ],
+    "predicted": [
+      "Gorgias Automation",
+      "NetSuite Automation",
+      "developer-growth-analysis",
+      "performance-profiler",
+      "team-communications"
+    ],
+    "stage1_candidates": [
+      "Gorgias Automation",
+      "NetSuite Automation",
+      "developer-growth-analysis",
+      "performance-profiler",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": true,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING",
+      "ABSTAIN"
+    ],
+    "total_latency_ms": 1145.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_072",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "vpe-advisor"
+    ],
+    "predicted": [
+      "vpe-advisor"
+    ],
+    "stage1_candidates": [
+      "vpe-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1249.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_002",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "linkedin-strategy"
+    ],
+    "predicted": [
+      "linkedin-strategy"
+    ],
+    "stage1_candidates": [
+      "linkedin-strategy"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_067",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "chief-data-officer-advisor"
+    ],
+    "predicted": [
+      "chief-data-officer-advisor"
+    ],
+    "stage1_candidates": [
+      "chief-data-officer-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1404.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_016",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "web-artifacts-builder"
+    ],
+    "predicted": [
+      "web-artifacts-builder"
+    ],
+    "stage1_candidates": [
+      "artifacts-builder",
+      "web-artifacts-builder"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1630.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_062",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pdf"
+    ],
+    "predicted": [
+      "pdf"
+    ],
+    "stage1_candidates": [
+      "pdf"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 997.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_118",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "SurveyMonkey Automation"
+    ],
+    "predicted": [
+      "cs-product-manager"
+    ],
+    "stage1_candidates": [
+      "Product Manager",
+      "Productboard Automation",
+      "academy-guide",
+      "cs-product-analyst",
+      "cs-product-manager",
+      "cs-product-strategist",
+      "discernment-nudge",
+      "office-hours",
+      "product-analytics",
+      "product-discovery",
+      "product-manager-toolkit",
+      "product-research",
+      "product-skills"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1972.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_009",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "docx"
+    ],
+    "predicted": [
+      "docx"
+    ],
+    "stage1_candidates": [
+      "docx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_034",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "discernment-nudge"
+    ],
+    "predicted": [
+      "discernment-nudge",
+      "docx",
+      "roadmap-communicator"
+    ],
+    "stage1_candidates": [
+      "contract-and-proposal-writer",
+      "discernment-nudge",
+      "doc-coauthoring",
+      "docx",
+      "grill-with-docs",
+      "research-summarizer",
+      "roadmap-communicator",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1397.9,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "exact": false,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_001",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "linkedin-strategy"
+    ],
+    "predicted": [
+      "linkedin-strategy"
+    ],
+    "stage1_candidates": [
+      "linkedin-strategy"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_108",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "senior-qa"
+    ],
+    "predicted": [
+      "tdd-guide"
+    ],
+    "stage1_candidates": [
+      "autoresearch-agent",
+      "pr-review-expert",
+      "pw-review",
+      "tdd",
+      "tdd-guide",
+      "webapp-testing",
+      "zero-hallucination-coder"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 2023.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_051",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ux-researcher-designer"
+    ],
+    "predicted": [
+      "cs-ux-researcher"
+    ],
+    "stage1_candidates": [
+      "cs-ux-researcher",
+      "user-story",
+      "ux-researcher-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1333.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_102",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "aims-audit"
+    ],
+    "predicted": [
+      "aims-audit"
+    ],
+    "stage1_candidates": [
+      "aims-audit"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 28.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_057",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pptx"
+    ],
+    "predicted": [
+      "pptx"
+    ],
+    "stage1_candidates": [
+      "pptx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "eval_122",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "knowledge-ops"
+    ],
+    "predicted": [
+      "incident-commander"
+    ],
+    "stage1_candidates": [
+      "discernment-nudge",
+      "incident-commander",
+      "incident-response"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1598.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "eval_025",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "interview"
+    ],
+    "predicted": [
+      "interview"
+    ],
+    "stage1_candidates": [
+      "interview"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1047.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_001",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "google-workspace"
+    ],
+    "predicted": [
+      "google-workspace"
+    ],
+    "stage1_candidates": [
+      "google-workspace"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1212.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_002",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "google-workspace"
+    ],
+    "predicted": [
+      "google-workspace"
+    ],
+    "stage1_candidates": [
+      "google-workspace"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 36.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_003",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pptx"
+    ],
+    "predicted": [
+      "pptx"
+    ],
+    "stage1_candidates": [
+      "pptx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 16.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_004",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pptx"
+    ],
+    "predicted": [
+      "pptx"
+    ],
+    "stage1_candidates": [
+      "pptx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1547.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_005",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "kubernetes-operator"
+    ],
+    "predicted": [
+      "kubernetes-operator"
+    ],
+    "stage1_candidates": [
+      "kubernetes-operator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1144.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_006",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "kubernetes-operator"
+    ],
+    "predicted": [
+      "kubernetes-operator"
+    ],
+    "stage1_candidates": [
+      "kubernetes-operator"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 28.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_007",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "sprint-health"
+    ],
+    "predicted": [
+      "sprint-health"
+    ],
+    "stage1_candidates": [
+      "sprint-health"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1456.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_008",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "sprint-health"
+    ],
+    "predicted": [
+      "sprint-health"
+    ],
+    "stage1_candidates": [
+      "sprint-health"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1297.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_009",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "senior-pm"
+    ],
+    "predicted": [
+      "senior-pm"
+    ],
+    "stage1_candidates": [
+      "senior-pm"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_010",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "senior-pm"
+    ],
+    "predicted": [
+      "senior-pm"
+    ],
+    "stage1_candidates": [
+      "cs-project-manager",
+      "pm-skills",
+      "roadmap-communicator",
+      "senior-pm"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1397.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_011",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "canvas-design"
+    ],
+    "predicted": [
+      "canvas-design"
+    ],
+    "stage1_candidates": [
+      "canvas-design"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 28.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_012",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "canvas-design"
+    ],
+    "predicted": [
+      "canvas-design"
+    ],
+    "stage1_candidates": [
+      "canvas-design",
+      "social-media-analyzer",
+      "social-media-manager"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1331.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_013",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "agent-memory"
+    ],
+    "predicted": [
+      "meetings"
+    ],
+    "stage1_candidates": [
+      "decision-logger",
+      "meetings"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1460.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_014",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "agent-memory"
+    ],
+    "predicted": [
+      "discernment-nudge"
+    ],
+    "stage1_candidates": [
+      "discernment-nudge"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": true,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING",
+      "ABSTAIN"
+    ],
+    "total_latency_ms": 985.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_015",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "caio-review"
+    ],
+    "predicted": [
+      "caio-review"
+    ],
+    "stage1_candidates": [
+      "caio-review",
+      "chief-ai-officer-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1109.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_016",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "caio-review"
+    ],
+    "predicted": [
+      "caio-review",
+      "chief-ai-officer-advisor",
+      "eu-ai-act-specialist"
+    ],
+    "stage1_candidates": [
+      "ai-act-readiness",
+      "caio-review",
+      "chief-ai-officer-advisor",
+      "eu-ai-act-specialist",
+      "iso42001-specialist"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1330.9,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "exact": false,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_017",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "business-operations-skills"
+    ],
+    "predicted": [
+      "process-mapper"
+    ],
+    "stage1_candidates": [
+      "process-mapper"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 28.3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_018",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "business-operations-skills"
+    ],
+    "predicted": [
+      "vendor-management"
+    ],
+    "stage1_candidates": [
+      "vendor-management"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 8.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_019",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "FreshBooks Automation"
+    ],
+    "predicted": [
+      "Harvest Automation",
+      "connect"
+    ],
+    "stage1_candidates": [
+      "Clockify Automation",
+      "Harvest Automation",
+      "Instantly Automation",
+      "Toggl Automation",
+      "connect",
+      "invoice-organizer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1195.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_020",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "FreshBooks Automation"
+    ],
+    "predicted": [
+      "cro-advisor",
+      "report",
+      "revenue-operations"
+    ],
+    "stage1_candidates": [
+      "cro-advisor",
+      "report",
+      "revenue-operations"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": true,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING",
+      "ABSTAIN"
+    ],
+    "total_latency_ms": 1153.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_021",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "runbook-generator"
+    ],
+    "predicted": [
+      "runbook-generator"
+    ],
+    "stage1_candidates": [
+      "runbook-generator"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_022",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "runbook-generator"
+    ],
+    "predicted": [
+      "runbook-generator"
+    ],
+    "stage1_candidates": [
+      "runbook-generator"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_023",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "browserstack"
+    ],
+    "predicted": [
+      "browserstack"
+    ],
+    "stage1_candidates": [
+      "browserstack"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_024",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "browserstack"
+    ],
+    "predicted": [
+      "browserstack"
+    ],
+    "stage1_candidates": [
+      "browserstack"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_025",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "engineering-skills"
+    ],
+    "predicted": [
+      "senior-architect"
+    ],
+    "stage1_candidates": [
+      "senior-architect"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 9.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_026",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "engineering-skills"
+    ],
+    "predicted": [
+      "webapp-testing"
+    ],
+    "stage1_candidates": [
+      "webapp-testing"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 10.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_027",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "schema-markup"
+    ],
+    "predicted": [
+      "schema-markup"
+    ],
+    "stage1_candidates": [
+      "schema-markup"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1278.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_028",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "schema-markup"
+    ],
+    "predicted": [
+      "schema-markup"
+    ],
+    "stage1_candidates": [
+      "schema-markup"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_029",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "docx"
+    ],
+    "predicted": [
+      "docx"
+    ],
+    "stage1_candidates": [
+      "docx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1345.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_030",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "docx"
+    ],
+    "predicted": [
+      "docx"
+    ],
+    "stage1_candidates": [
+      "docx"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_031",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "image-enhancer"
+    ],
+    "predicted": [
+      "image-enhancer"
+    ],
+    "stage1_candidates": [
+      "image-enhancer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 11.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_032",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "image-enhancer"
+    ],
+    "predicted": [
+      "image-enhancer"
+    ],
+    "stage1_candidates": [
+      "image-enhancer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 11.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_033",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "brand-guidelines"
+    ],
+    "predicted": [
+      "brand-guidelines"
+    ],
+    "stage1_candidates": [
+      "brand-guidelines"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_034",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "brand-guidelines"
+    ],
+    "predicted": [
+      "brand-guidelines"
+    ],
+    "stage1_candidates": [
+      "brand-guidelines"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_035",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "spec-to-repo"
+    ],
+    "predicted": [
+      "spec-to-repo"
+    ],
+    "stage1_candidates": [
+      "Apify Automation",
+      "New Relic Automation",
+      "browser-automation",
+      "code-to-prd",
+      "saas-scaffolder",
+      "spec-to-repo",
+      "web-artifacts-builder",
+      "webapp-testing"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1377.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_036",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "spec-to-repo"
+    ],
+    "predicted": [
+      "spec-to-repo"
+    ],
+    "stage1_candidates": [
+      "code-to-prd",
+      "saas-scaffolder",
+      "senior-backend",
+      "spec-to-repo"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1611.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_037",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "xlsx"
+    ],
+    "predicted": [
+      "xlsx"
+    ],
+    "stage1_candidates": [
+      "xlsx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1545.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_038",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "xlsx"
+    ],
+    "predicted": [
+      "xlsx"
+    ],
+    "stage1_candidates": [
+      "Excel Automation",
+      "xlsx"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1327.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_039",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "demo-video"
+    ],
+    "predicted": [
+      "demo-video"
+    ],
+    "stage1_candidates": [
+      "demo-video"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1384.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_040",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "demo-video"
+    ],
+    "predicted": [
+      "demo-video"
+    ],
+    "stage1_candidates": [
+      "demo-video"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_041",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "coo-advisor"
+    ],
+    "predicted": [
+      "runbook-generator"
+    ],
+    "stage1_candidates": [
+      "brief",
+      "ma-playbook",
+      "runbook-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1456.7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_042",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "coo-advisor"
+    ],
+    "predicted": [
+      "okr"
+    ],
+    "stage1_candidates": [
+      "cs-product-strategist",
+      "okr"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1080.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_043",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "api-design-reviewer"
+    ],
+    "stage1_candidates": [
+      "api-design-reviewer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 10.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_044",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "ci-cd-pipeline-builder"
+    ],
+    "stage1_candidates": [
+      "ci-cd-pipeline-builder",
+      "pipeline"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1278.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_045",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-creator"
+    ],
+    "predicted": [
+      "write-a-skill"
+    ],
+    "stage1_candidates": [
+      "Gorgias Automation",
+      "inbox-triage",
+      "pdf",
+      "skill-doctor",
+      "team-communications",
+      "write-a-skill"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1368.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_046",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "skill-creator"
+    ],
+    "predicted": [
+      "skill-creator"
+    ],
+    "stage1_candidates": [
+      "revenue-operations",
+      "skill-creator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1589.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_047",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pricing-strategy"
+    ],
+    "predicted": [
+      "pricing-strategy"
+    ],
+    "stage1_candidates": [
+      "pricing-strategy"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_048",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "pricing-strategy"
+    ],
+    "predicted": [
+      "pricing-strategy"
+    ],
+    "stage1_candidates": [
+      "pricing-strategy"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_049",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "org-health-diagnostic"
+    ],
+    "predicted": [
+      "org-health-diagnostic"
+    ],
+    "stage1_candidates": [
+      "org-health-diagnostic"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_050",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "org-health-diagnostic"
+    ],
+    "predicted": [
+      "org-health-diagnostic"
+    ],
+    "stage1_candidates": [
+      "org-health-diagnostic"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1432.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_051",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "red-team"
+    ],
+    "predicted": [
+      "red-team"
+    ],
+    "stage1_candidates": [
+      "red-team"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_052",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "red-team"
+    ],
+    "predicted": [
+      "red-team"
+    ],
+    "stage1_candidates": [
+      "red-team"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_053",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "email-sequence"
+    ],
+    "stage1_candidates": [
+      "Instantly Automation",
+      "MailerLite Automation",
+      "campaign-analytics",
+      "cold-email",
+      "email-sequence",
+      "marketing-ops",
+      "prompt-engineer-toolkit",
+      "social-media-analyzer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1241.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_054",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "popup-cro"
+    ],
+    "stage1_candidates": [
+      "Product Manager",
+      "cs-product-analyst",
+      "paywall-upgrade-cro",
+      "popup-cro"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1333.3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_055",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "executive-mentor"
+    ],
+    "predicted": [
+      "board-deck-builder",
+      "board-prep",
+      "challenge"
+    ],
+    "stage1_candidates": [
+      "board-deck-builder",
+      "board-prep",
+      "brief",
+      "challenge"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1535.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_056",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "executive-mentor"
+    ],
+    "predicted": [
+      "challenge",
+      "post-mortem"
+    ],
+    "stage1_candidates": [
+      "challenge",
+      "code-reviewer",
+      "competitive-teardown",
+      "cro-review",
+      "cto-review",
+      "customer-success-manager",
+      "dependency-auditor",
+      "developer-growth-analysis",
+      "incident-commander",
+      "memory-review",
+      "plugin-audit",
+      "pm-skills",
+      "post-mortem",
+      "roadmap-communicator",
+      "senior-pm",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1643.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_057",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "frontend-design"
+    ],
+    "predicted": [
+      "brand-guidelines"
+    ],
+    "stage1_candidates": [
+      "brand-guidelines"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1306.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_058",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "frontend-design"
+    ],
+    "predicted": [
+      "frontend-design"
+    ],
+    "stage1_candidates": [
+      "epic-design",
+      "frontend-design",
+      "landing",
+      "landing-page-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 900.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_059",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "interview-system-designer"
+    ],
+    "predicted": [
+      "interview-system-designer"
+    ],
+    "stage1_candidates": [
+      "interview-system-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1779.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_060",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "interview-system-designer"
+    ],
+    "predicted": [
+      "interview-system-designer"
+    ],
+    "stage1_candidates": [
+      "cs-product-manager",
+      "interview-system-designer",
+      "tailored-resume-generator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1629.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_061",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Finance Lead"
+    ],
+    "predicted": [
+      "Finance Lead"
+    ],
+    "stage1_candidates": [
+      "Finance Lead"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_062",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Finance Lead"
+    ],
+    "predicted": [
+      "Finance Lead"
+    ],
+    "stage1_candidates": [
+      "Finance Lead",
+      "cfo-advisor"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1514.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_063",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Braintree Automation"
+    ],
+    "predicted": [
+      "pdf"
+    ],
+    "stage1_candidates": [
+      "cro-review",
+      "pdf",
+      "report"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1536.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_064",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Braintree Automation"
+    ],
+    "predicted": [
+      "Braintree Automation"
+    ],
+    "stage1_candidates": [
+      "Braintree Automation"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1228.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_065",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "database-schema-designer"
+    ],
+    "predicted": [
+      "database-schema-designer"
+    ],
+    "stage1_candidates": [
+      "database-schema-designer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_066",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "database-schema-designer"
+    ],
+    "predicted": [
+      "database-schema-designer"
+    ],
+    "stage1_candidates": [
+      "database-designer",
+      "database-schema-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1390.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_067",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "discernment-nudge"
+    ],
+    "predicted": [
+      "campaign-analytics",
+      "product-analytics"
+    ],
+    "stage1_candidates": [
+      "brief",
+      "campaign-analytics",
+      "competitive-teardown",
+      "cro-advisor",
+      "developer-growth-analysis",
+      "market-research",
+      "marketing-ideas",
+      "marketing-ops",
+      "marketing-strategy-pmm",
+      "pricing-strategy",
+      "product-analytics",
+      "report",
+      "revenue-operations"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1140.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_068",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "discernment-nudge"
+    ],
+    "predicted": [
+      "customer-success-manager"
+    ],
+    "stage1_candidates": [
+      "cco-review",
+      "challenge",
+      "ciso-review",
+      "commercial-skills",
+      "cro-review",
+      "cs-product-manager",
+      "customer-success-manager",
+      "discernment-nudge"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1101.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_069",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "claude-api"
+    ],
+    "predicted": [
+      "claude-api"
+    ],
+    "stage1_candidates": [
+      "claude-api",
+      "pricing-strategist"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 986.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_070",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "claude-api"
+    ],
+    "predicted": [
+      "claude-api"
+    ],
+    "stage1_candidates": [
+      "claude-api"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1495.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_071",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "doc-coauthoring"
+    ],
+    "predicted": [
+      "doc-coauthoring"
+    ],
+    "stage1_candidates": [
+      "doc-coauthoring",
+      "spec-to-repo"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1268.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_072",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "doc-coauthoring"
+    ],
+    "predicted": [
+      "marketing-ops"
+    ],
+    "stage1_candidates": [
+      "campaign-analytics",
+      "marketing-context",
+      "marketing-ideas",
+      "marketing-ops",
+      "marketing-psychology"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1141.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_073",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "notebooklm"
+    ],
+    "predicted": [
+      "notebooklm"
+    ],
+    "stage1_candidates": [
+      "notebooklm"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_074",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "notebooklm"
+    ],
+    "predicted": [
+      "notebooklm"
+    ],
+    "stage1_candidates": [
+      "notebooklm"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_075",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "launch-strategy"
+    ],
+    "predicted": [
+      "launch-strategy"
+    ],
+    "stage1_candidates": [
+      "launch-strategy"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 8.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_076",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "launch-strategy"
+    ],
+    "predicted": [
+      "launch-strategy"
+    ],
+    "stage1_candidates": [
+      "launch-strategy",
+      "marketing-strategy-pmm"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1352.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_077",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "stage-launch"
+    ],
+    "predicted": [
+      "stage-launch"
+    ],
+    "stage1_candidates": [
+      "stage-launch"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 28.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_078",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "stage-launch"
+    ],
+    "predicted": [
+      "stage-launch"
+    ],
+    "stage1_candidates": [
+      "stage-launch"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_079",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "stripe-integration-expert"
+    ],
+    "predicted": [
+      "stripe-integration-expert"
+    ],
+    "stage1_candidates": [
+      "saas-scaffolder",
+      "stripe-integration-expert"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1613.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_080",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "stripe-integration-expert"
+    ],
+    "predicted": [
+      "stripe-integration-expert"
+    ],
+    "stage1_candidates": [
+      "stripe-integration-expert"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 29.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_081",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Prismic Automation"
+    ],
+    "predicted": [
+      "Prismic Automation"
+    ],
+    "stage1_candidates": [
+      "Prismic Automation",
+      "content-production"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1019.7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_082",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "Prismic Automation"
+    ],
+    "predicted": [
+      "Prismic Automation"
+    ],
+    "stage1_candidates": [
+      "Prismic Automation",
+      "Productboard Automation",
+      "cs-product-analyst",
+      "product-analytics",
+      "product-manager-toolkit",
+      "rice"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1385.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_083",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "algorithmic-art"
+    ],
+    "predicted": [
+      "algorithmic-art"
+    ],
+    "stage1_candidates": [
+      "algorithmic-art"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 31.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_084",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "algorithmic-art"
+    ],
+    "predicted": [
+      "algorithmic-art"
+    ],
+    "stage1_candidates": [
+      "algorithmic-art"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_085",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "internal-comms"
+    ],
+    "predicted": [
+      "internal-comms"
+    ],
+    "stage1_candidates": [
+      "internal-comms"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 9.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_086",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "internal-comms"
+    ],
+    "predicted": [
+      "internal-comms"
+    ],
+    "stage1_candidates": [
+      "internal-comms"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 10.8,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_087",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ux-researcher-designer"
+    ],
+    "predicted": [
+      "ux-researcher-designer"
+    ],
+    "stage1_candidates": [
+      "cs-ux-researcher",
+      "ux-researcher-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1381.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_088",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "ux-researcher-designer"
+    ],
+    "predicted": [
+      "persona"
+    ],
+    "stage1_candidates": [
+      "persona",
+      "ux-researcher-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1431.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_089",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "meeting-analyzer"
+    ],
+    "predicted": [
+      "meeting-analyzer"
+    ],
+    "stage1_candidates": [
+      "meeting-analyzer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 2457.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_090",
+    "set_size": 1,
+    "trigger_type": "explicit",
+    "truth": [
+      "meeting-analyzer"
+    ],
+    "predicted": [
+      "meeting-analyzer"
+    ],
+    "stage1_candidates": [
+      "meeting-analyzer"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.9,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_091",
+    "set_size": 2,
+    "trigger_type": "explicit",
+    "truth": [
+      "agile-product-owner",
+      "launch-strategy"
+    ],
+    "predicted": [
+      "launch-strategy",
+      "user-story"
+    ],
+    "stage1_candidates": [
+      "launch-strategy",
+      "user-story"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1391.9,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "exact": false,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_092",
+    "set_size": 2,
+    "trigger_type": "explicit",
+    "truth": [
+      "agile-product-owner",
+      "launch-strategy"
+    ],
+    "predicted": [
+      "launch-strategy"
+    ],
+    "stage1_candidates": [
+      "launch-strategy"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1"
+    ],
+    "total_latency_ms": 1118.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6667,
+    "exact": false,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_093",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "clinical-research"
+    ],
+    "predicted": [
+      "clinical-research"
+    ],
+    "stage1_candidates": [
+      "clinical-research"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1291.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_094",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "clinical-research"
+    ],
+    "predicted": [
+      "clinical-research"
+    ],
+    "stage1_candidates": [
+      "clinical-research",
+      "experiment-designer"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1280.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_095",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "connect"
+    ],
+    "predicted": [
+      "roadmap-communicator",
+      "team-communications"
+    ],
+    "stage1_candidates": [
+      "cs-karpathy-reviewer",
+      "focused-fix",
+      "karpathy-check",
+      "pr-review-expert",
+      "roadmap-communicator",
+      "tc-tracker",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1339.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_096",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "connect"
+    ],
+    "predicted": [
+      "meetings"
+    ],
+    "stage1_candidates": [
+      "meetings"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1116.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_097",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "caio-review"
+    ],
+    "predicted": [
+      "eu-ai-act-specialist"
+    ],
+    "stage1_candidates": [
+      "ai-security",
+      "caio-review",
+      "chief-ai-officer-advisor",
+      "eu-ai-act-specialist",
+      "iso42001-specialist",
+      "ra-qm-skills"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1417.9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_098",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "caio-review"
+    ],
+    "predicted": [
+      "chief-ai-officer-advisor"
+    ],
+    "stage1_candidates": [
+      "chief-ai-officer-advisor",
+      "skill-creator"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1164.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_099",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "Finance Lead"
+    ],
+    "predicted": [
+      "Finance Lead"
+    ],
+    "stage1_candidates": [
+      "Finance Lead"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1113.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_100",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "Finance Lead"
+    ],
+    "predicted": [
+      "pricing-strategy"
+    ],
+    "stage1_candidates": [
+      "cs-product-strategist",
+      "pricing-strategist",
+      "pricing-strategy"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1331.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_101",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "coverage"
+    ],
+    "predicted": [
+      "coverage"
+    ],
+    "stage1_candidates": [
+      "coverage"
+    ],
+    "stage2_ran": false,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 30.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_102",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "coverage"
+    ],
+    "predicted": [
+      "executive-mentor"
+    ],
+    "stage1_candidates": [
+      "cro-review",
+      "cs-karpathy-reviewer",
+      "executive-mentor",
+      "karpathy-coder",
+      "playwright-pro",
+      "product-discovery",
+      "security-pen-testing",
+      "senior-qa",
+      "stress-test",
+      "tdd-guide",
+      "webapp-testing"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1607.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_103",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "agenthub"
+    ],
+    "stage1_candidates": [
+      "agenthub",
+      "cmo-advisor",
+      "marketing-ops"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1119.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_104",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "spawn"
+    ],
+    "predicted": [
+      "agenthub"
+    ],
+    "stage1_candidates": [
+      "agenthub",
+      "performance-profiler"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1485.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_105",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "performance-profiler"
+    ],
+    "stage1_candidates": [
+      "New Relic Automation",
+      "Ramp Automation",
+      "performance-profiler",
+      "senior-backend"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1103.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_106",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "cs-fullstack-engineer"
+    ],
+    "predicted": [
+      "product-skills"
+    ],
+    "stage1_candidates": [
+      "Product Manager",
+      "cs-product-manager",
+      "developer-growth-analysis",
+      "docker-development",
+      "pm-skills",
+      "product-skills",
+      "tdd-guide"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1413.7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_107",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "notebooklm"
+    ],
+    "predicted": [
+      "team-communications"
+    ],
+    "stage1_candidates": [
+      "brief",
+      "developer-growth-analysis",
+      "report",
+      "research-summarizer",
+      "roadmap-communicator",
+      "skill-share",
+      "team-communications",
+      "wiki-ingest"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1433.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_108",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "notebooklm"
+    ],
+    "predicted": [
+      "deep-research",
+      "market-research"
+    ],
+    "stage1_candidates": [
+      "brief",
+      "competitive-intel",
+      "competitive-teardown",
+      "cs-product-strategist",
+      "deep-research",
+      "market-research",
+      "marketing-ideas",
+      "marketing-strategy-pmm",
+      "meeting-insights-analyzer",
+      "product-analytics",
+      "product-manager-toolkit",
+      "product-research"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1540.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_109",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "image-enhancer"
+    ],
+    "predicted": [
+      "frontend-design",
+      "image-enhancer"
+    ],
+    "stage1_candidates": [
+      "contract-and-proposal-writer",
+      "frontend-design",
+      "image-enhancer",
+      "meeting-analyzer",
+      "meeting-insights-analyzer",
+      "spec-to-repo"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1225.8,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6667,
+    "exact": false,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_110",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "image-enhancer"
+    ],
+    "predicted": [
+      "image-enhancer"
+    ],
+    "stage1_candidates": [
+      "image-enhancer",
+      "social-content",
+      "social-media-analyzer",
+      "social-media-manager"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1637.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_111",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "Braintree Automation"
+    ],
+    "predicted": [
+      "process-mapper"
+    ],
+    "stage1_candidates": [
+      "Braintree Automation",
+      "QuickBooks Automation",
+      "Xero Automation",
+      "process-mapper",
+      "stripe-integration-expert"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "WRONG_STAGE2",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1413.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_112",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "Braintree Automation"
+    ],
+    "predicted": [
+      "stripe-integration-expert"
+    ],
+    "stage1_candidates": [
+      "FreshBooks Automation",
+      "New Relic Automation",
+      "churn-prevention",
+      "stripe-integration-expert"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 903.1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_113",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "internal-comms"
+    ],
+    "predicted": [
+      "change-management",
+      "internal-comms"
+    ],
+    "stage1_candidates": [
+      "change-management",
+      "internal-comms",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1369.6,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6667,
+    "exact": false,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_114",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "internal-comms"
+    ],
+    "predicted": [
+      "change-management",
+      "internal-comms",
+      "roadmap-communicator"
+    ],
+    "stage1_candidates": [
+      "New Relic Automation",
+      "cco-review",
+      "change-management",
+      "changelog-generator",
+      "cs-engineering-lead",
+      "cs-product-analyst",
+      "cs-product-strategist",
+      "cto-review",
+      "developer-growth-analysis",
+      "discernment-nudge",
+      "doc-coauthoring",
+      "feature-flags-architect",
+      "grill-with-docs",
+      "internal-comms",
+      "pm-skills",
+      "product-skills",
+      "prompt-engineer-toolkit",
+      "roadmap-communicator",
+      "team-communications"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1638.6,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "exact": false,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_115",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "agile-product-owner"
+    ],
+    "predicted": [
+      "sprint-plan"
+    ],
+    "stage1_candidates": [
+      "sprint-health",
+      "sprint-plan"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1842.6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_116",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "agile-product-owner"
+    ],
+    "predicted": [
+      "spec-driven-workflow"
+    ],
+    "stage1_candidates": [
+      "challenge",
+      "compliance-readiness",
+      "spec-driven-workflow"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1419.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_117",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "threat-detection"
+    ],
+    "predicted": [
+      "threat-detection"
+    ],
+    "stage1_candidates": [
+      "threat-detection"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1434.2,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_118",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "threat-detection"
+    ],
+    "predicted": [
+      "cloud-security"
+    ],
+    "stage1_candidates": [
+      "challenge",
+      "cloud-security",
+      "cs-karpathy-reviewer",
+      "dependency-auditor",
+      "discernment-nudge",
+      "isms-audit-expert",
+      "pr-review-expert"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1339.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_119",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "ship-gate"
+    ],
+    "predicted": [
+      "launch-strategy"
+    ],
+    "stage1_candidates": [
+      "New Relic Automation",
+      "launch-strategy"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1392.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "prompt_id": "dev_120",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "ship-gate"
+    ],
+    "predicted": [
+      "ship-gate"
+    ],
+    "stage1_candidates": [
+      "ship-gate"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1479.6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_121",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "webapp-testing"
+    ],
+    "predicted": [
+      "webapp-testing"
+    ],
+    "stage1_candidates": [
+      "browser-automation",
+      "saas-scaffolder",
+      "webapp-testing"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [],
+    "total_latency_ms": 1535.5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "prompt_id": "dev_122",
+    "set_size": 1,
+    "trigger_type": "implied",
+    "truth": [
+      "webapp-testing"
+    ],
+    "predicted": [
+      "focused-fix",
+      "frontend-design"
+    ],
+    "stage1_candidates": [
+      "challenge",
+      "discernment-nudge",
+      "focused-fix",
+      "frontend-design"
+    ],
+    "stage2_ran": true,
+    "stage2_abstained": false,
+    "taxonomy": [
+      "MISS_STAGE1",
+      "OVERROUTING"
+    ],
+    "total_latency_ms": 1756.4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "exact": false,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  }
+]

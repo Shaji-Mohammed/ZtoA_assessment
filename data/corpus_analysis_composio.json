@@ -1,0 +1,20 @@
+{
+  "source": "skills_corpus_v1.json (pre-rebuild) vs skills_corpus.json (post-rebuild)",
+  "note": "rebuild_corpus.py docstring mentions 330 boilerplate Composio skills; however the actual ingested corpus (v1) contained only 83 Composio skills. The full Composio-awesome repo has ~330+ tool entries but most were not ingested. Of the 83 Composio skills in v1, 2 had near-boilerplate descriptions referencing \"Rube MCP\" (toolkits not yet available in Composio), but neither matched the exact detection criteria (both \"Rube MCP\" AND \"Always search tools first\"). Net result: 0 collapsed, composio-automation canonical already present.",
+  "composio_v1_total": 83,
+  "composio_boilerplate_detected": 0,
+  "composio_kept_unchanged": 83,
+  "composio_canonical_already_present": true,
+  "near_boilerplate_examples": [
+    {
+      "name": "Zoho Desk Automation",
+      "reason": "References \"Rube MCP\" but toolkit was unavailable; kept as informative",
+      "description": "Zoho Desk automation via Rube MCP -- toolkit not currently available in Composio; no ZOHO_DESK_ tools found"
+    },
+    {
+      "name": "RingCentral Automation",
+      "reason": "References \"Rube MCP\" but toolkit was unavailable; kept as informative",
+      "description": "RingCentral automation via Rube MCP -- toolkit not currently available in Composio; no RING_CENTRAL_ tools found"
+    }
+  ]
+}

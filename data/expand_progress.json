@@ -1,0 +1,3206 @@
+{
+  "83fb84ca815a": [
+    "Can you apply a theme to my presentation slides?",
+    "I want to create a new theme for my HTML landing page.",
+    "Please style my report using one of the pre-set themes.",
+    "How do I change the colors and fonts of my document?"
+  ],
+  "88f0bc090c4b": [
+    "I need help writing a technical spec for my project.",
+    "Can you guide me on co-authoring a proposal with my team?",
+    "I want to ensure my documentation is clear and effective.",
+    "Let's collaborate on drafting a decision document together."
+  ],
+  "fd0f3774b954": [
+    "Can you analyze my investment strategy and suggest some follow-up questions?",
+    "What are the main factors influencing climate change, and what should I consider next?",
+    "I've received a job offer; what additional questions should I ask before accepting?",
+    "Explain the benefits of meditation and help me probe deeper into its effectiveness."
+  ],
+  "b84b8b479bb3": [
+    "What are the pricing options for the Claude API?",
+    "I need help with streaming data using the Anthropic SDK.",
+    "Can you provide details on model migration for Claude?",
+    "How do I use caching with the Claude API?"
+  ],
+  "46bfd3654bf3": [
+    "Can you help me create a new spreadsheet for my budget?",
+    "I need to fix the formatting in the xlsx file I downloaded.",
+    "Please convert this CSV file into an Excel spreadsheet.",
+    "How can I add a new column to my sales data spreadsheet?"
+  ],
+  "aac3216b9b78": [
+    "Can you merge these two PDF files into one?",
+    "I need to extract the text from this PDF document.",
+    "Please fill out this PDF form for me.",
+    "How do I convert this scanned PDF into a searchable document?"
+  ],
+  "f225c5c6593e": [
+    "Can you help me create generative art using p5.js?",
+    "I want to explore interactive parameters for my algorithmic art project.",
+    "Show me how to make a flow field with seeded randomness.",
+    "I need to generate original algorithmic art; can you guide me?"
+  ],
+  "c07f90b4642e": [
+    "Can you help me draft an all-hands announcement for next week?",
+    "I need to communicate a leadership transition to our staff.",
+    "Please create a touchpoint calendar for our upcoming policy rollout.",
+    "What should I include in the layoff communication for employees?"
+  ],
+  "01fc73c1aef9": [
+    "I want to create a new skill from scratch.",
+    "Can you help me improve my existing skill?",
+    "I need to evaluate the performance of my skill.",
+    "How do I optimize my skill's description for better accuracy?"
+  ],
+  "8ab22693192e": [
+    "Can you help me design a poster for my event?",
+    "I need a unique piece of art for my living room.",
+    "Create a stunning infographic in PDF format for my presentation.",
+    "Please design a logo that represents my new business."
+  ],
+  "87dace51410e": [
+    "Can you create a presentation deck for my marketing proposal?",
+    "I need to extract text from this .pptx file.",
+    "Please edit the slides in my pitch deck.",
+    "How do I combine two .pptx files into one presentation?"
+  ],
+  "9a5fffdd29d6": [
+    "Create a GIF of a cat dancing for Slack.",
+    "I need a funny GIF of my dog playing fetch for Slack.",
+    "Can you help me make a GIF of my team celebrating a win?",
+    "Generate a GIF of a meme for my Slack channel."
+  ],
+  "f421c802090d": [
+    "Can you help me test the login functionality of my web app?",
+    "I want to capture a screenshot of my web app's homepage.",
+    "Please verify if the buttons on my web app are working correctly.",
+    "Show me the browser logs while testing my local application."
+  ],
+  "becaf2345d73": [
+    "Can you help me design a unique user interface for my app?",
+    "I want advice on choosing typography for my website.",
+    "What are some tips for creating an aesthetically pleasing UI?",
+    "Help me reshape the existing UI to look more original."
+  ],
+  "7289d971a703": [
+    "How can I create a high-quality MCP server using Python?",
+    "I want to integrate external APIs into my MCP server.",
+    "Can you guide me through building an MCP server with Node?",
+    "What are the best practices for designing tools in an MCP server?"
+  ],
+  "3a641960f03a": [
+    "Can you apply Anthropic's brand colors to this presentation?",
+    "I need to format this document according to our brand guidelines.",
+    "Please ensure this flyer uses the correct typography for Anthropic.",
+    "How can I make this report align with Anthropic's visual standards?"
+  ],
+  "3a6bd3ec2dca": [
+    "Can you help me create a professional letter in Word format?",
+    "I need to edit my Word document and add a table of contents.",
+    "Please convert my notes into a polished .docx report.",
+    "How do I insert an image into my Word file?"
+  ],
+  "84026097b0cd": [
+    "How do I get started with Claude products?",
+    "Teach me how to use Claude effectively.",
+    "What can Claude do for my team?",
+    "I need training materials for rolling out Claude in my organization."
+  ],
+  "2178db169f9e": [
+    "I want to create a complex web artifact using React and Tailwind CSS.",
+    "Can you help me build an interactive HTML component with state management?",
+    "How do I use shadcn/ui to enhance my web artifact?",
+    "I need to develop a multi-component application with routing capabilities."
+  ],
+  "9ea1c671b768": [
+    "Can you help me design a repeatable AI-agent loop for my project?",
+    "I need to analyze my codebase for potential loops.",
+    "What are some published loops I can use for automation?",
+    "Please review my existing loop for any weak checks."
+  ],
+  "f66e7066c578": [
+    "Can you suggest some YouTube videos for beginner Swedish learners?",
+    "I want to improve my Swedish speaking skills. What should I watch?",
+    "Help me find podcasts suitable for intermediate Swedish learners.",
+    "What's a good learning path to prepare for the SFI exam?"
+  ],
+  "4aa989d4ce62": [
+    "Can you triage my inbox for today?",
+    "I need to process my emails right now.",
+    "What’s new in my email today?",
+    "Run an inbox triage and give me a report."
+  ],
+  "a90b10c0ef55": [
+    "I need to set up my inbox for better email management.",
+    "Can you help me configure my inbox triage system?",
+    "I want to build my email knowledge base for efficient sorting.",
+    "Please initialize my email management system."
+  ],
+  "7bf6aca2665c": [
+    "Should I build this product or is there no market?",
+    "Give me a brutal take on my startup idea.",
+    "Are we at product/market fit with our latest feature?",
+    "Pressure-test this venture for me."
+  ],
+  "6b7aed57a425": [
+    "Do you think this topic needs a meeting?",
+    "Help me create a timeboxed agenda for our team meeting.",
+    "What's the cost of calling a meeting about project updates?",
+    "I need to turn these notes into action items for the team."
+  ],
+  "33a3dc3643ff": [
+    "Can you turn this into a goal prompt for my project?",
+    "I need a polished prompt to create a new app idea.",
+    "Write me a fable prompt for building a virtual garden.",
+    "Help me write the prompt that outlines my book concept."
+  ],
+  "ed7adaa50494": [
+    "Help me plan a deep work day with time blocks.",
+    "I want to track my deep work sessions this week.",
+    "Can you protect my focus hours from distractions?",
+    "What tasks should I budget as shallow work today?"
+  ],
+  "26fb9a4d18c0": [
+    "Can you roast my business idea for a new app?",
+    "I need a brutal second opinion on my startup concept.",
+    "What do you think about this marketing strategy? Roast it!",
+    "Please convene the panel to validate my product idea."
+  ],
+  "7f96c36d950e": [
+    "Can we take a step back and evaluate our approach?",
+    "Are we missing something in this discussion?",
+    "I need to reflect on our current strategy.",
+    "Let's zoom out and reassess our priorities."
+  ],
+  "280fa6fe534d": [
+    "Can you summarize this conversation for my next session?",
+    "I need to hand this off to another agent.",
+    "Please compact this discussion into a handoff document.",
+    "I'm ending this session, save a summary for later."
+  ],
+  "c3bae3a8884a": [
+    "I need to do my weekly review and clear my mind.",
+    "Help me audit my stalled projects from last week.",
+    "Can you guide me through a weekly review process?",
+    "I want to restart my review habit and get organized."
+  ],
+  "df03a3a7ec46": [
+    "I need to organize my thoughts about the upcoming project.",
+    "Here's everything on my mind regarding my plans for the weekend.",
+    "Let me dump some ideas for my new business venture.",
+    "I've got a bunch of thoughts about my goals for the year."
+  ],
+  "becf8d690323": [
+    "Can you spawn a worker to handle this coding task?",
+    "I want to delegate grunt work to opencode workers.",
+    "Please swarm and run benchmarks on this code.",
+    "Set up a worker for testing my latest project."
+  ],
+  "82281bed3fbd": [
+    "Can you verify the APIs I'm using?",
+    "I want to make sure there are no hallucinations in the response.",
+    "Please check if these functions actually exist in my version.",
+    "Don't invent functions when providing the information."
+  ],
+  "b475b9470ffb": [
+    "How do I create a TCP server using Boost.Asio?",
+    "I want to implement SSL in my Asio client.",
+    "Can you help me with async_read and async_write examples?",
+    "What are the best practices for using io_context in Boost.Asio?"
+  ],
+  "154f8db4db93": [
+    "How can I write this function more efficiently?",
+    "I want to avoid unnecessary dependencies in my code.",
+    "Can you help me simplify this algorithm?",
+    "What’s the best way to reuse existing code for this task?"
+  ],
+  "0ad017ae0c6d": [
+    "Can you help me define an SLO for our new service?",
+    "What should our SLI be for uptime and response time?",
+    "I need to calculate our error budget for this quarter.",
+    "How do I check if our SLO targets are too aggressive?"
+  ],
+  "2bdb61632bc3": [
+    "Can you check the quality of this dataset for me?",
+    "I want to profile the data distributions in my file.",
+    "Help me find and fix any missing values in my dataset.",
+    "Please audit this data for accuracy and inconsistencies."
+  ],
+  "a69ae2ae7847": [
+    "How can I implement PPO for my RL project?",
+    "I want to debug my RL code that's not working.",
+    "Can you explain the basics of policy gradients?",
+    "What are the key differences between DDPG and TD3?"
+  ],
+  "8745c3af847a": [
+    "Convert this PDF document into structured agent skills.",
+    "I need to extract principles from my EPUB book for a project.",
+    "Help me create a reusable knowledge base from our internal documentation.",
+    "Can you turn this DOCX file into a skill plugin?"
+  ],
+  "7b65cbdcda87": [
+    "Can you grill me on my project plan?",
+    "I need to stress-test my design, can we go over it?",
+    "Help me resolve my design decisions, please grill me!",
+    "I want to ensure my plan is solid, can we discuss it in detail?"
+  ],
+  "d0829a964a74": [
+    "Use caveman mode for next message.",
+    "Talk like caveman for my instructions.",
+    "Be brief and concise in your response.",
+    "I want less tokens in our conversation."
+  ],
+  "4deb115399fd": [
+    "I want to start a new autoresearch experiment.",
+    "Can you help me set up an optimization for my target file?",
+    "Please initiate the autoresearch loop for my project.",
+    "How do I configure a new experiment with the evaluator?"
+  ],
+  "f35b6f45f9a2": [
+    "Can you resume my paused autoresearch experiment?",
+    "I want to continue working on my previous experiment.",
+    "Please check out the experiment branch and show me the results.",
+    "Help me pick up where I left off on my research."
+  ],
+  "ff7651208450": [
+    "Can you help me optimize this code for speed?",
+    "I want to improve the quality of my headlines.",
+    "Please run an experiment to reduce my image size.",
+    "Optimize my prompts using an evaluation command."
+  ],
+  "391fc548304d": [
+    "Run the experiment for me now.",
+    "I need to evaluate the latest iteration.",
+    "Can you discard the last result?",
+    "Please edit the target file and run it."
+  ],
+  "09911148e4cb": [
+    "What are the results of my current autoresearch experiment?",
+    "Show me the progress of my active research loops.",
+    "How is my autoresearch experiment performing right now?",
+    "I want to check the experiment dashboard for updates."
+  ],
+  "30595b700337": [
+    "Start an experiment that runs every hour.",
+    "I want to set up a daily research loop.",
+    "Can you run an autoresearch experiment continuously for me?",
+    "Schedule an experiment to repeat every 10 minutes."
+  ],
+  "e9d792267134": [
+    "What did Claude contribute during our last session?",
+    "Help me analyze our collaboration evidence from yesterday's meeting.",
+    "I want to understand my contributions versus Claude's in this project.",
+    "Can you provide a session retrospective for our work with Claude?"
+  ],
+  "a55109282753": [
+    "How can I improve my agent's memory system for better performance?",
+    "What should I do to choose between long-context and agentic memory?",
+    "I need to audit the contents of my memory directory, can you help?",
+    "What is the best forgetting policy for my agent's memory design?"
+  ],
+  "3588f1eac652": [
+    "Help me create a new Helm chart for my application.",
+    "I need to design a values.yaml file for my Helm chart.",
+    "Can you run helm lint on my existing charts?",
+    "I'd like to audit the security of my Helm charts."
+  ],
+  "8741fc0fdf76": [
+    "Can you help me plan my reading path through the Deep Learning book?",
+    "What are the current best practices from the Deep Learning textbook?",
+    "I want to diagnose a training failure I encountered while applying concepts from the book.",
+    "How do I calculate the memory requirements for my deep learning model?"
+  ],
+  "33add10fc195": [
+    "Can you create a demo video for my new app?",
+    "I need an animated presentation for my product launch.",
+    "Show me how to make a GIF from my screenshots.",
+    "Please produce a marketing video showcasing our latest feature."
+  ],
+  "f6a7f66f4d45": [
+    "Can you make the login feature work properly?",
+    "I need to fix the payment module; it's not processing transactions.",
+    "Please focus on debugging the user profile area.",
+    "The search functionality is broken; can you help me resolve it?"
+  ],
+  "e2207a49fb0b": [
+    "Can you take a full-page screenshot of this website?",
+    "I need a long screenshot of the article I'm reading.",
+    "Please capture a complete page of this web app.",
+    "Take a screenshot of the entire webpage for me."
+  ],
+  "862d390b75db": [
+    "Can you audit this skill for security vulnerabilities?",
+    "Is this skill safe to install on my system?",
+    "I want to scan a Python script for dangerous patterns.",
+    "Please check this skill before I install it."
+  ],
+  "39e8d24bf299": [
+    "How can I create a new Git worktree for my feature branch?",
+    "I want to run multiple features in parallel using Git worktrees.",
+    "Can you help me isolate my experimental work with Git worktrees?",
+    "Please set up a worktree for my development environment."
+  ],
+  "95b6dd15945d": [
+    "Help me plan a zero-downtime database migration.",
+    "What steps should I take for a safe infrastructure cutover?",
+    "I need a rollback strategy for my system replacement.",
+    "Can you validate compatibility for my upcoming migration?"
+  ],
+  "e7e43cb2f48c": [
+    "How can I implement CI/CD for my project?",
+    "I need to design a database for my application.",
+    "Can you help me with security auditing techniques?",
+    "What are the best practices for agent design?"
+  ],
+  "bdf8587198af": [
+    "Can you audit our Python dependencies for vulnerabilities?",
+    "I need to check if we have any license conflicts in our project.",
+    "Help me plan the upgrade path for our JavaScript libraries.",
+    "What are the transitive dependency risks in our current setup?"
+  ],
+  "68d4656c3a89": [
+    "Can you help me write a SQL query to find all customers from last year?",
+    "I need to optimize my database for faster performance.",
+    "Generate a migration script for adding a new column to my users table.",
+    "Show me the schema for my current database setup."
+  ],
+  "8d0f8e4c8b30": [
+    "Can you help me design an ERD for my new project?",
+    "I need to normalize my database schema for better performance.",
+    "Please create the table relationships for my inventory system.",
+    "How can I plan a schema migration for my application?"
+  ],
+  "f1edd255e748": [
+    "I need to design an observability strategy for my new service.",
+    "How can I optimize alerts to reduce noise in my monitoring?",
+    "Help me create SLIs and SLOs for my production application.",
+    "What are the best practices for monitoring golden signals?"
+  ],
+  "d04130870c1e": [
+    "How can I optimize my monorepo with Turborepo?",
+    "I need help migrating my multi-repo to a monorepo.",
+    "Show me the dependency graph for my Nx workspace.",
+    "What commands do I use to selectively build affected packages?"
+  ],
+  "96c1a0d8a416": [
+    "Can you help me add a new feature flag?",
+    "I want to create a rollout plan for our latest update.",
+    "How do I audit stale flags in our system?",
+    "Show me the best practices for using LaunchDarkly."
+  ],
+  "7017abd9d60d": [
+    "Can you help me design a chaos experiment for our application?",
+    "I want to run a resilience test to check system stability.",
+    "What are the best practices for fault injection in microservices?",
+    "Please calculate the blast radius for our upcoming gameday."
+  ],
+  "68c9f1259db1": [
+    "Can you help me write specifications before I start coding?",
+    "I need to define acceptance criteria for my new feature.",
+    "How do I plan features before implementing them?",
+    "Generate tests based on the specifications I have."
+  ],
+  "af6f2b34462d": [
+    "Can you help me assess the technical debt in our codebase?",
+    "I want to generate a remediation plan for our legacy code.",
+    "Please scan our repository for code quality issues.",
+    "How do I prioritize refactoring tasks based on tech debt?"
+  ],
+  "999060fb5719": [
+    "How do I build a Kubernetes operator using kubebuilder?",
+    "I want to design a custom resource definition for my operator.",
+    "Can you help me set up the reconcile loop for my operator?",
+    "What tools are available for auditing my operator's capabilities?"
+  ],
+  "5a8a17a71f33": [
+    "Can you help me generate API tests for my application?",
+    "I need to create an integration test suite for my new feature.",
+    "How do I test REST endpoints effectively?",
+    "Build contract tests for my API specifications, please."
+  ],
+  "28a3f3c0599d": [
+    "Can you review my API design for any inconsistencies?",
+    "I want to ensure my API endpoints follow best practices.",
+    "Please check if my API is ready for version 2 migration.",
+    "How do I audit my existing API for design smells?"
+  ],
+  "ea1396ffd6b3": [
+    "Help me design a multi-agent system for data processing.",
+    "Can you generate tool schemas for these new agents?",
+    "Evaluate these agent execution logs for performance issues.",
+    "I want to create a swarm orchestration pattern for my project."
+  ],
+  "0a5f2313dc9a": [
+    "Help me design a multi-agent workflow for our new project.",
+    "I need to refactor an existing LLM workflow to improve reliability.",
+    "Can you show me how to implement failure handling in a workflow?",
+    "I want to create a sequential workflow with clear handoff contracts."
+  ],
+  "b388a9480f92": [
+    "Can you help me identify memory bottlenecks in my Node.js application?",
+    "I need to analyze the performance of my Python app and generate flamegraphs.",
+    "How can I optimize my database queries for better performance?",
+    "Run a load test on my Go application to check its limits."
+  ],
+  "9e4fcfad9cd4": [
+    "Can I deploy my application now?",
+    "Run ship gate to check my codebase.",
+    "I want to do a pre-launch audit.",
+    "Am I ready to ship this project?"
+  ],
+  "f1bc98ecd5fa": [
+    "Can you help me audit my .env files for any committed secrets?",
+    "I need to plan a credential rotation for my application.",
+    "How can I ensure my project is safe from secrets leakage?",
+    "I'm debugging a production issue due to missing environment variables."
+  ],
+  "072e9ba94e0a": [
+    "Can you help me design a RAG pipeline for our documents?",
+    "What chunking strategy should I use for this dataset?",
+    "I need to evaluate the precision of my retriever model.",
+    "Which embedding model is best for my RAG architecture?"
+  ],
+  "cb07410f672e": [
+    "Help me create a CI/CD pipeline for my new project.",
+    "I need to refactor my existing CI/CD setup.",
+    "Can you standardize deployment workflows for multiple repositories?",
+    "Generate a baseline CI/CD pipeline based on my project stack."
+  ],
+  "77ff701a19a0": [
+    "Can you generate the changelog for our latest release?",
+    "What version bump do these commits require for the next release?",
+    "I need to automate release notes for our CI process.",
+    "How do I plan an emergency hotfix for our application?"
+  ],
+  "4d0368959139": [
+    "Can you review my pull request for any security issues?",
+    "I need an analysis of the code changes in this PR.",
+    "Please check the code quality of my latest diff.",
+    "Help me understand the implications of these code changes."
+  ],
+  "47edae367044": [
+    "Help me set up secret management infrastructure for my application.",
+    "How do I integrate HashiCorp Vault with my existing system?",
+    "I need to configure AWS Secrets Manager for my project.",
+    "Can you implement secret rotation for our cloud secrets?"
+  ],
+  "173e2f21f904": [
+    "Can you help me track the latest technical changes in the project?",
+    "I need to create a change record for the recent code update.",
+    "What's the current status of the technical changes I submitted?",
+    "I want to resume my work on the TC lifecycle documentation."
+  ],
+  "b672050c6929": [
+    "Can you help me design a database schema for my new application?",
+    "I need to optimize this SQL query for better performance.",
+    "What are the best practices for planning a data migration?",
+    "Should I choose SQL or NoSQL for my project?"
+  ],
+  "cdf33deca847": [
+    "Can you create onboarding documentation for our new engineer?",
+    "I need an architecture overview for this project codebase.",
+    "Help me generate a briefing for tech leads on this repository.",
+    "What steps should I include for onboarding a contractor to our codebase?"
+  ],
+  "8344f1208449": [
+    "Can you validate the new skill I've just created?",
+    "I want to test my Python script for any syntax errors.",
+    "Please score the quality of my existing skill for tier promotion.",
+    "How do I set up pre-commit hooks for skill quality assurance?"
+  ],
+  "5b9c5a4d6a01": [
+    "Can you automate filling out this web form for me?",
+    "I need to scrape product prices from this website.",
+    "Help me capture screenshots of multiple web pages.",
+    "How can I set up a workflow to automate my browsing tasks?"
+  ],
+  "19c202e78532": [
+    "Can you help me evaluate my recent code review honestly?",
+    "I want to assess the quality of my last project using your scoring system.",
+    "Please give me an unbiased evaluation of my work session.",
+    "How can I detect score inflation in my recent AI task evaluations?"
+  ],
+  "2c6fb3eeefbc": [
+    "Can you create a runbook for deploying the new service?",
+    "I need an incident response runbook for our application.",
+    "Help me generate a maintenance workflow template for our environment.",
+    "What steps should I include in the rollback runbook?"
+  ],
+  "be4ebc1acc46": [
+    "Help me design an MCP server from my OpenAPI contract.",
+    "I want to scaffold a new MCP project using Python.",
+    "Can you validate my API schema for MCP integration?",
+    "Show me how to build a tool integration for Claude."
+  ],
+  "2d22315a9b83": [
+    "Can you help me design an interview process for a software engineer role?",
+    "I need to create a scoring rubric for evaluating candidates.",
+    "How can I optimize our hiring system to reduce bias?",
+    "Please generate interview questions for a data scientist position."
+  ],
+  "f7ed9931a32e": [
+    "Can you count the words in this text for me?",
+    "I need to know how many characters are in my essay.",
+    "Please transform this text to lowercase.",
+    "What is the word count for this paragraph?"
+  ],
+  "ccb793833bbc": [
+    "How can I prevent command injection in my code?",
+    "Add a security hook to my project for user input handling.",
+    "I want to block unsafe code before it gets executed.",
+    "Detect any SQL injection patterns in my current code."
+  ],
+  "58811709b66e": [
+    "Why does the agent keep forgetting my previous corrections?",
+    "Help me understand how the memory lines are created.",
+    "I want the agent to remember my preferences for future sessions.",
+    "Can you show me the stable facts the agent has learned?"
+  ],
+  "156066006f80": [
+    "Help me build a research wiki in Obsidian for my latest project.",
+    "I want to ingest this article into my personal knowledge base.",
+    "Can you update my entity pages with the latest information?",
+    "How do I maintain cross-references in my Obsidian wiki?"
+  ],
+  "72a331fc4eb0": [
+    "Can you review my diff for simplicity?",
+    "Am I overcomplicating this code?",
+    "I want to ensure I define clear goals before I commit.",
+    "Please check the complexity of my latest code changes."
+  ],
+  "249ae7a3ab36": [
+    "Let's grill this plan with the existing documentation.",
+    "Can we stress-test our project against the docs?",
+    "I want to update our decisions based on the latest context.",
+    "Help me align our terminology with the project records."
+  ],
+  "e66203595687": [
+    "Can you run the sleep cycle to improve your performance?",
+    "I want you to learn my preferences from past sessions.",
+    "Please review my previous interactions to get better.",
+    "How do I schedule your offline self-optimization?"
+  ],
+  "344434576900": [
+    "I want to create a new skill for my virtual assistant.",
+    "Help me write an engaging skill for my chatbot.",
+    "Can you guide me on building a new agent skill?",
+    "I need to author a skill with structured resources."
+  ],
+  "6b247390ff74": [
+    "Can you teach me Claude tricks to improve my prompts?",
+    "I want to become a power user of Claude, how do I start?",
+    "What can Claude do to help me with my tasks?",
+    "Coach me on how to use Claude more efficiently."
+  ],
+  "aef7acc7a896": [
+    "Help me plan out this complex feature before I start coding.",
+    "I need to ensure my code doesn't include any hallucinated APIs.",
+    "Can you guide me through the coding process step by step?",
+    "I want to verify my database migration plan before executing it."
+  ],
+  "c40e0d06c384": [
+    "Can you talk to me like a real person?",
+    "I just lost my job and need some genuine advice.",
+    "Please be more human in your responses.",
+    "I want to discuss my feelings about a recent breakup."
+  ],
+  "b2c56a7d397a": [
+    "How can I optimize my Dockerfile for better performance?",
+    "I want to improve my docker-compose configuration for a multi-container setup.",
+    "Can you help me implement multi-stage builds in my Docker project?",
+    "Please audit my container security for vulnerabilities."
+  ],
+  "3304352c2bc7": [
+    "How can I design a reusable Terraform module for my project?",
+    "I want to implement security hardening in my Terraform scripts.",
+    "What are the best practices for managing Terraform state?",
+    "Help me set up a CI/CD workflow for my Terraform deployments."
+  ],
+  "da153b5d4e70": [
+    "I need someone to review this document before we proceed.",
+    "Can you hold the project until we get sign-off?",
+    "Please ensure this report gets an approval first.",
+    "Have someone check this landing page before it goes live."
+  ],
+  "502bb6b8e847": [
+    "Can you grade my agent setup based on past conversations?",
+    "What skills do I have installed that are currently working?",
+    "I want to improve my skill's efficiency; can you help?",
+    "Please provide a report on my recent Codex sessions."
+  ],
+  "19feaebe7fcf": [
+    "Help me create a custom workflow script for automating my tasks.",
+    "I want to design a multi-agent workflow using Claude Code.",
+    "Can you scaffold a new workflow for task orchestration?",
+    "Show me how to run a workflow script in Claude Code."
+  ],
+  "e0338dfbdecc": [
+    "I want to optimize my code using multiple approaches at once.",
+    "Can you spawn several subagents to explore different research ideas?",
+    "Help me generate content variations through parallel agent collaboration.",
+    "I need to evaluate multiple solutions for this task in my git repo."
+  ],
+  "ccdb1609ecb0": [
+    "Can you show me the latest messages on the board?",
+    "I want to post a new coordination message.",
+    "What are the current discussions happening on the AgentHub board?",
+    "Please read the latest updates from other agents."
+  ],
+  "c99368764f82": [
+    "Can you merge the winning agent's branch into the base?",
+    "I want to land the winning AgentHub result.",
+    "Please clean up the worktrees after the merge.",
+    "Archive the losing branches and tidy up the session."
+  ],
+  "ab5b00e066fd": [
+    "Can you start a new AgentHub session for our project?",
+    "I want to create a multi-agent competition on this task.",
+    "Please initialize a collaboration hub with 5 agents and set evaluation criteria.",
+    "Start a new collaboration session for the team challenge."
+  ],
+  "a2e0758dd006": [
+    "What is the current status of the AgentHub agents?",
+    "Can you show me the DAG state for the session?",
+    "I want to check the progress of my agents in AgentHub.",
+    "How are the branches performing in my AgentHub session?"
+  ],
+  "9cac5e6fb9ac": [
+    "Can you evaluate the performance of the agents from our last session?",
+    "Please score the agents based on their results.",
+    "I want to compare the agents and pick the best one.",
+    "How do I rank the completed agents in this AgentHub session?"
+  ],
+  "c56941be2ec7": [
+    "Can you start the competing agents for my AgentHub session?",
+    "I want to launch multiple subagents in git worktrees.",
+    "Please spawn parallel agents to complete the task.",
+    "How do I initiate the subagent competition in my session?"
+  ],
+  "d60b039a803a": [
+    "Can you help me analyze the results of my A/B test?",
+    "I need to run a hypothesis test for my experiment.",
+    "How do I calculate the sample size for my study?",
+    "Please interpret the statistical significance of my test results."
+  ],
+  "d2b64b7aaa51": [
+    "I need to extract data from multiple websites for my research project.",
+    "Can you help me build a data pipeline using Firecrawl?",
+    "How can I scrape product information from an e-commerce site?",
+    "I want to validate data extracted from APIs using Python scripts."
+  ],
+  "fcd284af1ee5": [
+    "Can you help me create an onboarding tour for new developers?",
+    "I need a step-by-step guide for reviewing this pull request.",
+    "Please create a CodeTour that explains how the authentication module works.",
+    "How do I set up a tour for the project's architecture?"
+  ],
+  "66c0c4604ae9": [
+    "How can I manage prompts in production effectively?",
+    "I need to set up an A/B test for my prompts.",
+    "Can you help me with versioning my existing prompts?",
+    "What steps do I take to prevent prompt regressions?"
+  ],
+  "e01c814ebf48": [
+    "My AI costs are skyrocketing, how can I reduce them?",
+    "Help me optimize token usage for my LLM project.",
+    "Which model should I choose to keep costs down?",
+    "I need to implement prompt caching for our new AI feature."
+  ],
+  "0925de6fa9ae": [
+    "Set up an agentic loop for my marketing project.",
+    "I need to verify tasks in the finance domain.",
+    "Help me compile a goal into a task plan.",
+    "Run my engineering goal through the agent harness."
+  ],
+  "52a3704eef31": [
+    "Can you help me validate our employee onboarding SOP?",
+    "I need to clean up orphan pages in our Confluence wiki.",
+    "What are the key components for a successful incident-comms cascade?",
+    "Please audit our procurement intake process for completeness."
+  ],
+  "730e6b4ac53e": [
+    "Help me determine the headcount needed for Q3 planning.",
+    "What is the P90 demand sizing for our support team?",
+    "I need to model our team's utilization risk for this quarter.",
+    "Can you assist in building a capacity plan for our growing ops team?"
+  ],
+  "b5fb87c9d2ac": [
+    "Can you help me document our employee onboarding process in BPMN notation?",
+    "I need to analyze the cycle times for our procurement process.",
+    "Show me where our incident handoff is experiencing bottlenecks.",
+    "Help me quantify the gap between processing and elapsed time in claims adjudication."
+  ],
+  "68dcebf11be1": [
+    "Can you help me with a spend audit for our SaaS subscriptions?",
+    "I need to categorize our spending by UNSPSC codes.",
+    "Please analyze our supplier base for risk-balanced consolidation.",
+    "What are the bottleneck categories in our purchasing cycle?"
+  ],
+  "f0f108ed8703": [
+    "Can you help me prepare a vendor scorecard for our top suppliers?",
+    "I need to review the SLA compliance for our third-party vendors.",
+    "What are the risks associated with our current vendor relationships?",
+    "Please audit our SaaS portfolio for tier-1 vendors."
+  ],
+  "024489fac11c": [
+    "Can you help me with process mapping for our new project?",
+    "What’s the vendor health status for our current suppliers?",
+    "I need to create an internal SOP for onboarding new employees.",
+    "How do I categorize our procurement spend for the last quarter?"
+  ],
+  "6c63b291b20e": [
+    "Can you review this training data plan for compliance?",
+    "I need to validate our data architecture choices for a new project.",
+    "Please assess our data team hiring strategy for effectiveness.",
+    "What are the pros and cons of using a data lakehouse vs a warehouse?"
+  ],
+  "d5c89d33a0f6": [
+    "Can you review my data handling plan for compliance issues?",
+    "I need to ensure our new feature meets security standards.",
+    "Please assess this incident response plan for potential risks.",
+    "What should I consider before launching a product that handles customer data?"
+  ],
+  "9582807c4401": [
+    "Can you review my campaign plan for positioning and messaging?",
+    "I need to reposition my product; please help me with the strategy.",
+    "What should I focus on in my message house for the upcoming launch?",
+    "Help me analyze my channel mix to reduce customer acquisition costs."
+  ],
+  "48012173f5f5": [
+    "Can you evaluate my AI hiring plan?",
+    "I need help selecting the right AI model for my project.",
+    "What are the risks associated with my AI feature launch?",
+    "Assist me in classifying my AI use case under the EU AI Act."
+  ],
+  "d96c9d66a911": [
+    "Log the decision from the last board meeting.",
+    "I need to record the approved memo for future reference.",
+    "Can you help me document our recent decision?",
+    "Please save the memo from today's boardroom discussion."
+  ],
+  "ea9b23992021": [
+    "Can you freeze the layoff decision for 14 days?",
+    "I want to lock the contract decision for a cooldown period.",
+    "Please freeze my recent decision to avoid rushing into it.",
+    "How do I set a freeze on my multi-year contract for a week?"
+  ],
+  "c59b56d6818b": [
+    "Can you help me review our product roadmap for the next quarter?",
+    "I need to decide if we should kill this feature.",
+    "Evaluate our PMF signal based on the latest user feedback.",
+    "Let's analyze our portfolio focus for upcoming projects."
+  ],
+  "5bf066400e24": [
+    "Can you review our engineering hiring plan for the upcoming quarter?",
+    "I want to assess our team structure before the reorg.",
+    "Please analyze our delivery plan to improve cycle times.",
+    "What should I consider before committing to the next engineering hiring wave?"
+  ],
+  "68343de952a1": [
+    "Can you analyze our win rate and revenue forecast for this quarter?",
+    "I need a detailed review of our sales pipeline.",
+    "Help me understand why our NRR dropped last month.",
+    "What should we do before scaling the sales team?"
+  ],
+  "51fea3aad085": [
+    "Can you review my hiring plan for budget implications?",
+    "I need help analyzing the capital allocation in my fundraising strategy.",
+    "What are the potential unit economics for this new project?",
+    "Please critique my budget proposal for the upcoming channel expansion."
+  ],
+  "cb87db8da973": [
+    "Can you help me review this term sheet before I sign it?",
+    "I need to check the IP assignment on our new product.",
+    "Please redline the customer MSA for legal issues.",
+    "What are the regulatory exposures in this contract?"
+  ],
+  "8fdde571aa9d": [
+    "Can you help me onboard our new C-suite members?",
+    "I need to set up the company context for our advisors.",
+    "Please run the onboarding process for our latest fundraise.",
+    "What do I need to do to onboard the new executives?"
+  ],
+  "486a34520769": [
+    "Can you cross-evaluate this memo for our upcoming board meeting?",
+    "Please check this strategy brief for any flaws before I present it.",
+    "I want to ensure our fundraising terms are solid; can you review this document?",
+    "Help me assess this high-stakes strategy memo with multiple models."
+  ],
+  "9a1fbce1c428": [
+    "Can we review the pricing change decision from last quarter?",
+    "I want to analyze the outcome of our recent marketing strategy.",
+    "Let's conduct a post-mortem on the new product launch.",
+    "How did our last decision perform against its original goals?"
+  ],
+  "32201606412f": [
+    "What should I do about our runway pressure?",
+    "How can I improve our gross retention rate?",
+    "I need advice on our funding strategy.",
+    "Help me understand our customer acquisition costs."
+  ],
+  "bbca0d6c3745": [
+    "Can you review our customer retention plan?",
+    "I need advice on segmenting our customer base effectively.",
+    "Help me decide if we should hire more customer success managers.",
+    "What should we do to improve our gross retention rates?"
+  ],
+  "b0069cf47003": [
+    "Can you help me clarify our market distribution strategy?",
+    "I need to understand our customer needs better.",
+    "What should I focus on to improve our capital strategy?",
+    "Help me define the problems we're facing with growth."
+  ],
+  "0c4b1a06064c": [
+    "Can you help me create a strategy brief for our pricing change?",
+    "I need a one-page brief on our market entry strategy.",
+    "Generate a brief outlining our assumptions for the upcoming board meeting.",
+    "What are the key points for a strategy brief on our new product launch?"
+  ],
+  "b920de378182": [
+    "Help me draft a board memo for the upcoming pricing strategy meeting.",
+    "I need to isolate roles for the boardroom discussion on our new product launch.",
+    "Can we synthesize feedback from the C-suite on the budget cuts?",
+    "What steps should we take to prepare for the boardroom deliberation?"
+  ],
+  "827fa3d78222": [
+    "Create a 90-day execution plan for our market-entry decision.",
+    "What are the weekly milestones for the new project decision?",
+    "I need to turn our approved decision into an action plan.",
+    "Generate a detailed plan with DRIs for our recent strategic decision."
+  ],
+  "5f0d83d891a5": [
+    "I need to consult my CFO about budget allocations.",
+    "Can you help me run a strategic sprint with my executive team?",
+    "How do I initiate a multi-role boardroom deliberation?",
+    "I want to use the /cs:CHRO command for office hours."
+  ],
+  "89a344657f6f": [
+    "Can you review this architecture plan for potential scaling issues?",
+    "I want to evaluate if we should rebuild or buy a solution.",
+    "Please help me analyze our tech debt before scaling.",
+    "What are the risks of this plan if we expect 10x load?"
+  ],
+  "94c1e8bec7a2": [
+    "Can you summarize this research paper for me?",
+    "I need a comparison of these two articles.",
+    "Please extract the citations from this document.",
+    "Help me create a structured brief on this report."
+  ],
+  "a39ccda4cc80": [
+    "I want to create a new subscription-based web app using Next.js.",
+    "Can you scaffold a complete SaaS project with authentication and billing?",
+    "Help me set up a boilerplate for my new SaaS application.",
+    "Generate a starter template for a Next.js project with Stripe integration."
+  ],
+  "d11296a9fc96": [
+    "Can you create a high-converting landing page for my new product launch?",
+    "I need a marketing page with a hero section and testimonials.",
+    "Help me design an effective lead capture page for my email campaign.",
+    "Generate a landing page variant for A/B testing my current site."
+  ],
+  "fc92883b83e1": [
+    "Can you help me create a roadmap narrative for our upcoming project?",
+    "I need to draft release notes for the latest software update.",
+    "Please summarize the key changes for our stakeholder update.",
+    "How can I communicate our product roadmap to the engineering team?"
+  ],
+  "d15c65538bc3": [
+    "Can you scaffold a new repo for my project?",
+    "I need a codebase for my app idea.",
+    "Please build me an app using Next.js.",
+    "Generate a starter project from this specification."
+  ],
+  "1b443c0b9f82": [
+    "I need help prioritizing features using the RICE method.",
+    "Can you provide a template for writing a product requirements document?",
+    "What strategies should I use to go to market effectively?",
+    "Help me analyze my customer interview data for insights."
+  ],
+  "432d12ed15f6": [
+    "Help me prioritize our next product features.",
+    "I want to run a product experiment to test user engagement.",
+    "Can you assist in planning our product roadmap?",
+    "We need to conduct a competitive teardown for our new feature."
+  ],
+  "327588ef173c": [
+    "Help me define the key performance indicators for our new product.",
+    "I want to build a dashboard to track user engagement metrics.",
+    "Can you analyze the retention rates for our last three product releases?",
+    "Show me how to interpret feature adoption trends in our latest update."
+  ],
+  "47a4aaec2063": [
+    "Help me design an experiment to test my new product feature.",
+    "What is the best way to prioritize my A/B tests?",
+    "I need assistance estimating the sample size for my user study.",
+    "Can you guide me in writing a testable hypothesis for my experiment?"
+  ],
+  "c419b1c06417": [
+    "Help me create quarterly OKRs for my product team.",
+    "What should I include in a product vision document?",
+    "I need to analyze the competitive landscape for our new product.",
+    "Can you assist in drafting a team structure proposal for scaling?"
+  ],
+  "8edd9b68596f": [
+    "Help me validate my product idea before investing resources.",
+    "I need to map out assumptions for my new product.",
+    "Can you assist in planning a discovery sprint for our project?",
+    "What steps should I take to test the problem-solution fit?"
+  ],
+  "a625ae66c769": [
+    "Help me create user personas based on recent survey data.",
+    "I need to map the user journey for our new app.",
+    "Can you assist with planning a usability test for our website?",
+    "I want to validate my design ideas through user research."
+  ],
+  "5c9aa2c36bc3": [
+    "I need to create a design system for my new project.",
+    "Help me generate design tokens for our UI components.",
+    "Can you provide documentation for our design components?",
+    "What are the responsive design calculations for this layout?"
+  ],
+  "9c1ea10c174e": [
+    "Can you provide a SWOT analysis of our main competitors?",
+    "I need a feature comparison matrix for our product versus others.",
+    "Help me analyze recent competitor pricing changes.",
+    "Generate a competitive landscape report for our upcoming strategy session."
+  ],
+  "2aa6e2890adb": [
+    "Can you audit my iOS app for HIG compliance?",
+    "How do I ensure my app follows the Liquid Glass design language?",
+    "Please check if the contrast in my mockup is adequate.",
+    "Is this button size appropriate for tap targets on macOS?"
+  ],
+  "9232403022f3": [
+    "Can you help me write user stories for our upcoming sprint?",
+    "I need to prioritize the backlog for our next release.",
+    "How do I create acceptance criteria for a new feature?",
+    "Let's plan our sprint and estimate story points together."
+  ],
+  "b22bc10a884b": [
+    "Can you generate a PRD from my existing codebase?",
+    "I need to document the API endpoints for my project.",
+    "Please reverse-engineer this code into a complete Product Requirements Document.",
+    "Help me analyze the user interactions in my frontend application."
+  ],
+  "cd176570ed50": [
+    "Can you analyze my company's financial performance?",
+    "What is my monthly recurring revenue looking like?",
+    "Help me understand my budget variance for this quarter.",
+    "I need to calculate my customer acquisition cost."
+  ],
+  "087b4af8622c": [
+    "Can you analyze the financial health of Tata Consultancy Services?",
+    "What is the P/E ratio for Reliance Industries?",
+    "Is Apple overpriced compared to its sector peers?",
+    "Evaluate the cash flow situation of HDFC Bank."
+  ],
+  "f4ae010a2a4f": [
+    "Can you help me analyze my company's financial ratios?",
+    "I need to create a DCF valuation model for a startup.",
+    "What are the budget variances for the last quarter?",
+    "Please assist me in constructing a rolling forecast for next year."
+  ],
+  "c8ffe0f4a220": [
+    "Can you help me analyze my MRR for this quarter?",
+    "What is a healthy churn rate for a SaaS business?",
+    "I want to improve my customer acquisition cost, any advice?",
+    "How does my current ARR compare to industry standards?"
+  ],
+  "3982c226a3bd": [
+    "Should I invest in new technology for my business?",
+    "Help me calculate the ROI for purchasing new equipment.",
+    "What’s the payback period for leasing versus buying a property?",
+    "Evaluate whether I should hire additional staff this quarter."
+  ],
+  "fa8d4b55b373": [
+    "Convert this markdown document into an HTML file.",
+    "I need to render my project report as an interactive HTML.",
+    "Make slides from this markdown content for my presentation.",
+    "Turn my code review markdown into an HTML with annotations."
+  ],
+  "c36c3160bf08": [
+    "Create an HTML presentation from my markdown slides.",
+    "I want to convert my markdown deck into a single-file HTML.",
+    "Can you help me turn my slides into an HTML format for sharing?",
+    "Generate a presentation from my markdown using the specified notes."
+  ],
+  "047345e15e0a": [
+    "Convert my markdown report into an HTML document.",
+    "I need a single-file HTML version of my specifications.",
+    "Create an interactive document from this markdown content.",
+    "Can you help me generate a sticky TOC for my markdown?"
+  ],
+  "2ed81ef7f031": [
+    "I need to set up my brand using the onboarding wizard.",
+    "Can you help me configure the markdown-html settings?",
+    "Reset the design system for my project, please.",
+    "What are the steps to onboard my brand identity?"
+  ],
+  "5a78bcd4c944": [
+    "Convert this markdown code review into an HTML format.",
+    "I need to generate an HTML review with annotations for my PR.",
+    "Please create a two-column HTML review from my markdown.",
+    "I want to submit a markdown review with a named reviewer."
+  ],
+  "8df3e4a2d11a": [
+    "Can you optimize my LinkedIn profile for better engagement?",
+    "I need help rewriting my About section for LinkedIn.",
+    "My headline isn't attracting views, can you fix it?",
+    "How can I improve my experience bullets on LinkedIn?"
+  ],
+  "1d1f42ca17a6": [
+    "What should I post about to grow my LinkedIn following?",
+    "Can you help me create a 90-day LinkedIn content strategy?",
+    "I'm considering a LinkedIn newsletter; should I start one?",
+    "How often should I post on LinkedIn for maximum impact?"
+  ],
+  "57a22feeabe2": [
+    "Can you analyze my LinkedIn posts for engagement?",
+    "Why did my reach drop on LinkedIn recently?",
+    "I'd like to test if carousels perform better for me.",
+    "What's working on my LinkedIn and how can I improve?"
+  ],
+  "fdfcb7063216": [
+    "Help me grow my LinkedIn presence for my career change.",
+    "Can you rewrite my LinkedIn headline to attract more connections?",
+    "What should I post about this week to increase my reach?",
+    "Draft a LinkedIn post that highlights my recent achievements."
+  ],
+  "965f602ae9b3": [
+    "Who should I engage with on LinkedIn this week?",
+    "Help me write a personalized connection request for my new contact.",
+    "I need a networking strategy to expand my LinkedIn reach.",
+    "How many invites can I safely send this month?"
+  ],
+  "0da30c0dd74b": [
+    "Can you help me write a LinkedIn post about my recent project?",
+    "Is this hook for my LinkedIn article any good?",
+    "I want to turn my blog post into multiple LinkedIn posts.",
+    "Please review my LinkedIn post for clarity and engagement."
+  ],
+  "2afe2b2d9f0b": [
+    "Create a landing page for my new fitness app.",
+    "I need a web page to promote my online course.",
+    "Build a landing page showcasing my photography portfolio.",
+    "Make a promotional page for my upcoming product launch."
+  ],
+  "13de2e3b2d4e": [
+    "Can you help me prepare for our AIMS certification stage 1?",
+    "I need to conduct an internal audit for our AI system.",
+    "What questions should I ask during the AIMS audit process?",
+    "Let's perform a forcing interrogation for our AIMS scope."
+  ],
+  "de8a7b7788cd": [
+    "Can you help me prepare for the EU AI Act compliance check?",
+    "I need to assess my AI system's readiness for the EU regulations.",
+    "What questions should I answer for the AI Act evaluation?",
+    "Help me complete the AI Act readiness questionnaire."
+  ],
+  "12e46d610594": [
+    "Help me prepare for my upcoming FDA QSR audit.",
+    "What questions should I ask to assess our QMS compliance?",
+    "I need to ensure we're ready for a Form 483 response.",
+    "Can you guide me on our internal audit process?"
+  ],
+  "b65a85b6cbee": [
+    "How can I prepare for the compliance certification stage 1?",
+    "I need to assess my compliance program before starting a new framework.",
+    "Can you help me plan my annual audit calendar for compliance?",
+    "What questions should I ask to evaluate my compliance readiness?"
+  ],
+  "7d3c06167b49": [
+    "How can I prepare for my ISO 27001 internal audit?",
+    "I need to ensure my ISMS is ready for certification.",
+    "What questions should I ask for the ISO 27001 audit prep?",
+    "Help me get ready for the surveillance audit."
+  ],
+  "ceeccf8f17b9": [
+    "How can I prepare for my upcoming SOC 2 Type II audit?",
+    "I need a checklist for SOC 2 audit readiness.",
+    "What steps should I take to ensure we're ready for the SOC 2 audit?",
+    "Can you help me evaluate our SOC 2 compliance progress?"
+  ],
+  "19e4701c2f6c": [
+    "How can I prepare for an ISO 13485 audit?",
+    "I need to ensure my design controls meet ISO 13485 standards.",
+    "What questions should I ask during my ISO 13485 audit prep?",
+    "Help me align my QMS with FDA QSR before the audit."
+  ],
+  "8e771bad390f": [
+    "Which compliance frameworks apply to my company profile?",
+    "Help me simulate an internal audit for ISO 27001.",
+    "What controls overlap between GDPR and SOC 2?",
+    "Create a unified evidence checklist for my compliance program."
+  ],
+  "d2e327105192": [
+    "Help me prepare for my annual GDPR audit.",
+    "What questions should I ask for a GDPR audit?",
+    "I need to conduct a GDPR audit post-breach.",
+    "Guide me on GDPR compliance for an acquisition."
+  ],
+  "ffdb333d8cf7": [
+    "How can I implement ISO 27001 for my HealthTech company?",
+    "I need to prepare for an ISO 27001 security audit.",
+    "What are the key controls for ISO 27002 compliance?",
+    "Help me conduct a security risk assessment for our MedTech devices."
+  ],
+  "fd69c9dcbf2b": [
+    "How do I prepare for an ISO 13485 audit?",
+    "Can you help me understand EU MDR 2017/745 requirements?",
+    "I need to ensure my AI system complies with the EU AI Act.",
+    "What steps should I take for FDA submissions under QMSR?"
+  ],
+  "ea481cdd1a5e": [
+    "How can I ensure compliance with ISO 13485 for my MedTech company?",
+    "I need to set quality objectives for our health technology products.",
+    "Can you help me lead a management review for our quality system?",
+    "What are the key performance indicators I should monitor for quality?"
+  ],
+  "3f62dc512551": [
+    "How do I prepare an FDA 510(k) submission for my new device?",
+    "I need help drafting a response to an FDA deficiency letter.",
+    "Can you guide me through the CE marking process for my product?",
+    "What are the steps for achieving multi-market approval for medical devices?"
+  ],
+  "7cb3185d5029": [
+    "Help me run a 5-Why analysis for a recent defect.",
+    "I need to track the corrective actions for our last CAPA.",
+    "What steps should I take to verify the effectiveness of a corrective action?",
+    "Can you assist me in determining the root cause of our quality issue?"
+  ],
+  "708cc93bbd62": [
+    "What class does my medical device fall under in the EU MDR?",
+    "Help me prepare my technical documentation for a notified body review.",
+    "Can you review my PSUR schedule for compliance?",
+    "I need to plan a clinical evaluation for my medical device."
+  ],
+  "72c055cc13b6": [
+    "How can I prepare for a SOC 2 audit?",
+    "I need to map the Trust Service Criteria for SOC 2.",
+    "Can you help me assess my readiness for SOC 2 Type II?",
+    "I want to perform a gap analysis for my SOC 2 compliance."
+  ],
+  "ed341baed807": [
+    "Help me plan our next ISO 13485 internal audit.",
+    "What steps should I follow to execute an effective audit?",
+    "I need assistance with classifying nonconformities found during our audit.",
+    "Can you guide me on preparing for an external audit?"
+  ],
+  "fe4978533578": [
+    "Can you help me understand the 510(k) submission process?",
+    "I need guidance on complying with ISO 13485 for my medical device.",
+    "What are the steps for a De Novo submission to the FDA?",
+    "How do I assess HIPAA compliance for my medical device?"
+  ],
+  "43ebae33354c": [
+    "Can you help me set up a document control procedure for our medical devices?",
+    "I need to manage version control for our latest QMS documentation.",
+    "What steps should I follow to ensure compliance with 21 CFR Part 11?",
+    "I want to review and approve the regulatory documentation changes."
+  ],
+  "00550fce6a5c": [
+    "What are the gaps in compliance with ISO 42001 clauses?",
+    "Help me create a 12-month internal audit plan for ISO 42001.",
+    "Which risks should I include in the AI risk register?",
+    "What controls from Annex A address specific AI risks?"
+  ],
+  "3bbe30ec3ffc": [
+    "How can I implement an ISO 13485 Quality Management System for my medical device company?",
+    "I need help with documentation control for my QMS.",
+    "What steps should I take to prepare for an ISO 13485 audit?",
+    "Can you assist me in setting up a corrective action plan?"
+  ],
+  "504d2dacdfed": [
+    "Can you mint a receipt for the payment I just made?",
+    "I need to verify the receipt for the access grant action.",
+    "Please check if this agent action requires a receipt.",
+    "Mint a tamper-evident receipt for the model decision I executed."
+  ],
+  "7d3059be0b91": [
+    "I need help preparing for my ISO 27001 audit.",
+    "Can you review my Statement of Applicability for compliance?",
+    "What steps should I take for a gap analysis in ISMS?",
+    "Help me document nonconformities found during the internal audit."
+  ],
+  "51e78545bc67": [
+    "What is the risk tier for our new AI system under the EU AI Act?",
+    "Help me determine the conformity assessment route for our high-risk AI application.",
+    "Can you outline the obligations for AI system providers according to the EU AI Act?",
+    "I need to assess the compliance requirements for our AI project based on Article 6."
+  ],
+  "5a18d7f9cc2e": [
+    "Can you check this codebase for GDPR compliance risks?",
+    "I need to generate a DPIA for our new project.",
+    "Track the deadline for our latest data subject access request.",
+    "Help me assess if our service meets DSGVO requirements."
+  ],
+  "3dbc7a777733": [
+    "Can you help me implement ISO 14971 for our new medical device?",
+    "I need a risk analysis for our latest product.",
+    "What are the key steps in hazard identification under ISO 14971?",
+    "Please provide guidance on conducting a FMEA for my project."
+  ],
+  "c6d1c619b562": [
+    "How can I use psychology to improve my marketing strategy?",
+    "What are some mental models I can apply to consumer behavior?",
+    "I want to understand why people buy my product.",
+    "Can you help me with persuasive techniques in advertising?"
+  ],
+  "938b4e9f5cf7": [
+    "How can I create location pages for my business?",
+    "I want to build many pages for SEO quickly.",
+    "Help me set up template pages for comparison.",
+    "What are the steps for programmatic SEO implementation?"
+  ],
+  "b427e3ee8077": [
+    "Can you help me redesign my website's navigation structure?",
+    "I need to audit my site's URL hierarchy for SEO issues.",
+    "How can I improve my internal linking strategy?",
+    "What should I do to create better topic clusters on my site?"
+  ],
+  "f6826180c76c": [
+    "Can you help me write a cold email to a potential client?",
+    "I need tips to improve my sales email draft.",
+    "What should I include in a follow-up sequence for my prospects?",
+    "Help me humanize my outreach email that sounds too pushy."
+  ],
+  "e3a661d12051": [
+    "Can you help me with an SEO audit for my website?",
+    "What are the SEO issues affecting my site's ranking?",
+    "I need a review of my meta tags and on-page SEO.",
+    "Why am I not ranking well in search results?"
+  ],
+  "b7f009de6d9b": [
+    "Can you help me write copy for my new landing page?",
+    "I need to improve the headline on my homepage.",
+    "Please rewrite this product page to make it more engaging.",
+    "What are some effective CTAs I can use for my marketing campaign?"
+  ],
+  "ab66bd52ff6c": [
+    "Help me create a social media strategy for my new product launch.",
+    "Can you plan a content calendar for the next month?",
+    "I want to increase my engagement rate on Instagram.",
+    "Which platforms should I use to reach my target audience?"
+  ],
+  "64d8261c3d8b": [
+    "Help me create a go-to-market strategy for our new product.",
+    "What should I include in my launch checklist?",
+    "I want to announce our latest feature on Product Hunt.",
+    "Can you guide me on maintaining launch momentum after the beta launch?"
+  ],
+  "8adb1033aebd": [
+    "Can you suggest a name for my new tech startup?",
+    "I want to make sure my brand name doesn't offend in other languages.",
+    "Help me pick a culturally appropriate name for my business.",
+    "What do you think of the name 'Aloha Tech' for my company?"
+  ],
+  "6530fff726ba": [
+    "Can you help me set up the marketing context for our new campaign?",
+    "What is our target audience for the upcoming product launch?",
+    "I need the brand voice guidelines to start creating content.",
+    "Who is my customer according to our ICP?"
+  ],
+  "cecbae60949a": [
+    "Can you help me write a blog post about healthy eating?",
+    "I need to create a content calendar for my marketing campaign.",
+    "Please assist me in developing a brand voice analysis for my business.",
+    "How do I plan content for my new website launch?"
+  ],
+  "48ebabf6bef4": [
+    "Can you help me create a LinkedIn post about my recent project?",
+    "I want to schedule my Instagram content for next week.",
+    "What are some tips for making my Twitter thread go viral?",
+    "Please optimize my Facebook posts for better engagement."
+  ],
+  "e0c6f9dd2c74": [
+    "Can you analyze the performance of my latest social media campaign?",
+    "What is the engagement rate for my posts on Instagram?",
+    "I need a social media audit to improve my strategy.",
+    "Which platform performs best for my target audience?"
+  ],
+  "7ab1c8d45af5": [
+    "Can you help me create a competitor comparison page?",
+    "What are some good alternatives to Product X?",
+    "I need to switch from Competitor A to Product Y.",
+    "Create a comparison content for Product A vs Product B."
+  ],
+  "7b1f4051674e": [
+    "Can you proofread this marketing copy for me?",
+    "I need feedback on my latest ad copy.",
+    "Please polish this text before I send it out.",
+    "Help me make this copy better for our campaign."
+  ],
+  "7aaef870443c": [
+    "How can I increase registrations for my upcoming webinar?",
+    "I need help promoting my virtual summit effectively.",
+    "What can I do to improve my webinar's attendance rate?",
+    "Can you assist me with planning an online event?"
+  ],
+  "8a897c334500": [
+    "Help me write a blog post about sustainable living.",
+    "I need a guide on how to start a small business.",
+    "Draft an article on the benefits of meditation.",
+    "Create content for my website's new service launch."
+  ],
+  "5001d75954c4": [
+    "What are some effective marketing ideas for my new SaaS product?",
+    "I need growth strategies to increase my software sales.",
+    "Can you suggest ways to promote my app?",
+    "How do I market my software effectively?"
+  ],
+  "a820a2e660f8": [
+    "How can I grow my audience on X?",
+    "I need tips for crafting viral tweets.",
+    "Analyze my X profile for engagement.",
+    "What should I include in my tweet strategy?"
+  ],
+  "365bff6f886e": [
+    "Can you help me audit my Google Business Profile?",
+    "I need to create neighborhood service area pages for my plumbing business.",
+    "How can I ensure my NAP is consistent across directories?",
+    "Please write a response to a recent review on my HVAC service."
+  ],
+  "2f3fc623a1b1": [
+    "Can you help me create a pricing page for my new SaaS product?",
+    "I need to redesign my pricing tiers to attract more customers.",
+    "What's the best strategy for increasing our current subscription prices?",
+    "Help me develop a value metric that resonates with our users."
+  ],
+  "e882707fe0bd": [
+    "How can I create a free tool for lead generation?",
+    "I want to build an interactive marketing tool to attract more traffic.",
+    "Can you help me design a free calculator for my website?",
+    "What strategy should I use to launch a brand awareness checker?"
+  ],
+  "f8195ae7befc": [
+    "I need help creating a content strategy for my blog.",
+    "What topics should I cover in my next article?",
+    "Can you suggest some content ideas for my website?",
+    "I want to plan a content calendar for the next three months."
+  ],
+  "171433cddb66": [
+    "Can you help me improve my marketing prompts for better engagement?",
+    "I need a template for an email campaign promotion.",
+    "How can I version my prompts for consistent AI-generated content?",
+    "Show me A/B test results for my latest ad copy."
+  ],
+  "19a6eb297ab2": [
+    "Can you help me set up GA4 for my website?",
+    "I need to audit my current Google Tag Manager setup.",
+    "How do I debug missing events in my analytics?",
+    "I want to create a tracking plan for my new app."
+  ],
+  "6f14bf4a0c17": [
+    "I need help coordinating my marketing campaign across different channels.",
+    "What should I do next for my marketing priorities?",
+    "Can you assist me in planning a multi-skill marketing strategy?",
+    "I’m looking for marketing help to improve our SEO and content efforts."
+  ],
+  "3614b17c7243": [
+    "Can you help me create a Google Ads campaign for my new product?",
+    "What strategies can I use to improve my ad campaign's ROAS?",
+    "I need assistance with audience targeting for my Facebook ads.",
+    "How do I optimize my PPC ads for better performance?"
+  ],
+  "55b9303b1e55": [
+    "How can I improve my lead capture form conversion rates?",
+    "I need tips to reduce friction in my contact form.",
+    "What changes can I make to optimize my checkout form?",
+    "Help me increase the completion rate for my demo request form."
+  ],
+  "f9907c3d9ea8": [
+    "What marketing skills can help me improve my SEO strategy?",
+    "I need to find content marketing techniques for my blog.",
+    "Show me the capabilities available for sales enablement.",
+    "Help me explore growth marketing skills for my startup."
+  ],
+  "8f56db5c8d07": [
+    "How can I improve the conversion rate on my landing page?",
+    "I need tips to optimize my homepage for better conversions.",
+    "This pricing page isn't converting; what should I change?",
+    "Can you help me increase signups from my blog posts?"
+  ],
+  "bf6857fcbdc6": [
+    "Can you write ad copy for our new product launch?",
+    "I need to generate headlines for my Facebook ads.",
+    "Help me create variations of my existing ad.",
+    "What are some good ideas for Meta ad copy?"
+  ],
+  "7088c130882f": [
+    "How can I improve my signup conversion rates?",
+    "I need tips for reducing registration friction in my app.",
+    "Help me optimize my free trial signup process.",
+    "What steps should I take to enhance my account creation flow?"
+  ],
+  "eb83cff9885a": [
+    "Can you analyze the performance of my latest marketing campaign?",
+    "I want to calculate the ROI for my recent ad spend.",
+    "What are the conversion rates for my last three campaigns?",
+    "Help me understand the multi-touch attribution for my current ads."
+  ],
+  "7af502aca7d7": [
+    "How can I improve my app's visibility on the App Store?",
+    "What are the best keywords to use for my Android app?",
+    "Can you help me analyze my competitor's app rankings?",
+    "Suggest some metadata improvements for my iOS app listing."
+  ],
+  "54be6a6423c2": [
+    "How can I improve my onboarding flow for new users?",
+    "I want to increase the activation rate of my app.",
+    "What strategies can help enhance the first-run experience?",
+    "Can you provide tips for creating an onboarding checklist?"
+  ],
+  "73fe2b8dfd8b": [
+    "How can I optimize my in-app paywall for better conversions?",
+    "I need help designing an upgrade modal for my app.",
+    "What should I include in my trial expiration screen?",
+    "Can you create a feature gate to upsell premium features?"
+  ],
+  "22f425e2750f": [
+    "How can I implement FAQ schema on my website?",
+    "I need to validate the structured data for my latest blog post.",
+    "What can I do to improve my site's rich results visibility?",
+    "I'm seeing structured data errors in Search Console, how can I fix them?"
+  ],
+  "fe00f70e4315": [
+    "How can I optimize my email popup for better conversions?",
+    "I need to create an announcement banner for my website.",
+    "What are the best practices for exit intent popups?",
+    "Help me design a lead capture popup that stands out."
+  ],
+  "f1272e235aef": [
+    "Can you help me set up a welcome sequence for new subscribers?",
+    "I want to optimize my drip campaign to improve engagement.",
+    "How do I create a re-engagement email for inactive users?",
+    "Please automate my lifecycle email program for better efficiency."
+  ],
+  "19f3d5290619": [
+    "Can you help me create a go-to-market strategy for my new product?",
+    "I need a positioning statement for our upcoming launch.",
+    "What are the key elements of a competitive analysis?",
+    "Help me define our ideal customer profile for better targeting."
+  ],
+  "6231d6e8e77f": [
+    "How can I optimize my Google Ads for better lead generation?",
+    "I need help creating a demand generation campaign for our new product.",
+    "What strategies should I use for SEO to increase our website traffic?",
+    "Help me analyze our customer acquisition costs for the last quarter."
+  ],
+  "c51c622d6c70": [
+    "How can I design a better cancel flow to reduce churn?",
+    "What save offers can I implement to keep my customers?",
+    "I need help setting up dunning emails for failed payments.",
+    "Can you suggest ways to improve my exit survey for churn prevention?"
+  ],
+  "90b0f84c31ca": [
+    "Can you make this content sound more human?",
+    "I need to add personality to this AI-generated article.",
+    "This text feels too robotic; can you fix it?",
+    "Help me inject our voice into this generic piece."
+  ],
+  "96521827a237": [
+    "How can I optimize my blog posts for citation by AI models?",
+    "I need an AEO audit for my website content.",
+    "What strategies should I use to get cited by ChatGPT?",
+    "Can you help me build a citation-friendly content plan?"
+  ],
+  "e9f0f26aaf10": [
+    "Get the transcript for the latest TED talk video.",
+    "Search YouTube for cooking tutorials.",
+    "What are the latest videos on technology news?",
+    "List this playlist of my favorite music videos."
+  ],
+  "2e55f5ad008e": [
+    "How do I set up an A/B test for my website?",
+    "I want to experiment with different headlines on my landing page.",
+    "Can you help me design a split test for my email campaign?",
+    "What steps should I take to test this change effectively?"
+  ],
+  "850fa020652e": [
+    "How can I design an effective referral program for my business?",
+    "I need help launching my affiliate program.",
+    "What incentives should I offer for customer referrals?",
+    "Can you optimize my existing referral program for better results?"
+  ],
+  "df53c196ffdb": [
+    "I want to start a YouTube channel focused on travel vlogs.",
+    "Can you help me write a video script for my cooking series?",
+    "What are some strategies to optimize my YouTube channel for growth?",
+    "I need to repurpose my long podcast into short videos for social media."
+  ],
+  "e10e261194dc": [
+    "Can you review this deal proposal for potential issues?",
+    "What should our pricing model look like for this product?",
+    "I need help with our RFP response for the upcoming project.",
+    "Should we approve a discount for this long-term partner?"
+  ],
+  "c0650a31e09d": [
+    "Can you help me design a new commercial policy for our sales team?",
+    "What are the approval thresholds we should set for discounts?",
+    "I need to revise our discount matrix for better clarity.",
+    "How can we create an exception policy for special cases?"
+  ],
+  "a12eff466a32": [
+    "Can you help me forecast our quarterly bookings for the board meeting?",
+    "I need to project our NRR for this quarter's pipeline analysis.",
+    "Show me the conversion rates for each stage in our sales funnel.",
+    "What are the best-case and commit numbers for our upcoming forecast?"
+  ],
+  "64d0e25cf655": [
+    "Can you help me respond to this RFP with a structured approach?",
+    "I need to analyze the mandatory and weighted requirements in this RFQ.",
+    "What are the win-themes for this proposal request?",
+    "Please create a proof-point matrix based on the vendor questionnaire."
+  ],
+  "c0603000497f": [
+    "Help me choose a pricing model for my new subscription service.",
+    "What is the best pricing strategy for my product launch?",
+    "Can you analyze my survey data for price sensitivity?",
+    "I need to design packaging tiers for my premium offerings."
+  ],
+  "c71b5e60cd9e": [
+    "Can you review the discount request for this deal?",
+    "I need approval for a discount exceeding AE authority.",
+    "What are the margin implications for this multi-year payment deal?",
+    "Please triage the redlined MSA from the customer."
+  ],
+  "d1d62179d310": [
+    "Should we sign this new partner and what tier should we assign them?",
+    "Help me design a 90-day joint GTM plan with our potential partner.",
+    "What revenue share model should we propose for our reseller agreement?",
+    "I need to evaluate if this partnership is worth pursuing based on independent demand evidence."
+  ],
+  "cf4ec56001b8": [
+    "What is the ROI for our direct vs. partner-led channels?",
+    "Help me calculate the cost to serve for each channel.",
+    "I want to know which channel is more profitable after all costs.",
+    "Can you provide a recommendation for our channel mix next quarter?"
+  ],
+  "553c47d9dbb4": [
+    "Can you help me choose the right research method for my product?",
+    "I need to synthesize my user research findings into actionable insights.",
+    "What sample size should I use for my usability test?",
+    "Help me plan a generative interview for my upcoming product launch."
+  ],
+  "b33516ee63d8": [
+    "Help me design a clinical study with specific endpoints.",
+    "What sample size do I need for my two-arm clinical trial?",
+    "I want to assess the feasibility of my study plan.",
+    "Can you classify my endpoints as primary or exploratory?"
+  ],
+  "d4234e9d87f3": [
+    "Can you help me size the market using TAM and SAM methodologies?",
+    "I need to plan a survey sample size for my research project.",
+    "What are the criteria to score candidate market segments effectively?",
+    "Please provide a detailed method for conducting market research."
+  ],
+  "3a355717b09c": [
+    "Can you help me design this clinical study?",
+    "What is the optimal sample size for my research?",
+    "I need to synthesize insights from recent user interviews.",
+    "How do I segment the market for my new product?"
+  ],
+  "4304bb898f36": [
+    "Help me create a budget for our R&D program.",
+    "What is our current burn rate against the program milestones?",
+    "I need to categorize these R&D costs as capitalize or expense.",
+    "Please track the runway for our internal research projects."
+  ],
+  "95dd4da0bd9e": [
+    "Can you perform an accessibility audit on my React app?",
+    "I need to check if my website meets WCAG 2.2 compliance.",
+    "Help me fix the a11y violations in my Vue codebase.",
+    "Generate a compliance report for my plain HTML website."
+  ],
+  "764fa1c108ea": [
+    "Can you help me with STRIDE threat modeling for my project?",
+    "I need to perform a DREAD risk assessment on our new app.",
+    "What are the steps to create a data-flow diagram for threat analysis?",
+    "Please run a quick secret scan on our repository."
+  ],
+  "4f618554916f": [
+    "Can you help me design an Azure architecture for my startup?",
+    "I need to create a Bicep template for deploying resources in Azure.",
+    "How can I optimize my Azure costs for better efficiency?",
+    "Set up an Azure DevOps pipeline for my application deployment."
+  ],
+  "f9a6c53c171a": [
+    "How can I assess my AI system for prompt injection vulnerabilities?",
+    "I need to check for model inversion risks in my machine learning model.",
+    "Can you help me evaluate data poisoning exposure in my AI application?",
+    "What are the steps to detect injection signatures in my AI system?"
+  ],
+  "f05163a49f0d": [
+    "I want to build a React component using Tailwind CSS.",
+    "How can I optimize the performance of my Next.js application?",
+    "Please analyze the bundle sizes of my frontend project.",
+    "I need help scaffolding a new frontend project with TypeScript."
+  ],
+  "f7723b56a13b": [
+    "Can you help me run a SAST scan on our application?",
+    "I need to generate a CVE remediation plan for a recent vulnerability.",
+    "What are the compliance requirements for PCI-DSS that we need to check?",
+    "Please check our dependencies for any known vulnerabilities."
+  ],
+  "38b3891953a9": [
+    "Help me classify a recent security incident I detected.",
+    "I need to escalate a SEV2 incident for further investigation.",
+    "What steps should I take to triage a security event?",
+    "Can you assist with collecting forensic evidence for a declared incident?"
+  ],
+  "d19d0cc82369": [
+    "How can I set up subscriptions with trials in Stripe?",
+    "I need to integrate Stripe payments into my Next.js app.",
+    "Can you help me debug my Stripe webhook issues?",
+    "I want to migrate from PayPal to Stripe for invoicing."
+  ],
+  "d9684abeeb59": [
+    "How do I write unit tests using Jest?",
+    "I want to improve my test coverage for this project.",
+    "Can you help me generate mocks for my Pytest tests?",
+    "Guide me through the red-green-refactor process in TDD."
+  ],
+  "243b7881022b": [
+    "Help me plan a red team engagement for our security team.",
+    "What attack paths should I consider for our upcoming simulation?",
+    "I want to identify choke points in our network security.",
+    "Can you provide a risk assessment for our OPSEC practices?"
+  ],
+  "4fa9bd8b91ae": [
+    "Can I get feedback on my PR from a Torvalds perspective?",
+    "I want to ensure my code aligns with Kent Beck's principles.",
+    "Please review my architecture with Carmack's philosophy in mind.",
+    "What would Steve Jobs think about the UX in my submission?"
+  ],
+  "f6daa32e6d1f": [
+    "How do I declare an incident for our service outage?",
+    "I need to coordinate the response team during a critical incident.",
+    "Can you help me lead a post-mortem analysis after our recent outage?",
+    "What steps should I take to set up on-call practices for a new service?"
+  ],
+  "c35d03c11971": [
+    "Can you perform a penetration test on my web application?",
+    "I need to identify vulnerabilities in my software.",
+    "How do I generate a pen test report for my system?",
+    "Please scan my APIs for security issues."
+  ],
+  "b6e6243de8f5": [
+    "Can you help me optimize this prompt for better results?",
+    "I need a template for generating structured outputs.",
+    "How can I evaluate the outputs from my language model effectively?",
+    "Please analyze the token usage for my current model configuration."
+  ],
+  "ab3609413408": [
+    "Help me find potential threats in our network.",
+    "I need to analyze the latest IOCs for any anomalies.",
+    "Can you assist me in detecting behavioral anomalies in our telemetry data?",
+    "Generate a report on the most critical threats based on MITRE ATT&CK."
+  ],
+  "032ad18035c7": [
+    "I want to create an immersive landing page with scroll animations.",
+    "Can you design a website that feels cinematic and premium?",
+    "Make my product site with overlapping sections and smooth transitions.",
+    "Help me add parallax effects and text animations to my site."
+  ],
+  "7aeeff197485": [
+    "Can you help me design a system architecture for my new app?",
+    "I need to evaluate if microservices or a monolith is better for my project.",
+    "Please create an architecture diagram for my current system.",
+    "What database should I choose for optimal scalability?"
+  ],
+  "316cc572326d": [
+    "Can you help me set up a CI/CD pipeline for my application?",
+    "I want to automate my infrastructure using code.",
+    "How do I deploy my app on AWS using containers?",
+    "Please assist me in monitoring my application performance."
+  ],
+  "9f5a35525596": [
+    "Can you check my AWS setup for any security misconfigurations?",
+    "I want to assess my cloud infrastructure for possible IAM privilege escalations.",
+    "Please find any S3 buckets that are publicly exposed in my Azure account.",
+    "What open security group rules do I have in my GCP environment?"
+  ],
+  "bf42eb5f4444": [
+    "Can you help me scaffold a new Next.js project?",
+    "I need to analyze the code quality of my Django app.",
+    "What tech stack should I choose for my new web application?",
+    "Set up a FastAPI backend with a React frontend."
+  ],
+  "cc2c1d1da54b": [
+    "Can you provide a critical review of my recent PR?",
+    "I need someone to challenge my code assumptions before merging.",
+    "Please review this code and point out any potential issues.",
+    "What are the weaknesses in my latest code changes?"
+  ],
+  "a43863b874bf": [
+    "How can I implement object detection using YOLO?",
+    "I want to train a custom model for image segmentation.",
+    "What frameworks should I use for deploying vision systems?",
+    "Can you help me optimize inference with TensorRT?"
+  ],
+  "ea5bebad2f81": [
+    "How can I deploy my ML model to production efficiently?",
+    "I need to set up an MLOps pipeline using Kubeflow.",
+    "What are the best practices for monitoring model drift?",
+    "Help me integrate LLM APIs with cost controls in my project."
+  ],
+  "38e5229bee63": [
+    "Can you help me design a scalable data architecture?",
+    "I need to troubleshoot an issue with my data pipeline.",
+    "How do I implement data governance in my ETL process?",
+    "I want to build a data pipeline using Python and Airflow."
+  ],
+  "f7d47aa9f0ca": [
+    "Can you help me design a REST API for my application?",
+    "I need to optimize my database queries for better performance.",
+    "Please implement an authentication flow for my new service.",
+    "How do I set up GraphQL for my existing backend?"
+  ],
+  "1f8ffe49be46": [
+    "Can you help me design a serverless architecture for my startup?",
+    "I need a CloudFormation template for deploying an API Gateway with Lambda.",
+    "How can I optimize my AWS costs for a growing application?",
+    "Please set up a CI/CD pipeline for my AWS environment."
+  ],
+  "69efa0a0048a": [
+    "I need to create a transactional email template for my new product launch.",
+    "Can you help me integrate my emails with SendGrid?",
+    "How can I refactor my legacy email templates for better accessibility?",
+    "I want to add internationalization support to my existing email templates."
+  ],
+  "a182fa9a0937": [
+    "Can you review my TypeScript pull request for any code smells?",
+    "I want to analyze the complexity of my Python code before merging.",
+    "Please generate a review checklist for my Java code changes.",
+    "What issues should I look for in this Go pull request?"
+  ],
+  "a88dd60f6adb": [
+    "Can you help me evaluate the total cost of ownership for different tech stacks?",
+    "I need to compare the security features of React and Angular.",
+    "What is the best technology stack for my new e-commerce project?",
+    "Analyze the ecosystem health of Node.js versus Django for my application."
+  ],
+  "493bd7d88526": [
+    "Can you generate unit tests for my React components?",
+    "I need to analyze my test coverage reports for gaps.",
+    "Please scaffold E2E tests for my Next.js routes.",
+    "Help me set up Jest and configure my test runners."
+  ],
+  "b1b4ba5275cd": [
+    "Can you help me set up a new Microsoft 365 tenant?",
+    "I need to manage user licenses in Azure AD.",
+    "Please generate a PowerShell script for bulk user creation.",
+    "How do I configure security policies for my Office 365 environment?"
+  ],
+  "f58de700b461": [
+    "How can I design an A/B test for my new product feature?",
+    "I need to analyze the results of my experiment using causal inference techniques.",
+    "Can you help me evaluate my regression model with cross-validation?",
+    "What steps should I take to engineer features for my dataset?"
+  ],
+  "e844b0247f3d": [
+    "What skills do I need for a backend developer role?",
+    "Show me the engineering skills for AWS integration.",
+    "I want to learn about AI/ML skills for my team.",
+    "Can you list the DevOps tools available in the bundle?"
+  ],
+  "65ad957958e8": [
+    "What microcontroller should I use for my IoT project?",
+    "Help me create a phased build plan for my Arduino project.",
+    "I need recommendations for development boards for a sensor project.",
+    "Can you estimate the costs and time for producing my PCB?"
+  ],
+  "8f80708a6520": [
+    "Can you help me design a GCP architecture for my startup?",
+    "I want to deploy my application to Google Kubernetes Engine.",
+    "How can I optimize my GCP costs for better efficiency?",
+    "Please set up a BigQuery pipeline for my data analysis."
+  ],
+  "b18e8ea6d203": [
+    "How do I set up the gws CLI for Google Workspace?",
+    "I need to automate my Gmail responses using the gws CLI.",
+    "Can you help me schedule a meeting in Google Calendar?",
+    "I want to run a security audit on my Google Drive."
+  ],
+  "97e196df13c7": [
+    "How can I write an efficient Snowflake SQL query?",
+    "I want to create a data pipeline using Dynamic Tables.",
+    "Help me troubleshoot a Snowflake error I'm encountering.",
+    "Can you guide me on configuring dbt for Snowflake?"
+  ],
+  "5e1809b1f99e": [
+    "Can you review my Playwright tests for quality?",
+    "I need to check the quality of my test code.",
+    "Help me improve my tests using best practices.",
+    "Please audit my Playwright tests for any issues."
+  ],
+  "09f0d4f7d47d": [
+    "How can I create Playwright tests for my web application?",
+    "I need to fix flaky tests in my Playwright suite.",
+    "Help me migrate my tests from Cypress to Playwright.",
+    "Can you run my Playwright tests on BrowserStack?"
+  ],
+  "b669f6997c53": [
+    "Can you help me set up Playwright for my project?",
+    "I need to configure Playwright for end-to-end testing.",
+    "How do I add test infrastructure using Playwright?",
+    "Please initialize Playwright in my existing setup."
+  ],
+  "ca281a5d965d": [
+    "Can you sync my test cases with TestRail?",
+    "I want to push my test results to TestRail.",
+    "How do I import test results from TestRail?",
+    "Please help me with test management in TestRail."
+  ],
+  "f49959422f46": [
+    "I want to migrate my tests from Cypress to Playwright.",
+    "How can I switch to Playwright from Selenium?",
+    "Help me convert my Selenium tests to Playwright.",
+    "What steps do I need to move from Cypress to Playwright?"
+  ],
+  "8bbefacd4ba8": [
+    "Can you help me fix my failing Playwright test?",
+    "I need to debug a flaky test that's causing issues.",
+    "My test passes sometimes; how do I resolve this?",
+    "What should I do about my broken test?"
+  ],
+  "e53449e5df52": [
+    "Can you write tests for this new feature?",
+    "Generate Playwright tests for the login page.",
+    "I need to add tests for the checkout process.",
+    "Please create a test for this component."
+  ],
+  "a8b3b62573c9": [
+    "Can you show me the test report?",
+    "What are the results summary for the recent tests?",
+    "I need to check the test status.",
+    "How did the tests go last week?"
+  ],
+  "8133efb62db7": [
+    "Can you run my tests on BrowserStack for cross-browser compatibility?",
+    "I need to test my website on Safari using BrowserStack.",
+    "How do I perform cloud testing with BrowserStack?",
+    "Run my application tests on Firefox and Chrome for compatibility."
+  ],
+  "12c3537258e0": [
+    "Can you analyze my test coverage for gaps?",
+    "What parts of my code are missing tests?",
+    "I need a coverage report for my project.",
+    "What needs testing in my application?"
+  ],
+  "b6165742f76e": [
+    "Can you help me review what Claude learned about my project?",
+    "I want to promote proven learnings to CLAUDE.md.",
+    "How do I turn a debugging solution into a reusable skill?",
+    "Check the memory health and capacity of Claude's auto-memory."
+  ],
+  "bcf53aec2168": [
+    "What should I promote from the recent memory analysis?",
+    "Can you help me consolidate stale entries in my memory?",
+    "I need to review the health metrics for promotion candidates.",
+    "Show me what has been learned that needs to be pruned."
+  ],
+  "a05788925ba6": [
+    "Make this behavior permanent in the system.",
+    "I want to promote my learned pattern to CLAUDE.md.",
+    "Can you enforce this memory rule permanently?",
+    "Please add this behavior to the permanent rules."
+  ],
+  "231c4bbd4e2f": [
+    "Can you help me create a reusable skill from this debugging solution?",
+    "I want to package my proven pattern into a standalone skill.",
+    "Please extract this recurring solution into a SKILL.md format.",
+    "How do I turn my existing solution into a reusable skill?"
+  ],
+  "2a10e7057fe7": [
+    "Please remember this important discovery with the date and context.",
+    "I want to save this information for future reference.",
+    "Can you note down this key fact for me?",
+    "Remember that I found this useful insight today."
+  ],
+  "05a94caf4ccc": [
+    "How full is the agent's memory right now?",
+    "Check the memory health dashboard for any stale entries.",
+    "I want to see the current topic files in memory.",
+    "Give me recommendations to improve memory capacity."
+  ],
+  "047ea52222ea": [
+    "Can you add a new user to Jira for me?",
+    "I need to change the permissions for a Confluence space.",
+    "Please configure SSO for our Atlassian products.",
+    "How do I review our security policies in Bitbucket?"
+  ],
+  "5c38f4fdc287": [
+    "What is the current health of our project portfolio?",
+    "Our sprints feel off; can you analyze the velocity?",
+    "I'd like to run the delivery loop for our upcoming release.",
+    "Can you audit our Jira permissions for the team?"
+  ],
+  "da8123523541": [
+    "Can you draft the weekly team update for me?",
+    "I need to write an incident report for the recent outage.",
+    "Please summarize our project progress and plans for leadership.",
+    "Write a company-wide newsletter highlighting our recent achievements."
+  ],
+  "9b7fac8353ff": [
+    "Can you analyze my last meeting transcript for communication patterns?",
+    "What feedback can you give me on how I run meetings?",
+    "I'd like to compare my speaking ratio from last month to this month.",
+    "How do I come across in meetings? Please analyze my recordings."
+  ],
+  "21a4302ed35d": [
+    "How can I improve our sprint planning process?",
+    "Analyze our latest sprint data for velocity trends.",
+    "What are the action items from the last retrospective?",
+    "Help me track our team's health scores over time."
+  ],
+  "ab0312623c50": [
+    "Can you help me create a project roadmap for our new SaaS product?",
+    "I need a risk assessment for our enterprise software project.",
+    "What is the status of our current project portfolio?",
+    "Help me allocate resources effectively for multiple workstreams."
+  ],
+  "452332dd18d3": [
+    "Can you help me create a new knowledge base in Confluence?",
+    "I need to set up permissions for my Confluence space.",
+    "How do I design a page layout with macros in Confluence?",
+    "I want to standardize documentation templates across our Confluence spaces."
+  ],
+  "bfdf5fd915d6": [
+    "Can you help me set up a new Jira project?",
+    "I need to create a JQL query for my sprint reports.",
+    "How do I design a custom workflow in Jira?",
+    "I want to automate task assignments in my project."
+  ],
+  "aa054914cc04": [
+    "Can you help me create a new Jira template for project tracking?",
+    "I need to modify an existing Confluence page layout.",
+    "How do I set up a reusable component in my Atlassian space?",
+    "I want to standardize our team’s documentation structure using templates."
+  ],
+  "625741ec2e42": [
+    "How can I improve our sales pipeline health?",
+    "What is our revenue forecast for the next quarter?",
+    "Analyze our go-to-market performance metrics.",
+    "Calculate the sales efficiency for our SaaS team."
+  ],
+  "a86503c6a490": [
+    "Can you help me analyze this RFP response for any coverage gaps?",
+    "I need a competitive feature comparison matrix for our product and the competitors.",
+    "Please plan a proof-of-concept engagement for the upcoming sales demo.",
+    "How do I prepare a technical proposal for the client?"
+  ],
+  "e01f8f7df666": [
+    "Can you analyze the health scores of our top customers?",
+    "I need to predict churn risk for our SMB segment.",
+    "What are the upsell opportunities for our Mid-Market clients?",
+    "Run the churn risk analysis tool for our enterprise accounts."
+  ],
+  "5d2dc9849305": [
+    "How can I reduce churn in my customer base?",
+    "I need help analyzing this RFP for a potential bid.",
+    "What accounts should we focus on for expansion?",
+    "Can you assist me in improving our revenue forecasting accuracy?"
+  ],
+  "724ab0cb165a": [
+    "Can you help me draft a freelance contract for a client in Delaware?",
+    "I need a project proposal template for my new project.",
+    "What's the best way to write an NDA for sharing sensitive information?",
+    "Please generate an SOW for my upcoming engagement with a client."
+  ],
+  "7f0446b00a5a": [
+    "Help me build my company from scratch using markdown files.",
+    "I want to create a knowledge base for my new business.",
+    "Can you guide me through structuring my company as a code?",
+    "What steps should I follow to document my company's strategy?"
+  ],
+  "c72b9db17a96": [
+    "What should I consider when training models on customer data?",
+    "Help me choose between a data lakehouse and a data mesh.",
+    "I need advice on valuing our customer data for fundraising.",
+    "How can I evolve my data team for better performance?"
+  ],
+  "ab5e0f7680ca": [
+    "Can you help me review my SaaS agreement?",
+    "What should I consider for my startup's IP strategy?",
+    "I need to decode this term sheet for my investors.",
+    "What are the regulatory risks I should be aware of for my business?"
+  ],
+  "09988e624273": [
+    "How can I effectively communicate our upcoming reorganization to the team?",
+    "I need a strategy for managing resistance during our tool switch.",
+    "What are the best practices for rolling out a culture change in our startup?",
+    "Help me create a plan to handle change fatigue in our organization."
+  ],
+  "8c7fb54b1692": [
+    "How can I build a strong security program for my startup?",
+    "I need help justifying my security budget to the board.",
+    "What is the best compliance framework for my company?",
+    "Can you guide me on incident response strategies?"
+  ],
+  "3164b5fac4dd": [
+    "Can you provide an organizational health check for our company?",
+    "I need to assess the overall health of our organization.",
+    "What are the key recommendations from the latest health dashboard?",
+    "Help me identify at-risk functions in our organization."
+  ],
+  "6620d76710b6": [
+    "What if we face a supply chain disruption and a sudden increase in demand?",
+    "Can you model the risks if we lose two major clients at once?",
+    "I want to see the impact of a recession and rising interest rates simultaneously.",
+    "How would our cash flow be affected if costs rise and sales drop?"
+  ],
+  "62224f975bee": [
+    "How can I create a culture code for my startup?",
+    "I want to assess the health of our company culture.",
+    "Can you help me design cultural rituals for our team?",
+    "What steps should I take to translate our values into behaviors?"
+  ],
+  "46eca153d5a0": [
+    "How do I create a consistent story for our investors and customers?",
+    "I need to prepare an all-hands presentation.",
+    "Can you help me ensure our messaging is aligned for candidates?",
+    "What should I include in our next investor update?"
+  ],
+  "724722ff3e4c": [
+    "How can I reduce technical debt in my project?",
+    "I need guidance on scaling my engineering team effectively.",
+    "What architecture decisions should I consider for our new product?",
+    "Help me evaluate the best technologies for our upcoming project."
+  ],
+  "020c4b07cfd8": [
+    "How can I set up inter-agent communication for our C-suite team?",
+    "I need to coordinate a board meeting with multiple agent roles.",
+    "What are the response formats for communication between agents?",
+    "Help me define the invocation syntax for our agents."
+  ],
+  "8c752c7e3068": [
+    "How can I improve my SaaS company's pricing strategy?",
+    "I need help forecasting revenue for next quarter.",
+    "What is the best way to scale my sales team?",
+    "Can you provide advice on reducing churn rates?"
+  ],
+  "fad9c6b76930": [
+    "How can I improve our hiring strategy for rapid growth?",
+    "I need help designing a compensation framework for my team.",
+    "What are best practices for building a strong company culture?",
+    "Can you advise on restructuring our teams for better performance?"
+  ],
+  "912747ceb6ca": [
+    "How can I improve customer retention for my startup?",
+    "What strategies should I use for customer segmentation?",
+    "Help me design an effective customer success team model.",
+    "What are the steps to analyze churn root causes?"
+  ],
+  "944179cab402": [
+    "Can you help me create a financial model for my startup?",
+    "I need advice on managing my cash runway effectively.",
+    "What should I include in my board financial package?",
+    "Help me understand my unit economics better."
+  ],
+  "a0132165a0fe": [
+    "How can I select the best international market for expansion?",
+    "I want to localize my product for the European market.",
+    "What are the regulatory requirements for entering the Asian market?",
+    "Help me develop a go-to-market strategy for launching in South America."
+  ],
+  "a025ee5acbd4": [
+    "What should I consider when deciding between building or buying an AI model?",
+    "Help me classify my AI project under the EU AI Act.",
+    "I want to understand the cost benefits of self-hosting AI solutions.",
+    "Can you advise on the best AI team structure for my startup?"
+  ],
+  "f69537ed112f": [
+    "How can I design a brand strategy for my startup?",
+    "I need advice on allocating my marketing budget effectively.",
+    "What growth model should I choose for scaling my company?",
+    "Help me build a marketing team that drives results."
+  ],
+  "78cfc95fb029": [
+    "What skills are included in the C-level advisory bundle?",
+    "I want to find the right advisor skill for my question.",
+    "Can you help me with the board-meeting protocol?",
+    "How do I get started with the cs-onboard interview?"
+  ],
+  "9d9a075ff3d3": [
+    "Who should I ask about our fundraising strategy?",
+    "I need to schedule a board meeting for a major decision.",
+    "Can you help me decide whether to cut costs or raise funds?",
+    "What advisor should I consult about our company's growth plans?"
+  ],
+  "2d2041a5ffa3": [
+    "I need to create a board deck for our upcoming investor meeting.",
+    "Can you help me assemble a quarterly business review presentation?",
+    "What should I include in a board update deck?",
+    "Help me build a narrative framework for my fundraising presentation."
+  ],
+  "1c9eabbdbcfa": [
+    "Schedule a board meeting to discuss our new product strategy.",
+    "I want to run a structured deliberation with the C-suite team.",
+    "Let's analyze our recent performance and make strategic decisions.",
+    "Can we extract decisions from our last board meeting?"
+  ],
+  "2f00595c9510": [
+    "Log the decisions made in today's board meeting.",
+    "What decisions were approved in the last meeting?",
+    "Check if there are any overdue action items.",
+    "Can you show me the raw transcripts from our last board meeting?"
+  ],
+  "61cde03b45e6": [
+    "How can I improve my delegation skills as a first-time CEO?",
+    "I want to identify my founder archetype to better lead my team.",
+    "I'm feeling burnt out; what strategies can help me manage my energy?",
+    "Can you help me with succession planning for my startup?"
+  ],
+  "606532959dc2": [
+    "How can I improve my team's delivery throughput metrics?",
+    "I need advice on optimizing my engineering hiring funnel.",
+    "What is the best team structure for my startup's engineering team?",
+    "Help me identify bottlenecks in our current production process."
+  ],
+  "c44caeb412b1": [
+    "/cs:setup for the founder onboarding interview.",
+    "I need to update our company context after the recent fundraise.",
+    "Can we do the initial onboarding interview now?",
+    "Help me refresh the company context for our C-suite advisors."
+  ],
+  "562fc0b6f9b7": [
+    "How do I choose the right operating system for my company?",
+    "I need help setting up an accountability chart for my team.",
+    "Can you guide me on implementing OKRs in my organization?",
+    "What are the best practices for running L10 meetings?"
+  ],
+  "3086116aafe9": [
+    "Can you help me evaluate a potential acquisition target?",
+    "I need assistance with M&A due diligence for a deal.",
+    "What steps should I take for effective integration planning?",
+    "Help me structure a deal for acquiring a company."
+  ],
+  "fee72426c625": [
+    "How can I improve our operational efficiency as we scale?",
+    "I need help designing a process for our new team.",
+    "What steps should I take to set up OKRs effectively?",
+    "Can you analyze the bottlenecks in our current operations?"
+  ],
+  "79b538dc7124": [
+    "What are our main competitors doing in the market right now?",
+    "Help me create a battlecard for our sales team.",
+    "I need to analyze competitor pricing strategies for our next meeting.",
+    "Can you provide insights on win/loss ratios against our competitors?"
+  ],
+  "a9b73c057de9": [
+    "How can we ensure our team aligns with the company's strategic goals?",
+    "I need help fixing the misalignment in our department's objectives.",
+    "Can you help me communicate our strategy more effectively?",
+    "What steps should I take to realign my team's OKRs with company goals?"
+  ],
+  "4e6876a14f8f": [
+    "How can I improve our organizational culture as a CEO?",
+    "I need help preparing for my upcoming board presentation.",
+    "What strategies should I consider for effective stakeholder management?",
+    "Can you advise me on making a strategic decision for our company?"
+  ],
+  "268d99d198d2": [
+    "Can you load the latest company context for my meeting?",
+    "I need to check if our context is up to date.",
+    "Please enrich our conversation with the current company context.",
+    "Is the company context more than 90 days old?"
+  ],
+  "2cc766c1b6de": [
+    "How can I improve our product-market fit?",
+    "I need to design an effective product team structure.",
+    "Help me set a clear product vision for our startup.",
+    "What’s the best way to prioritize our product portfolio?"
+  ],
+  "63c91db765d5": [
+    "Can we do a postmortem on the last project that failed?",
+    "I need to analyze what went wrong with our Q3 launch.",
+    "Let's run a blameless retrospective for the missed deadlines.",
+    "What were the main issues in our last hire's performance?"
+  ],
+  "c06422a0e5df": [
+    "Can you help me stress-test my revenue model assumptions?",
+    "I want to validate if enterprise buyers will accept a 6-month pilot.",
+    "Please conduct a stress test on my business plan's core assumptions.",
+    "How can I assess the risks of my new marketing strategy?"
+  ],
+  "f72f2d8a72d5": [
+    "Help me identify weaknesses in my business strategy before the board meeting.",
+    "I need to make a tough decision regarding our product launch.",
+    "Can you assist me in preparing for a challenging board presentation?",
+    "What went wrong with our last project, and how can we improve?"
+  ],
+  "8b9a69c5ac3b": [
+    "Help me identify potential weaknesses in my project plan before I present it to investors.",
+    "What assumptions should I consider for my upcoming marketing strategy?",
+    "I want to analyze the risks of my business plan before committing resources.",
+    "Can we review my plan to find any overlooked dependencies that could lead to failure?"
+  ],
+  "b275f717f3ca": [
+    "Help me prepare for my upcoming board meeting with tough questions in mind.",
+    "I need to build a narrative for my investor presentation that addresses weaknesses.",
+    "What are some strategies to master the numbers for my fundraising pitch?",
+    "Guide me on how to handle difficult questions during the board review."
+  ],
+  "87b658bac1be": [
+    "Help me decide between laying off staff or reducing salaries.",
+    "I need guidance on ending a product line that customers love.",
+    "What should I choose to minimize regret in this tough situation?",
+    "Assist me in evaluating painful options for my company's future."
+  ],
+  "01b74eed1735": [
+    "Can you give me the summary of my agent?",
+    "Wrap up the launched Claude Managed Agent for me.",
+    "What do I own now after the recent updates?",
+    "Suggest the next upgrades after closing this out."
+  ],
+  "245becabfe81": [
+    "Can you set this to run every morning?",
+    "I need to automate the deployment process.",
+    "Please schedule the agent to run weekly.",
+    "Make this a recurring task for me."
+  ],
+  "4c608a66b282": [
+    "Grade my agent using the provided rubric.",
+    "I need to iterate until my agent is good enough.",
+    "Can you make it pass the markdown rubric?",
+    "What should I do next based on the grader's verdict?"
+  ],
+  "3f8efcda221d": [
+    "Can you launch the agent now?",
+    "I want to deploy the agent using my API key.",
+    "Please create the launch script for my Claude Managed Agent.",
+    "Let's get the payloads ready for the agent launch."
+  ],
+  "a9087ebbaa1d": [
+    "Can you build me a new managed agent for my project?",
+    "I want to schedule my agent to run nightly.",
+    "Please grade my agent using the provided rubric.",
+    "Launch this agent as a managed agent in my account."
+  ],
+  "cbb2457f266e": [
+    "Help me scope an agent for my new project.",
+    "I have an idea for an agent and need to discuss it.",
+    "What should this agent be focused on?",
+    "Can we interview the founder about the agent's job?"
+  ],
+  "b641d09f0b9d": [
+    "Can you ingest this article into the wiki?",
+    "I want to add this research paper to the wiki.",
+    "Please summarize this book and update the relevant pages.",
+    "Ingest this source and flag any contradictions with existing content."
+  ],
+  "f2aef8481bbc": [
+    "What are the latest entries in the LLM Wiki log?",
+    "Show me the recent updates from the Wiki log.",
+    "I want to see the most recent log entries.",
+    "List the latest changes in the LLM Wiki log."
+  ],
+  "6ae70a1d5f56": [
+    "Can you help me draft a 2,000-word blog post on digital marketing?",
+    "I need to optimize my article for SEO before publishing.",
+    "Please audit this draft for brand voice consistency.",
+    "Create a content calendar for my upcoming product launch."
+  ],
+  "c29b3d2985a2": [
+    "Can you help me create a DCF valuation model?",
+    "I need to forecast my budget for next quarter.",
+    "What are the key metrics to analyze for my SaaS business?",
+    "Please calculate my customer acquisition cost and lifetime value."
+  ],
+  "89999ac4fa7e": [
+    "Can you generate a CI/CD pipeline config for my project?",
+    "I need to detect the stack of my application.",
+    "Help me create a CI/CD pipeline configuration.",
+    "What is the stack used in my current setup?"
+  ],
+  "8e5e10acff80": [
+    "I need to understand climate change impacts on agriculture.",
+    "Can you find me information on the latest AI trends?",
+    "Research the effects of social media on mental health.",
+    "Look into the history of renewable energy technologies."
+  ],
+  "ebdd014540eb": [
+    "Can you help me deeply read this article for key claims?",
+    "I want to create a knowledge map from this PDF.",
+    "Please explain the main concepts of this book using the Feynman technique.",
+    "Extract evidence and summarize the main points from this document set."
+  ],
+  "45ced11a5165": [
+    "Can you analyze the current sprint health for our team?",
+    "I want to check the velocity of our last sprint.",
+    "Analyze sprint health to identify any issues.",
+    "What is the velocity score for our recent sprints?"
+  ],
+  "2ec2f730e3eb": [
+    "Can you run a plugin audit for my latest skill?",
+    "I need to ensure my plugin meets marketplace compliance.",
+    "Please check the structure and quality of this agent's code.",
+    "Run an audit on the skill located at /path/to/skill."
+  ],
+  "762af157d0f0": [
+    "What should I consider when scaling my engineering team from 5 to 30 engineers?",
+    "Help me decide between building or buying a core platform component.",
+    "I need advice on improving our engineering delivery velocity as we grow.",
+    "What technology strategies should I implement for my startup's next phase?"
+  ],
+  "bbd126aab157": [
+    "Can you check the wiki for any broken links?",
+    "I need to audit the vault for stale pages.",
+    "Please run a health check on my wiki now.",
+    "What issues do you find in the latest wiki review?"
+  ],
+  "8343ecc2b126": [
+    "What grants are available for my clinical research idea?",
+    "Help me find NIH funding opportunities for my project.",
+    "I need to prepare a grant application for my research.",
+    "Can you suggest NIH institutes that might fund my study?"
+  ],
+  "759caeb96c24": [
+    "Can you help me create a competitive analysis matrix?",
+    "I need to analyze my competitors' strengths and weaknesses.",
+    "Show me a scoring matrix for our top three competitors.",
+    "Help me identify gaps in our competitive landscape."
+  ],
+  "0a6e8bf66e83": [
+    "Can you generate a changelog from the latest git history?",
+    "I need to validate my commit messages for the project.",
+    "Please generate a changelog for version 2.0.",
+    "How do I lint my commits to ensure they follow the conventions?"
+  ],
+  "43112a56bbbc": [
+    "Help me prioritize features using the RICE method.",
+    "I want to evaluate my features with RICE scoring.",
+    "Can you assist me in planning capacity for my features?",
+    "Please prioritize these features based on this CSV file."
+  ],
+  "833d919b065e": [
+    "I need to upload a new source file to the LLM Wiki.",
+    "Can you summarize the content from the raw file I provided?",
+    "Please update the cross-references in the wiki pages after ingestion.",
+    "I want to regenerate the index for the latest updates in the wiki."
+  ],
+  "da6633c690cb": [
+    "Can you help me analyze our sales pipeline?",
+    "I need strategies to reduce customer churn.",
+    "What should I include in my sales proposal?",
+    "Help me score potential expansion opportunities."
+  ],
+  "8f8ad0de8020": [
+    "What is my ARR and how does it compare to industry standards?",
+    "Help me calculate my MRR and churn rate.",
+    "I need to benchmark my SaaS metrics against the industry.",
+    "Can you simulate my customer acquisition cost for this quarter?"
+  ],
+  "4c5a9575fd34": [
+    "I need a dossier on Tesla to verify my assumptions about their financial stability.",
+    "Can you prepare a meeting brief for my discussion with John Doe?",
+    "Please conduct due diligence on Acme Corp to uncover any red flags.",
+    "What can you tell me about the nonprofit Charity X and its recent activities?"
+  ],
+  "77a0105d534c": [
+    "Can you help coordinate our QA and data engineering teams for the upcoming project?",
+    "I need to evaluate the tech stack for our new application.",
+    "How can we respond to the recent security incident effectively?",
+    "Please orchestrate a meeting with the frontend and backend teams."
+  ],
+  "da88e3394b39": [
+    "Help me prioritize the features for our upcoming product release.",
+    "I need to write a product specification that engineers will understand.",
+    "What should I focus on to align user needs with our business goals?",
+    "Can you assist me in deciding which project to fund this quarter?"
+  ],
+  "8f795710de2b": [
+    "Help me choose the right frontend framework for my project.",
+    "What are the key questions I should ask for frontend engineering?",
+    "I need an accessibility audit for my website's frontend.",
+    "Can you review my current frontend setup for performance issues?"
+  ],
+  "b6568540ecd0": [
+    "Can you scan for technical debt in our codebase?",
+    "I want to prioritize the technical debt issues we have.",
+    "Please report the current status of our technical debt.",
+    "Scan and list all technical debt in the project."
+  ],
+  "1abe99306eee": [
+    "Can you help me compare the top three project management tools available?",
+    "I need detailed research on renewable energy market trends for my presentation.",
+    "What are the best strategies for entering the Asian market based on multiple sources?",
+    "I want to validate my hypothesis about consumer behavior with independent data."
+  ],
+  "a09ab0e93fb9": [
+    "I need help designing a CI/CD pipeline for my team.",
+    "Can you automate our deployment process to save time?",
+    "How can I set up monitoring before our next launch?",
+    "Help me create alerts for our infrastructure issues."
+  ],
+  "bf5456469056": [
+    "Can you tell me the name of my agent?",
+    "I need to find out who my agent is.",
+    "What is the contact information for my agent?",
+    "Please give me details about my agent's experience."
+  ],
+  "2337f9a08e3d": [
+    "Help me prioritize these 20 feature requests using the RICE framework.",
+    "I need to create a product requirements document from my customer interview notes.",
+    "Can you assist in planning our product roadmap for the next quarter?",
+    "What features should we focus on based on customer feedback?"
+  ],
+  "6a72b1290639": [
+    "What's the current conversation about electric vehicles?",
+    "Take the pulse of the latest trends in AI technology.",
+    "I want to know what people are saying about the new iPhone.",
+    "Find me info on the emerging trends in remote work."
+  ],
+  "034e642f4075": [
+    "I'm starting a literature review on climate change impacts.",
+    "Help me research the effectiveness of cognitive behavioral therapy for anxiety.",
+    "Can you create a research guide for my paper on renewable energy?",
+    "I need a strategic search plan for my literature review on mental health."
+  ],
+  "0d95bb7691b8": [
+    "Can you help me analyze my financial ratios?",
+    "I want to run a DCF valuation for my investment.",
+    "Please show me the budget variance analysis for last quarter.",
+    "I need a rolling forecast based on my latest data."
+  ],
+  "bf5d3e09810d": [
+    "I need a freedom-to-operate analysis for my new product.",
+    "Can you conduct a prior art search for my invention idea?",
+    "What competitive landscape insights can you provide for my startup?",
+    "Help me with acquisition diligence for a potential patent purchase."
+  ],
+  "251383dbf311": [
+    "Can you run a health check on the LLM Wiki vault?",
+    "I want to identify any broken links in the wiki.",
+    "Please check for stale pages older than 30 days.",
+    "Generate a report on orphaned pages and missing frontmatter."
+  ],
+  "ce6d3d12314d": [
+    "What tech stack should we use for our MVP with a small team?",
+    "Help me prepare for technical due diligence with investors.",
+    "I need advice on building an effective engineering culture.",
+    "Can you guide us in making architecture decisions for our startup?"
+  ],
+  "a47ad6d80d13": [
+    "Can you help me set up Google Workspace for my team?",
+    "I need to automate my Gmail filters using gws CLI.",
+    "How do I conduct a security audit for our Google Workspace?",
+    "Please execute a recipe to organize my Google Drive files."
+  ],
+  "f7b997380c92": [
+    "Help me plan the next sprint using Jira.",
+    "What is the current portfolio health report for our project?",
+    "I need to organize a Scrum ceremony for our team.",
+    "Can you assist with calculating our sprint capacity and carry-over?"
+  ],
+  "089f37d32487": [
+    "Can you create a new technical change record for me?",
+    "I want to update the status of my current project.",
+    "Please show me the dashboard for tracking recent changes.",
+    "I need to resume my last session on technical changes."
+  ],
+  "5d243404a459": [
+    "Help me create a new wiki for my project on AI.",
+    "I want to bootstrap a fresh wiki vault for my research.",
+    "Can you set up a wiki at /mywiki with the topic 'Machine Learning'?",
+    "Initialize a wiki structure for my coding tutorials, please."
+  ],
+  "c0dd7058779d": [
+    "Help me set quarterly OKRs for my product team.",
+    "What should our product vision be for the next year?",
+    "Can you analyze the competition before we enter a new market?",
+    "I need guidance on pivoting our product strategy."
+  ],
+  "697ae56413a3": [
+    "Help me plan an interview script for user research.",
+    "I need to generate user personas for our new app.",
+    "Can you analyze our usability test sessions and summarize the findings?",
+    "What steps should I take to map out the user journey?"
+  ],
+  "c48ef7c6c7e7": [
+    "Can you help me review my fullstack project?",
+    "I need to design an API for my application.",
+    "What are the best practices for CI/CD pipelines?",
+    "Help me improve the performance of my database."
+  ],
+  "29fba73be7a1": [
+    "Can you create a reading list from my syllabus?",
+    "I need recent papers for my course topics.",
+    "Please analyze this syllabus and suggest supplementary readings.",
+    "What are the recommended readings for this curriculum?"
+  ],
+  "e1910f398a11": [
+    "Help me prepare for an upcoming ISO 13485 audit.",
+    "I need a strategy for FDA submission compliance.",
+    "Can you assist with CAPA management for our project?",
+    "What should I include in my risk management documentation?"
+  ],
+  "cea879e3cf57": [
+    "Help me create OKRs based on our company's strategy.",
+    "Generate team objectives from our strategic goals.",
+    "I want to align our team OKRs with the company strategy.",
+    "Can you create an OKR cascade for my department?"
+  ],
+  "0603d9b9c599": [
+    "Can you open NotebookLM for me?",
+    "I want to add a YouTube link to my notebook.",
+    "Generate a video overview from my notes.",
+    "What information do I have in my science notebook?"
+  ],
+  "419bf881944a": [
+    "Can you karpathy check my staged changes?",
+    "I need a review for my diff before committing.",
+    "Please run a review on my latest git changes.",
+    "Show me recommendations based on Karpathy's coding principles."
+  ],
+  "624ced97b13f": [
+    "What does the wiki say about the history of artificial intelligence?",
+    "Can you compare Python and Java in terms of performance?",
+    "I want to explore the effects of climate change on marine life.",
+    "Find information on renewable energy sources for my research."
+  ],
+  "99e16b7172f0": [
+    "Can you help me analyze our read/write ratio for our API?",
+    "I need to design a database for a new project.",
+    "What language should we use for our backend system?",
+    "Help me review our current backend architecture for scalability."
+  ],
+  "bfb07fe55192": [
+    "Can you check my staged changes against Karpathy's principles?",
+    "I want to ensure my last commit avoids unnecessary complexity.",
+    "Review my diff for any hidden assumptions before I submit the PR.",
+    "Help me validate if my changes achieve their intended goal."
+  ],
+  "37d5598bbab4": [
+    "How can I increase attendance for my upcoming webinar?",
+    "I need help planning a virtual summit that drives sales.",
+    "Can you assist me in promoting my live demo effectively?",
+    "What steps should I take to rescue my failing webinar funnel?"
+  ],
+  "2ed42ecc9bea": [
+    "Can you help me set up diagnostics for my Google Workspace?",
+    "I want to perform a security audit on my Google account.",
+    "Show me the available recipes for Google Workspace.",
+    "I need to analyze the output from my recent Google Workspace operations."
+  ],
+  "d5b20a1b1dd0": [
+    "Can you analyze my sprint retrospective data?",
+    "I want to track action items from my last retro.",
+    "Please help me find patterns in my retro analysis.",
+    "Analyze the retro_data.json file for insights."
+  ],
+  "7f4dc50627e9": [
+    "Help me create a PRD for a new feature we discussed.",
+    "I need to draft a PRD for the user feedback issue.",
+    "Can you assist me in generating a PRD for our app's performance problems?",
+    "Please create a PRD focused on improving user engagement metrics."
+  ],
+  "4feebd3bbbbb": [
+    "How can I optimize my content for AI citation?",
+    "I need an E-E-A-T audit for my website.",
+    "Please generate aggressive optimization variants for my article.",
+    "Track my citations for better AI visibility."
+  ],
+  "724568edec9e": [
+    "Help me break down this epic into smaller user stories.",
+    "I need to refine our backlog before the next sprint planning.",
+    "Can you generate INVEST-compliant stories for our upcoming project?",
+    "Assist me in planning the next sprint with clear acceptance criteria."
+  ],
+  "f7d3fee47a5c": [
+    "Help me create a sprint plan for our upcoming project.",
+    "Calculate our capacity for the next sprint with the current team size.",
+    "I want to ensure we have a clear definition of ready before planning.",
+    "What is the carry-over status for our last sprint's tasks?"
+  ],
+  "9a16b2ac6621": [
+    "How can I prepare for my upcoming board meeting?",
+    "I need help drafting a vision statement for my startup.",
+    "What metrics should I present to investors this quarter?",
+    "Can you advise me on a potential market expansion strategy?"
+  ],
+  "3b8827e216fd": [
+    "Can you scan my README.md file for SEO issues?",
+    "I want to optimize my documentation for better search visibility.",
+    "Please audit the docs/ pages for broken links and keywords.",
+    "Run an SEO audit on my project and generate a report."
+  ],
+  "80c525e630b4": [
+    "Create a user persona for our new fitness app.",
+    "Can you generate personas based on our customer survey data?",
+    "I need to develop user personas for our website redesign.",
+    "Generate a persona focused on tech-savvy millennials for our product."
+  ],
+  "43717b716519": [
+    "Can you generate a user story for our new feature?",
+    "I need to create acceptance criteria for the user stories.",
+    "Help me with sprint planning for the upcoming release.",
+    "Generate a user story that outlines the product's main functionality."
+  ],
+  "876b0955af8c": [
+    "Show me the project health dashboard.",
+    "I want to analyze the risk matrix for my portfolio.",
+    "Can you provide an overview of my project's health?",
+    "Get the latest risk analysis for our ongoing projects."
+  ],
+  "63a70a32f48d": [
+    "Can you help me define the activation KPI for our new feature?",
+    "I need to set up a dashboard to track user retention.",
+    "What are the results of our latest A/B test, and should we launch the feature?",
+    "Please design an experiment to test our new onboarding process."
+  ],
+  "47160cdd8541": [
+    "Can you help me optimize our paid ads budget?",
+    "I need to design a nurture sequence that scores over 70.",
+    "What are the benchmarks for channel CAC in B2B SaaS?",
+    "Please analyze our current email sequence for improvements."
+  ],
+  "0c686c667944": [
+    "What are the main features of the latest smartphone models?",
+    "I need to compare electric and gas cars for my research.",
+    "Can you summarize the key points from the history of computing?",
+    "Please find information on renewable energy sources."
+  ],
+  "dfef2a2845f7": [
+    "I want to plan a webinar that boosts our sales next quarter.",
+    "How can I improve attendance for my upcoming webinar?",
+    "Help me turn my last webinar into an on-demand resource.",
+    "What steps should I take to promote my webinar effectively?"
+  ],
+  "851969b4e7f1": [
+    "I need a topic-cluster plan to increase my website's organic traffic.",
+    "Can you audit my editorial calendar and remove underperforming content?",
+    "Help me design a content strategy that converts visitors into customers.",
+    "What steps should I take to build a content engine for my blog?"
+  ],
+  "0931edb7fcd1": [
+    "How can I effectively launch my product on Product Hunt?",
+    "I need advice on optimizing my sales funnel for better conversions.",
+    "What organic growth channels should I focus on with a limited budget?",
+    "Help me create a content strategy for my startup's growth!"
+  ],
+  "404a6ebf1e3c": [
+    "Help me decide what to prioritize for my MVP launch this month.",
+    "I need advice on whether to add a new feature or gather user feedback.",
+    "What's the best strategy for marketing my one-person startup?",
+    "I'm struggling with product decisions; can you guide me on what to cut?"
+  ],
+  "dd156f8c4aba": [
+    "Generate failing tests for my new feature.",
+    "I want to check the coverage gaps in my project.",
+    "Please validate my test cases after running the TDD process.",
+    "Help me implement the red-green-refactor workflow for my application."
+  ],
+  "56156bb9f651": [
+    "Can you help me create a financial model for our startup?",
+    "I need to understand our burn rate before the next fundraising round.",
+    "What pricing strategy should we use to improve our unit economics?",
+    "Help me build an 18-month runway plan with different scenarios."
+  ],
+  "8cf8e140ff86": [
+    "Can you help me design the architecture for our new application?",
+    "I need a code review for my latest project, please.",
+    "How do I set up a CI/CD pipeline for my team?",
+    "What are the best practices for API design in our system?"
+  ],
+  "654fd691ce23": [
+    "Help me write a blog post about sustainable living.",
+    "I need research for an article on renewable energy sources.",
+    "Can you improve the introduction of my essay?",
+    "Give me feedback on my outline for a travel guide."
+  ],
+  "6520bf834b1d": [
+    "Help me create a resume for a marketing manager position.",
+    "I need a tailored resume for a software engineer job.",
+    "Can you analyze this job description and generate my resume?",
+    "I'd like to improve my chances of getting interviews with a custom resume."
+  ],
+  "8ada5db25a7e": [
+    "Can you help me debug my LangChain agent's recent errors?",
+    "I need to analyze the execution traces for my LangGraph agent.",
+    "Fetch the latest execution patterns from LangSmith Studio for my agent.",
+    "How do I check the memory operations of my LangChain agent?"
+  ],
+  "23e1a8cd7bd9": [
+    "Can you download a YouTube video in 1080p for me?",
+    "I want to save this YouTube video as an MP3.",
+    "Please grab that YouTube video in mp4 format.",
+    "How do I download a video from YouTube with the best quality?"
+  ],
+  "2e6e80c6a74e": [
+    "Can you pick a winner for my raffle?",
+    "I need to randomly select winners from this spreadsheet.",
+    "Help me choose a fair winner for my contest.",
+    "Please select a random name from my list of participants."
+  ],
+  "70f47917943a": [
+    "Create a new skill and share it on our team Slack.",
+    "Can you help me develop a skill for project management?",
+    "I want to share my latest skill with the team on Slack.",
+    "How do I create and distribute a skill using Rube?"
+  ],
+  "f024ffa355e3": [
+    "Can you analyze my recent coding chats and suggest improvements?",
+    "What are the key development gaps I should focus on?",
+    "Please send me a growth report based on my Claude Code history.",
+    "I want to learn more about my coding patterns and get resources."
+  ],
+  "f67c82320dad": [
+    "Can you help me come up with a domain name for my new app?",
+    "I need a creative domain name idea for my startup.",
+    "What are some available domain names for my online store?",
+    "Suggest catchy domain names for my blog and check their availability."
+  ],
+  "c1704b267a95": [
+    "Can you enhance this screenshot for my presentation?",
+    "I need to improve the clarity of my image.",
+    "How can I make this photo look sharper for social media?",
+    "Please enhance the resolution of this image for documentation."
+  ],
+  "169cede5fdff": [
+    "Can you send an email through Gmail for me?",
+    "I want to create a new issue in GitHub.",
+    "Please post a message in our Slack channel.",
+    "Help me connect Claude to my external apps."
+  ],
+  "efe3b2f2435a": [
+    "Can you help me organize my invoices for tax season?",
+    "I need to sort my receipts into folders automatically.",
+    "Please extract key information from my messy invoices.",
+    "How can I quickly prepare my documents for tax filing?"
+  ],
+  "7ce4c80d3f44": [
+    "Can you help me rewrite my tweet for better engagement?",
+    "I want to optimize my tweets to reach more followers.",
+    "Please analyze my latest tweet for visibility improvements.",
+    "How can I edit my tweet to get more likes and retweets?"
+  ],
+  "9fa8ac58f0b2": [
+    "I want to build a complex HTML artifact using React and Tailwind CSS.",
+    "Can you help me create a multi-component interface with shadcn/ui?",
+    "I need to manage state for my web project; how can I do that?",
+    "Show me how to implement routing in my new HTML artifact."
+  ],
+  "04de413b5b11": [
+    "Show me my competitors' best-performing ads on Facebook.",
+    "I want to analyze LinkedIn ads from my industry.",
+    "What messaging are my competitors using in their ad campaigns?",
+    "Extract the latest ads from my top three competitors."
+  ],
+  "0c17b53cfbbe": [
+    "Can you help me organize my files on my computer?",
+    "I want to reduce clutter in my digital workspace.",
+    "Please find and remove duplicate files for me.",
+    "Suggest a better folder structure for my documents."
+  ],
+  "12f393e91d60": [
+    "Can you send an email through Gmail for me?",
+    "I want to create a new issue in GitHub.",
+    "Please post a message in our Slack channel.",
+    "Connect Claude to Notion and update my project database."
+  ],
+  "85c0c08ada31": [
+    "Can you analyze my last meeting recording for communication insights?",
+    "I want to improve my listening skills; how can you help?",
+    "What behavioral patterns did I show in my recent meetings?",
+    "Please give me feedback on how I dominated the conversation."
+  ],
+  "449e65738db9": [
+    "I need help finding potential leads for my new software product.",
+    "Can you identify high-quality leads for my marketing campaign?",
+    "Please analyze my business and suggest target companies to approach.",
+    "What are some effective contact strategies for reaching my prospects?"
+  ],
+  "26fba855f2e2": [
+    "Help me track attendees for my upcoming event on Eventbrite.",
+    "I want to create a new event on Eventbrite.",
+    "Show me events happening this weekend in my area.",
+    "Can you help me organize my Eventbrite events more efficiently?"
+  ],
+  "5d0b76002708": [
+    "How can I automate my Wave Accounting tasks?",
+    "I want to set up automatic invoicing in Wave.",
+    "What options do I have for integrating Wave Accounting?",
+    "Can you help me streamline my accounting processes with Wave?"
+  ],
+  "51e80c541887": [
+    "I want to automate my Prismic CMS operations.",
+    "Can you help me query documents in Prismic?",
+    "Retrieve all custom types from my Prismic repository.",
+    "How do I search for specific content in Prismic?"
+  ],
+  "7fc24535ffab": [
+    "Create a new playlist with my favorite songs.",
+    "Play my workout playlist on Spotify.",
+    "I want to find new music similar to my taste.",
+    "Add this song to my existing playlist."
+  ],
+  "815c33b5505d": [
+    "Can you help me automate ticket responses in Zoho Desk?",
+    "I want to set up workflows in Zoho Desk for better efficiency.",
+    "How do I create automated reminders for my support team in Zoho Desk?",
+    "I need to streamline my customer support process using Zoho Desk automation."
+  ],
+  "acd4696098dd": [
+    "Can you help me automate my invoicing process in QuickBooks?",
+    "I want to streamline my bookkeeping using QuickBooks Online.",
+    "Please set up customer management automation in QuickBooks.",
+    "How do I automate payments in QuickBooks Online?"
+  ],
+  "6770644a4aae": [
+    "Can you help me organize my Jotform folders?",
+    "I want to automate my Jotform user management process.",
+    "Show me the activity history for my forms.",
+    "Please list all my Jotform forms quickly."
+  ],
+  "f2f55ae5ce3c": [
+    "I want to generate speech from this text using ElevenLabs.",
+    "Can you show me the available voices in ElevenLabs?",
+    "How can I check my subscription limits for ElevenLabs?",
+    "List the models I can use for text-to-speech automation."
+  ],
+  "11bad879839c": [
+    "Can you help me upload files to Uploadcare?",
+    "I want to organize my file groups in Uploadcare.",
+    "Please list all my uploaded files.",
+    "How do I download a specific file from Uploadcare?"
+  ],
+  "bf80c4c16ab9": [
+    "Help me find all contacts in New York with a potential deal.",
+    "I want to add a note about my last meeting with Acme Corp.",
+    "Show me the companies that have engaged with our latest campaign.",
+    "Can you search for contacts with more than 100 employees?"
+  ],
+  "d046551c5949": [
+    "Can you help me automate my hiring process in Ashby?",
+    "I need to add a new candidate to my job listing.",
+    "Please schedule an interview for the applicant I reviewed.",
+    "How do I manage my job applications more efficiently?"
+  ],
+  "279eb9c6bc72": [
+    "Can you help me run a prediction using the Replicate AI model?",
+    "I need to upload a file for my Replicate model.",
+    "Show me the prediction history for my recent models.",
+    "What are the available versions of the Replicate AI model?"
+  ],
+  "864b00720d9e": [
+    "Can you help me automate my CRM contacts in Dynamics 365?",
+    "I want to create a new sales order in Dynamics 365.",
+    "How do I manage leads using the Dynamics CRM Web API?",
+    "Please update the account information for my customer in Dynamics 365."
+  ],
+  "3774577f002d": [
+    "Help me automate my SEO analysis using SEMrush.",
+    "What keywords should I target for my website?",
+    "Analyze my domain's organic rankings with SEMrush.",
+    "I want to audit my backlinks using SEMrush."
+  ],
+  "cdd069d1163b": [
+    "I want to automate my Lemlist outreach campaigns.",
+    "Can you help me enroll leads into my Lemlist campaign?",
+    "Please export the campaign data from Lemlist for my report.",
+    "How do I add personalization variables in my Lemlist emails?"
+  ],
+  "24e69627b6ae": [
+    "I want to generate an image using the OpenAI API.",
+    "Can you list the available models in the Composio MCP integration?",
+    "Help me automate generating responses with structured output.",
+    "I'd like to create embeddings for my text data."
+  ],
+  "dd507daed60f": [
+    "Create a new story for the project I'm working on.",
+    "I want to automate my task management in Shortcut.",
+    "Can you help me track the progress of my epics?",
+    "Please organize my workflows in Shortcut for better efficiency."
+  ],
+  "56061869c171": [
+    "Can you automate my customer support tickets in Gorgias?",
+    "I want to manage customer tags for my e-commerce store.",
+    "Please create a workflow for handling returns in Gorgias.",
+    "How do I assign tickets to my support team automatically?"
+  ],
+  "3b5703bd81ca": [
+    "Can you help me set up a broadcast trigger in Customer.io?",
+    "I want to analyze message performance in Customer.io.",
+    "How do I manage customer segments using Composio?",
+    "Please automate my newsletter tracking in Customer.io."
+  ],
+  "432d2f93b1d0": [
+    "Can you help me automate my RingCentral tasks?",
+    "I want to set up RingCentral automation for my team.",
+    "How do I use Rube MCP for RingCentral?",
+    "Please automate my RingCentral calls and messages."
+  ],
+  "f864440da7b5": [
+    "I want to automate audio translation using GroqCloud.",
+    "Can you set up TTS voice management for my project?",
+    "Help me achieve faster AI inference with GroqCloud's API.",
+    "How do I get started with chat completions on GroqCloud?"
+  ],
+  "6571dbf2a22f": [
+    "Can you list all my Contentful spaces?",
+    "I need to update the configuration of my Contentful space.",
+    "What metadata do I have for my Contentful space?",
+    "Help me automate tasks in Contentful using Composio."
+  ],
+  "db64cc1acf57": [
+    "Can you help me manage my cryptocurrency wallets on Coinbase?",
+    "I want to see my portfolio data in Coinbase.",
+    "Please list all my accounts in Coinbase.",
+    "How do I automate my wallet management with Coinbase?"
+  ],
+  "3a7f5ae2dcba": [
+    "I want to analyze my website's backlink profile using Ahrefs.",
+    "Can you help me track the organic rankings for my top keywords?",
+    "Please perform a batch URL analysis for my recent blog posts.",
+    "I need to research keywords to improve my SEO strategy."
+  ],
+  "8b10a523da67": [
+    "Can you help me automate my Lemon Squeezy product updates?",
+    "I want to track my checkout process in Lemon Squeezy.",
+    "Please set up a discount for my Lemon Squeezy store.",
+    "How do I manage customer subscriptions in Lemon Squeezy?"
+  ],
+  "c4f4ff8df0fc": [
+    "Can you help me automate my recruiting workflows in Lever?",
+    "I need to manage my job postings in Lever ATS.",
+    "How do I tag candidates in the Lever integration?",
+    "I want to streamline my hiring process using Lever automation."
+  ],
+  "9a3c1b358021": [
+    "Track my time for the project I'm working on right now.",
+    "Create a new workspace for our marketing team in Clockify.",
+    "Add a time entry for 3 hours of development work yesterday.",
+    "How can I manage users in my Clockify account?"
+  ],
+  "712ed9f7d3dc": [
+    "Can you help me set up webhook subscriptions for my Gumroad products?",
+    "I want to track my Gumroad sales automatically.",
+    "Please automate license verification for my digital products on Gumroad.",
+    "How do I manage my Gumroad products more efficiently?"
+  ],
+  "fc1fdae0c987": [
+    "Can you help me create a new database in Neon?",
+    "I want to automate my Neon serverless Postgres operations.",
+    "Please manage the branches for my Neon project.",
+    "How do I set up roles and connection URIs in Neon?"
+  ],
+  "abe532ac1f04": [
+    "Can you retrieve the latest call recording from Gong?",
+    "I want to analyze the speaker stats for last week's meetings.",
+    "Show me the transcripts of all calls this month.",
+    "Help me automate the retrieval of Gong analytics."
+  ],
+  "b4ccdc8b0b77": [
+    "Can you list all the databases in Snowflake for me?",
+    "I want to execute a SQL statement in Snowflake.",
+    "How do I automate my data workflows in Snowflake?",
+    "Show me the schemas available in my Snowflake account."
+  ],
+  "28dd44c511fb": [
+    "Can you help me automate my email marketing campaigns using Omnisend?",
+    "I want to segment my subscribers for targeted promotions.",
+    "How do I manage contacts in Omnisend for my ecommerce store?",
+    "Set up a bulk operation for my latest product launch."
+  ],
+  "d3aa1bbec603": [
+    "Automate my lead management in Kommo CRM.",
+    "Can you help me update the pipeline stages in Kommo?",
+    "I want to create a new task for my sales team in Kommo.",
+    "How do I manage custom fields in Kommo CRM?"
+  ],
+  "da8067ea5275": [
+    "Can you schedule my posts for next week on Facebook?",
+    "I want to upload a video to my Facebook Page.",
+    "Help me create engaging posts for my audience.",
+    "How do I automate replies to Messenger conversations?"
+  ],
+  "f978112df7ed": [
+    "Help me set up an automated email campaign in MailerLite.",
+    "How can I segment my subscribers for targeted emails?",
+    "I want to analyze the performance of my last email campaign.",
+    "Add new subscribers to my MailerLite list automatically."
+  ],
+  "007eb29edf67": [
+    "Log 5 hours for the marketing project in Harvest.",
+    "Can you help me manage my clients in Harvest?",
+    "I want to automate my invoicing process with Harvest.",
+    "Create a new task for the development team in Harvest."
+  ],
+  "d19ca4113e4f": [
+    "I want to export heatmap data from Microsoft Clarity.",
+    "Can you show me the session metrics for users on mobile devices?",
+    "Help me analyze engagement analytics segmented by country.",
+    "How do I automate user behavior tracking using Microsoft Clarity?"
+  ],
+  "4fb254d75c5c": [
+    "Can you help me automate my Excel reports?",
+    "I need to create a new workbook with multiple sheets.",
+    "How do I format a spreadsheet in Google Sheets?",
+    "Please write data to specific cells in my Excel file."
+  ],
+  "35b98c0ad721": [
+    "I want to set up a subscription payment for my customers.",
+    "How can I process a payment using Braintree?",
+    "Please help me manage my payment methods in Braintree.",
+    "I need to view the transaction history for my account."
+  ],
+  "3146e2b8fe08": [
+    "I want to scrape data from a website using Apify.",
+    "Can you help me run an Actor for web scraping?",
+    "How do I manage my datasets in Apify?",
+    "I need to extract data automatically from multiple pages."
+  ],
+  "a3d3ceedf0c0": [
+    "Can you help me automate my product management tasks in Productboard?",
+    "I want to create a new feature in Productboard.",
+    "How do I set up a release schedule using Productboard?",
+    "Please add a note to the current objectives in Productboard."
+  ],
+  "f20bb9a3bb94": [
+    "Set up a new alert policy for my application in New Relic.",
+    "I want to automate notifications for my browser app alerts.",
+    "Can you help me manage my existing alert conditions?",
+    "Create a notification channel to receive alerts on Slack."
+  ],
+  "74c6efa17213": [
+    "I want to scrape product data from multiple e-commerce sites.",
+    "How do I batch scrape URLs using Firecrawl?",
+    "Can you help me automate web crawling for research?",
+    "I need to extract structured data from a specific website."
+  ],
+  "a09fd2abf8ab": [
+    "Can you help me automate my sales orders in NetSuite?",
+    "I need to generate a report for customer invoices.",
+    "How do I update inventory records using SuiteQL?",
+    "Please retrieve the latest sales data from NetSuite."
+  ],
+  "354caa6d5eb8": [
+    "Send a message to my Webex team.",
+    "Create a new room in Webex for our project.",
+    "I want to automate notifications in Webex.",
+    "Add a new member to my Webex team."
+  ],
+  "151d6101ecad": [
+    "Create a video using a template from HeyGen.",
+    "I want to generate an AI video for my product launch.",
+    "Show me the available avatars for video creation.",
+    "Track the status of my latest video project."
+  ],
+  "02fe6c7ae563": [
+    "Can you help me track my billable hours in FreshBooks?",
+    "I need to automate my invoicing process with FreshBooks.",
+    "How do I manage my projects in FreshBooks?",
+    "I want to set up recurring billing in FreshBooks."
+  ],
+  "3a1ca40d84f9": [
+    "Help me automate my lead generation process using PhantomBuster.",
+    "I need to scrape data from a website with PhantomBuster.",
+    "Can you set up social media data extraction for my business?",
+    "I want to create an automated workflow for gathering leads."
+  ],
+  "efc0a67b8e04": [
+    "Can you help me automate my Capsule CRM tasks?",
+    "I want to log a new entry in Capsule CRM.",
+    "Show me how to filter my contacts in Capsule CRM.",
+    "Please manage my organizations in Capsule CRM."
+  ],
+  "6f8d07679764": [
+    "I want to create a new repository on Docker Hub.",
+    "Can you help me manage my Docker Hub teams?",
+    "How do I automate adding members to my organization in Docker Hub?",
+    "I need to set up webhooks for my Docker Hub repositories."
+  ],
+  "b9cb3ef6fc81": [
+    "Can you help me automate my Xero invoices?",
+    "I want to set up automatic payments in Xero.",
+    "Please manage my bank transactions in Xero.",
+    "How can I streamline my Xero contact management?"
+  ],
+  "4ccd712cfb5e": [
+    "Create a new time entry for my project",
+    "I want to track time for my client meeting",
+    "Add a tag to my last time entry",
+    "Show me all projects under my workspace"
+  ],
+  "3f8e95d0b73e": [
+    "How can I automate my corporate card transactions?",
+    "I need to track my expenses using Ramp.",
+    "Can you help me with reimbursements on Ramp?",
+    "I want to manage users in my Ramp account."
+  ],
+  "cc1c8cd2eaf0": [
+    "Can you help me upload documents for fine-tuning in Mistral AI?",
+    "I want to track the status of my fine-tuning jobs.",
+    "Please automate the batch processing of my files in Mistral AI.",
+    "How do I manage my libraries in Mistral AI?"
+  ],
+  "e3ef6cb5c907": [
+    "Can you help me automate my LaunchDarkly feature flags?",
+    "I want to create a new trigger workflow in LaunchDarkly.",
+    "Show me the list of my LaunchDarkly projects and environments.",
+    "How do I delete a trigger workflow in LaunchDarkly?"
+  ],
+  "f71ef616ffd1": [
+    "Help me find email addresses for the domains I'm interested in.",
+    "I want to verify the deliverability of this email address.",
+    "Can you automate my lead management for better efficiency?",
+    "Show me how to monitor my account usage on Hunter.io."
+  ],
+  "ace6a49412a9": [
+    "Can you help me automate time off requests in Workday?",
+    "I want to update employee data in Workday.",
+    "How do I check absence balances for my team?",
+    "Please manage the workers' information in Workday."
+  ],
+  "b76b6f9b7947": [
+    "Create a new invoice in Zoho Books for my recent sale.",
+    "I want to track payments received this month in Zoho Books.",
+    "Show me a list of all my contacts in Zoho Books.",
+    "Manage bills in Zoho Books for my different organizations."
+  ],
+  "51a14ca8c87d": [
+    "Find organizations in the tech industry for lead generation.",
+    "Help me create a targeted outreach list for my marketing campaign.",
+    "I need to discover contacts at companies I’m interested in.",
+    "Enrich the prospect data for my existing leads."
+  ],
+  "6fec9edc1929": [
+    "Can you help me upload images to Cloudinary?",
+    "I want to organize my media files into folders automatically.",
+    "Show me how to set up upload presets in Cloudinary.",
+    "How can I monitor my asset usage on Cloudinary?"
+  ],
+  "5026a1738379": [
+    "Create a new survey for customer feedback on our latest product.",
+    "I need to collect responses for my employee satisfaction survey.",
+    "Manage my existing survey collectors and update their settings.",
+    "Show me how to discover popular surveys on SurveyMonkey."
+  ],
+  "92261b3e0842": [
+    "I want to automate my cold email outreach campaigns.",
+    "Can you help me manage my lead lists for email outreach?",
+    "Please send bulk emails to my imported leads.",
+    "Show me the analytics for my latest email campaign."
+  ],
+  "c2ea0127fb84": [
+    "Help me organize my SharePoint documents more efficiently.",
+    "Can you automate the creation of SharePoint sites for my team?",
+    "I need to find specific content across SharePoint and OneDrive.",
+    "Please set up a folder structure in SharePoint for our project."
+  ],
+  "425d1c47b102": [
+    "I want to create a new document template in PandaDoc.",
+    "Can you help me automate my document workflows with PandaDoc?",
+    "How do I organize my folders in PandaDoc?",
+    "I need to track the status of my documents in PandaDoc."
+  ],
+  "311e7854e429": [
+    "Can you sync my Slack messages with Notion?",
+    "I need to automate user management in GitHub.",
+    "Help me set up a scheduled report in Salesforce.",
+    "Trigger a Jira task creation when I receive an email."
+  ]
+}

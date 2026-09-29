@@ -1,0 +1,44 @@
+{
+  "splits": {
+    "development": {
+      "file": "data/eval_development.json",
+      "n_prompts": 220,
+      "sources": [
+        "data/eval_tune.json",
+        "data/eval_dev_extra.json"
+      ],
+      "seeds": [
+        42,
+        100
+      ],
+      "description": "Active development/tuning set. Inspect freely.",
+      "explicit": 166,
+      "implied": 54
+    },
+    "legacy_holdout": {
+      "file": "data/eval_holdout.json",
+      "n_prompts": 24,
+      "sources": [
+        "data/eval_set.json"
+      ],
+      "seeds": [
+        42
+      ],
+      "description": "Burned holdout \u2014 used for validation in previous session. Do not tune against.",
+      "status": "BURNED"
+    },
+    "final_test": {
+      "file": "data/eval_final_test.json",
+      "n_prompts": 124,
+      "sources": [
+        "data/eval_final_test.json"
+      ],
+      "seeds": [
+        200
+      ],
+      "description": "NEVER INSPECTED. Only access with --final-test-approved.",
+      "status": "LOCKED"
+    }
+  },
+  "total_prompts": 368
+}

@@ -1,0 +1,319 @@
+{
+  "source": "skills_corpus_v1.json (382 ingested NVIDIA skills)",
+  "model": "all-MiniLM-L6-v2 (same model used at runtime)",
+  "method": "full descriptions, up to 20 skills sampled per cluster, pairwise cosine averaged",
+  "total_nvidia_skills": 382,
+  "n_clusters_3plus": 28,
+  "n_clusters_above_040": 21,
+  "exclusion_reason": "All 382 NVIDIA skills excluded from final corpus. 21 of 28 sub-clusters exceeded 0.40 mean pairwise cosine similarity \u2014 denser than any cluster in the non-NVIDIA corpus. Sub-cluster jargon (DOCA, TAO, NeMo, Jetson) does not appear in general agent prompts.",
+  "clusters": [
+    {
+      "cluster": "dicom",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.677,
+      "above_threshold_040": true,
+      "example_names": [
+        "dicom-series-to-volume",
+        "dicom-series-preflight",
+        "dicom-metadata-extract"
+      ]
+    },
+    {
+      "cluster": "earth2studio",
+      "n_skills": 7,
+      "avg_cosine_similarity": 0.652,
+      "above_threshold_040": true,
+      "example_names": [
+        "earth2studio-create-prognostic",
+        "earth2studio-discover",
+        "earth2studio-create-diagnostic"
+      ]
+    },
+    {
+      "cluster": "digital",
+      "n_skills": 4,
+      "avg_cosine_similarity": 0.636,
+      "above_threshold_040": true,
+      "example_names": [
+        "digital-health-clinical-asr-build",
+        "digital-health-clinical-asr-setup",
+        "digital-health-clinical-asr-eval"
+      ]
+    },
+    {
+      "cluster": "dynamo",
+      "n_skills": 4,
+      "avg_cosine_similarity": 0.619,
+      "above_threshold_040": true,
+      "example_names": [
+        "dynamo-interconnect-check",
+        "dynamo-recipe-runner",
+        "dynamo-router-starter"
+      ]
+    },
+    {
+      "cluster": "holoscan",
+      "n_skills": 6,
+      "avg_cosine_similarity": 0.612,
+      "above_threshold_040": true,
+      "example_names": [
+        "holoscan-install-conda",
+        "holoscan-setup",
+        "holoscan-install-wheel"
+      ]
+    },
+    {
+      "cluster": "holohub",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.603,
+      "above_threshold_040": true,
+      "example_names": [
+        "holohub-module-lifecycle",
+        "holohub-debug-build-run",
+        "holohub-app-lifecycle"
+      ]
+    },
+    {
+      "cluster": "nv",
+      "n_skills": 9,
+      "avg_cosine_similarity": 0.598,
+      "above_threshold_040": true,
+      "example_names": [
+        "nv-generate-mr",
+        "nv-segment-ct",
+        "nv-segment-ct-finetune"
+      ]
+    },
+    {
+      "cluster": "rtvi",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.566,
+      "above_threshold_040": true,
+      "example_names": [
+        "rtvi-cv-scaffold-vss-service",
+        "rtvi-vlm-customize-model",
+        "rtvi-cv-customize-model"
+      ]
+    },
+    {
+      "cluster": "kermt",
+      "n_skills": 8,
+      "avg_cosine_similarity": 0.542,
+      "above_threshold_040": true,
+      "example_names": [
+        "kermt-finetune",
+        "kermt-setup",
+        "kermt-embed"
+      ]
+    },
+    {
+      "cluster": "tilegym",
+      "n_skills": 7,
+      "avg_cosine_similarity": 0.529,
+      "above_threshold_040": true,
+      "example_names": [
+        "tilegym-monkey-patch-kernels-to-transformers",
+        "tilegym-adding-cutile-kernel",
+        "tilegym-converting-cutile-to-triton"
+      ]
+    },
+    {
+      "cluster": "rag",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.529,
+      "above_threshold_040": true,
+      "example_names": [
+        "rag-eval",
+        "rag-perf",
+        "rag-blueprint"
+      ]
+    },
+    {
+      "cluster": "deepstream",
+      "n_skills": 6,
+      "avg_cosine_similarity": 0.518,
+      "above_threshold_040": true,
+      "example_names": [
+        "deepstream-profile-pipeline",
+        "deepstream-dev",
+        "deepstream-run-mv3dt"
+      ]
+    },
+    {
+      "cluster": "warp",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.489,
+      "above_threshold_040": true,
+      "example_names": [
+        "warp-compile-time-optimizer",
+        "warp-eval",
+        "warp-debug-gradients"
+      ]
+    },
+    {
+      "cluster": "nemotron",
+      "n_skills": 6,
+      "avg_cosine_similarity": 0.48,
+      "above_threshold_040": true,
+      "example_names": [
+        "nemotron-speech",
+        "nemotron-customize",
+        "nemotron-policy-generator"
+      ]
+    },
+    {
+      "cluster": "doca",
+      "n_skills": 60,
+      "avg_cosine_similarity": 0.476,
+      "above_threshold_040": true,
+      "example_names": [
+        "doca-comm-channel-admin",
+        "doca-setup",
+        "doca-bare-metal-deployment"
+      ]
+    },
+    {
+      "cluster": "amc",
+      "n_skills": 4,
+      "avg_cosine_similarity": 0.468,
+      "above_threshold_040": true,
+      "example_names": [
+        "amc-setup-calibration-stack",
+        "amc-run-rtsp-calibration",
+        "amc-run-video-calibration"
+      ]
+    },
+    {
+      "cluster": "vss",
+      "n_skills": 15,
+      "avg_cosine_similarity": 0.445,
+      "above_threshold_040": true,
+      "example_names": [
+        "vss-deploy-profile",
+        "vss-deploy-detection-tracking-2d",
+        "vss-ask-video"
+      ]
+    },
+    {
+      "cluster": "hsb",
+      "n_skills": 7,
+      "avg_cosine_similarity": 0.435,
+      "above_threshold_040": true,
+      "example_names": [
+        "hsb-flash",
+        "hsb-test",
+        "hsb-ip-def"
+      ]
+    },
+    {
+      "cluster": "i4h",
+      "n_skills": 14,
+      "avg_cosine_similarity": 0.428,
+      "above_threshold_040": true,
+      "example_names": [
+        "i4h-workflow-dataset-mimic",
+        "i4h-workflow-validate",
+        "i4h-workflow-train-rl"
+      ]
+    },
+    {
+      "cluster": "nvflare",
+      "n_skills": 9,
+      "avg_cosine_similarity": 0.427,
+      "above_threshold_040": true,
+      "example_names": [
+        "nvflare-shared",
+        "nvflare-convert-lightning",
+        "nvflare-convert-pytorch"
+      ]
+    },
+    {
+      "cluster": "paidf",
+      "n_skills": 5,
+      "avg_cosine_similarity": 0.422,
+      "above_threshold_040": true,
+      "example_names": [
+        "paidf-orchestration-setup",
+        "paidf-augmentation",
+        "paidf-orchestration-write-dag"
+      ]
+    },
+    {
+      "cluster": "physical",
+      "n_skills": 6,
+      "avg_cosine_similarity": 0.399,
+      "above_threshold_040": false,
+      "example_names": [
+        "physical-ai-infrastructure-setup-and-resilient-scaling",
+        "physical-ai-video-data-augmentation",
+        "physical-ai-event-video-generation"
+      ]
+    },
+    {
+      "cluster": "jetson",
+      "n_skills": 38,
+      "avg_cosine_similarity": 0.361,
+      "above_threshold_040": false,
+      "example_names": [
+        "jetson-customize-fan",
+        "jetson-promote-image",
+        "jetson-link-docs"
+      ]
+    },
+    {
+      "cluster": "nemo",
+      "n_skills": 42,
+      "avg_cosine_similarity": 0.346,
+      "above_threshold_040": false,
+      "example_names": [
+        "nemo-mbridge-perf-moe-long-context",
+        "nemo-mbridge-perf-parallelism-strategies",
+        "nemo-relay-install"
+      ]
+    },
+    {
+      "cluster": "cuopt",
+      "n_skills": 7,
+      "avg_cosine_similarity": 0.343,
+      "above_threshold_040": false,
+      "example_names": [
+        "cuopt-numerical-optimization-formulation",
+        "cuopt-numerical-optimization-api",
+        "cuopt-install"
+      ]
+    },
+    {
+      "cluster": "omniverse",
+      "n_skills": 3,
+      "avg_cosine_similarity": 0.327,
+      "above_threshold_040": false,
+      "example_names": [
+        "omniverse-usd-performance-tuning",
+        "omniverse-realtime-viewer",
+        "omniverse-cad-to-simready"
+      ]
+    },
+    {
+      "cluster": "tao",
+      "n_skills": 73,
+      "avg_cosine_similarity": 0.318,
+      "above_threshold_040": false,
+      "example_names": [
+        "tao-run-on-virtualenv",
+        "tao-train-grounding-dino",
+        "tao-port-huggingface-model"
+      ]
+    },
+    {
+      "cluster": "mcore",
+      "n_skills": 5,
+      "avg_cosine_similarity": 0.204,
+      "above_threshold_040": false,
+      "example_names": [
+        "mcore-run-on-slurm",
+        "mcore-linting-and-formatting",
+        "mcore-testing"
+      ]
+    }
+  ]
+}

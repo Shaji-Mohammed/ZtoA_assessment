@@ -1,6 +1,5 @@
    .env
-   .env.example
    __pycache__/
    *.pyc
    .venv/
-   data/.cost_tracker.json
+   data/.cost_tracker.json.env

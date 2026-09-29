@@ -1,0 +1,1470 @@
+[
+  {
+    "prompt_id": "eval_001",
+    "prompt": "I need a detailed 90-day LinkedIn content plan that outlines my posting schedule and key topics to focus on as I transition into a consulting role.",
+    "ground_truth_ids": [
+      "1d1f42ca17a6"
+    ],
+    "ground_truth_names": [
+      "linkedin-strategy"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_002",
+    "prompt": "Can you help me decide whether to start a LinkedIn newsletter and create a six-month content strategy if I go ahead with it?",
+    "ground_truth_ids": [
+      "1d1f42ca17a6"
+    ],
+    "ground_truth_names": [
+      "linkedin-strategy"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_003",
+    "prompt": "I need a detailed plan for an A/B test to evaluate the effectiveness of two different landing page designs for our product launch. Please provide a document outlining the hypothesis, variants, and key metrics to track.",
+    "ground_truth_ids": [
+      "2e55f5ad008e"
+    ],
+    "ground_truth_names": [
+      "ab-test-setup"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_004",
+    "prompt": "Can you help me set up a split test in our email marketing platform to compare two subject lines? I want a report that shows the expected conversion rates and how we'll measure success.",
+    "ground_truth_ids": [
+      "2e55f5ad008e"
+    ],
+    "ground_truth_names": [
+      "ab-test-setup"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_005",
+    "prompt": "Create a detailed communication plan for the upcoming merger announcement, including a sequenced touchpoint calendar, a primary announcement, audience-segmented FAQs, and manager talking points.",
+    "ground_truth_ids": [
+      "c07f90b4642e"
+    ],
+    "ground_truth_names": [
+      "internal-comms"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_006",
+    "prompt": "Draft an all-hands meeting announcement about the new remote work policy rollout, complete with a timeline of communications, FAQs tailored for different departments, and key talking points for managers.",
+    "ground_truth_ids": [
+      "c07f90b4642e"
+    ],
+    "ground_truth_names": [
+      "internal-comms"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_007",
+    "prompt": "Create a new job listing for a software engineer position and post it on our careers page.",
+    "ground_truth_ids": [
+      "d046551c5949"
+    ],
+    "ground_truth_names": [
+      "Ashby Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_008",
+    "prompt": "Schedule interviews with all candidates who applied for the marketing manager role and send them calendar invites.",
+    "ground_truth_ids": [
+      "d046551c5949"
+    ],
+    "ground_truth_names": [
+      "Ashby Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_009",
+    "prompt": "Please create a professional report in .docx format that includes a table of contents and section headings.",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_010",
+    "prompt": "I need a letterhead template in .dotx format that I can use for my business correspondence.",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_011",
+    "prompt": "Create a positioning statement for our new product that highlights its unique benefits and target audience.",
+    "ground_truth_ids": [
+      "19f3d5290619"
+    ],
+    "ground_truth_names": [
+      "marketing-strategy-pmm"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_012",
+    "prompt": "Draft a launch plan for our upcoming software release, including key milestones and promotional strategies.",
+    "ground_truth_ids": [
+      "19f3d5290619"
+    ],
+    "ground_truth_names": [
+      "marketing-strategy-pmm"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_013",
+    "prompt": "Can you provide the pricing details for the Claude API and the different model IDs available?",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_014",
+    "prompt": "I need help understanding the token counting rules for the Claude API when using the streaming feature.",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_015",
+    "prompt": "Create a multi-page web application using React that allows users to manage their tasks with state management and routing features. The final output should be a complete set of HTML and JavaScript files ready for deployment.",
+    "ground_truth_ids": [
+      "2178db169f9e"
+    ],
+    "ground_truth_names": [
+      "web-artifacts-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_016",
+    "prompt": "Build an interactive dashboard using Tailwind CSS and shadcn/ui components that visualizes real-time data from an API. The deliverable should be a collection of HTML artifacts that includes all necessary components and styling.",
+    "ground_truth_ids": [
+      "2178db169f9e"
+    ],
+    "ground_truth_names": [
+      "web-artifacts-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_017",
+    "prompt": "Generate a risk matrix analysis report for my current projects in PDF format.",
+    "ground_truth_ids": [
+      "876b0955af8c"
+    ],
+    "ground_truth_names": [
+      "project-health"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_018",
+    "prompt": "Create a portfolio health dashboard for my team on the project management platform.",
+    "ground_truth_ids": [
+      "876b0955af8c"
+    ],
+    "ground_truth_names": [
+      "project-health"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_019",
+    "prompt": "Generate a security assessment report in PDF format for our AWS environment, focusing on potential IAM privilege escalation paths and S3 buckets that may be publicly exposed.",
+    "ground_truth_ids": [
+      "9f5a35525596"
+    ],
+    "ground_truth_names": [
+      "cloud-security"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_020",
+    "prompt": "Analyze our Azure cloud infrastructure and provide a detailed CSV file listing any open security group rules and possible misconfigurations.",
+    "ground_truth_ids": [
+      "9f5a35525596"
+    ],
+    "ground_truth_names": [
+      "cloud-security"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_021",
+    "prompt": "Set up a monitoring dashboard on Grafana to track server performance and alert me if CPU usage exceeds 80%.",
+    "ground_truth_ids": [
+      "a09ab0e93fb9"
+    ],
+    "ground_truth_names": [
+      "DevOps Engineer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_022",
+    "prompt": "Create a CI/CD pipeline configuration file for GitHub Actions that automatically deploys our application whenever we push to the main branch.",
+    "ground_truth_ids": [
+      "a09ab0e93fb9"
+    ],
+    "ground_truth_names": [
+      "DevOps Engineer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_023",
+    "prompt": "Please validate our incident communication runbook in Confluence to ensure it meets the 5W2H criteria and check for any orphaned pages that need to be linked.",
+    "ground_truth_ids": [
+      "52a3704eef31"
+    ],
+    "ground_truth_names": [
+      "knowledge-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_024",
+    "prompt": "I need you to generate a prioritized cleanup list for our employee onboarding SOPs in Notion, focusing on completeness and identifying any stale content that requires updating.",
+    "ground_truth_ids": [
+      "52a3704eef31"
+    ],
+    "ground_truth_names": [
+      "knowledge-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_025",
+    "prompt": "I need help defining the job and requirements for a new AI agent. Can you create a build sheet for me?",
+    "ground_truth_ids": [
+      "cbb2457f266e"
+    ],
+    "ground_truth_names": [
+      "interview"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_026",
+    "prompt": "I'm thinking about building an AI agent to automate our customer support. Can you help me outline its job and generate the necessary build sheet?",
+    "ground_truth_ids": [
+      "cbb2457f266e"
+    ],
+    "ground_truth_names": [
+      "interview"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_027",
+    "prompt": "Set up my brand identity using a 10-question onboarding wizard and generate the necessary styles for my markdown documents.",
+    "ground_truth_ids": [
+      "2ed81ef7f031"
+    ],
+    "ground_truth_names": [
+      "design-system"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_028",
+    "prompt": "Reset my design configuration and ensure that my new branding is applied correctly to the output of my HTML files.",
+    "ground_truth_ids": [
+      "2ed81ef7f031"
+    ],
+    "ground_truth_names": [
+      "design-system"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_029",
+    "prompt": "Draft a detailed report outlining the architectural considerations for scaling our application to handle 10x user load, including an analysis of potential tech debt and recommendations for build-vs-buy options.",
+    "ground_truth_ids": [
+      "89a344657f6f"
+    ],
+    "ground_truth_names": [
+      "cto-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_030",
+    "prompt": "Create a presentation that evaluates our current system architecture in light of anticipated growth, focusing on team scaling strategies and addressing any scaling cliffs we might face.",
+    "ground_truth_ids": [
+      "89a344657f6f"
+    ],
+    "ground_truth_names": [
+      "cto-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_031",
+    "prompt": "Please create a comprehensive Product Requirements Document for our React application, detailing all user interactions and API integrations.",
+    "ground_truth_ids": [
+      "b22bc10a884b"
+    ],
+    "ground_truth_names": [
+      "code-to-prd"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_032",
+    "prompt": "I need a complete inventory of functional specifications extracted from our Django codebase, formatted as a PRD that includes all endpoints and data flows.",
+    "ground_truth_ids": [
+      "b22bc10a884b"
+    ],
+    "ground_truth_names": [
+      "code-to-prd"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_033",
+    "prompt": "Provide a detailed market analysis report in PDF format, including potential risks and assumptions, and suggest follow-up questions to clarify the data sources used.",
+    "ground_truth_ids": [
+      "fd0f3774b954"
+    ],
+    "ground_truth_names": [
+      "discernment-nudge"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_034",
+    "prompt": "Summarize the latest project proposal in a Word document, highlighting key objectives and challenges, and include probing questions to ensure all stakeholders understand the context and implications.",
+    "ground_truth_ids": [
+      "fd0f3774b954"
+    ],
+    "ground_truth_names": [
+      "discernment-nudge"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_035",
+    "prompt": "Please run a pre-launch audit on my codebase and provide a detailed report on any security and code quality issues before I deploy to production.",
+    "ground_truth_ids": [
+      "9e4fcfad9cd4"
+    ],
+    "ground_truth_names": [
+      "ship-gate"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_036",
+    "prompt": "Can you check if I'm ready to ship my application by generating a go live checklist that covers all critical deployment aspects?",
+    "ground_truth_ids": [
+      "9e4fcfad9cd4"
+    ],
+    "ground_truth_names": [
+      "ship-gate"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_037",
+    "prompt": "Generate a JSON schema for the API response based on the documentation provided and ensure all fields are valid for my current version.",
+    "ground_truth_ids": [
+      "82281bed3fbd"
+    ],
+    "ground_truth_names": [
+      "strict-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_038",
+    "prompt": "Create a Python script that interacts with the API without referencing any methods or functions that aren't listed in my installed libraries.",
+    "ground_truth_ids": [
+      "82281bed3fbd"
+    ],
+    "ground_truth_names": [
+      "strict-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_039",
+    "prompt": "Can you help me find some tutorials on how to get started with using Claude for my team?",
+    "ground_truth_ids": [
+      "84026097b0cd"
+    ],
+    "ground_truth_names": [
+      "academy-guide"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_040",
+    "prompt": "I'm looking for training materials that explain what Claude can do for our organization. Where can I find that?",
+    "ground_truth_ids": [
+      "84026097b0cd"
+    ],
+    "ground_truth_names": [
+      "academy-guide"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_041",
+    "prompt": "Create a PowerPoint presentation for our upcoming product launch using Anthropic's official brand colors and typography.",
+    "ground_truth_ids": [
+      "3a641960f03a"
+    ],
+    "ground_truth_names": [
+      "brand-guidelines"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_042",
+    "prompt": "Design a social media post for Instagram that incorporates Anthropic's brand guidelines for colors and fonts.",
+    "ground_truth_ids": [
+      "3a641960f03a"
+    ],
+    "ground_truth_names": [
+      "brand-guidelines"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_043",
+    "prompt": "Evaluate the proposed data architecture plan and provide a detailed report on its implications for our training data rights and data asset valuation.",
+    "ground_truth_ids": [
+      "6c63b291b20e"
+    ],
+    "ground_truth_names": [
+      "cdo-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_044",
+    "prompt": "Analyze the hiring strategy for our data team and generate a presentation outlining how it aligns with our overall data productization goals.",
+    "ground_truth_ids": [
+      "6c63b291b20e"
+    ],
+    "ground_truth_names": [
+      "cdo-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_045",
+    "prompt": "Please open the sales_data.xlsx file and add a column for total sales calculations.",
+    "ground_truth_ids": [
+      "46bfd3654bf3"
+    ],
+    "ground_truth_names": [
+      "xlsx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_046",
+    "prompt": "Can you clean up the messy_report.csv by removing duplicate entries and fixing the header row, then save it as a new spreadsheet?",
+    "ground_truth_ids": [
+      "46bfd3654bf3"
+    ],
+    "ground_truth_names": [
+      "xlsx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_047",
+    "prompt": "Create a comprehensive hiring plan document for our new product team that outlines roles, responsibilities, and a timeline for recruitment.",
+    "ground_truth_ids": [
+      "fad9c6b76930"
+    ],
+    "ground_truth_names": [
+      "chro-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_048",
+    "prompt": "Develop a compensation framework presentation that compares our current salary structures with industry benchmarks and outlines recommendations for adjustments.",
+    "ground_truth_ids": [
+      "fad9c6b76930"
+    ],
+    "ground_truth_names": [
+      "chro-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_049",
+    "prompt": "I want you to create a generative art piece using p5.js that visualizes the concept of flow fields. Please provide the code and a downloadable .html file so I can run it in my browser.",
+    "ground_truth_ids": [
+      "f225c5c6593e"
+    ],
+    "ground_truth_names": [
+      "algorithmic-art"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_050",
+    "prompt": "Can you generate an interactive algorithmic art sketch that allows me to adjust parameters like color and shape in real-time? I need the output in a .js file that I can easily integrate into my webpage.",
+    "ground_truth_ids": [
+      "f225c5c6593e"
+    ],
+    "ground_truth_names": [
+      "algorithmic-art"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_051",
+    "prompt": "Create a user journey map in a PDF format that outlines the steps users take when interacting with our new app feature.",
+    "ground_truth_ids": [
+      "a625ae66c769"
+    ],
+    "ground_truth_names": [
+      "ux-researcher-designer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_052",
+    "prompt": "Generate a detailed persona document in Word that includes demographic information, goals, and pain points based on the latest user research findings.",
+    "ground_truth_ids": [
+      "a625ae66c769"
+    ],
+    "ground_truth_names": [
+      "ux-researcher-designer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_053",
+    "prompt": "Can you create a detailed Excel model that forecasts our SaaS revenue for the next three years, including metrics like ARR, MRR, and churn rate?",
+    "ground_truth_ids": [
+      "c29b3d2985a2"
+    ],
+    "ground_truth_names": [
+      "cs-financial-analyst"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_054",
+    "prompt": "I need a PDF report analyzing our current budget versus actual expenses, along with recommendations for improving our financial performance.",
+    "ground_truth_ids": [
+      "c29b3d2985a2"
+    ],
+    "ground_truth_names": [
+      "cs-financial-analyst"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_055",
+    "prompt": "Create a ticket for a customer who reported an issue with their order and assign it to the support team.",
+    "ground_truth_ids": [
+      "56061869c171"
+    ],
+    "ground_truth_names": [
+      "Gorgias Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_056",
+    "prompt": "Tag all customer inquiries related to shipping delays with 'Shipping Issue' for better tracking.",
+    "ground_truth_ids": [
+      "56061869c171"
+    ],
+    "ground_truth_names": [
+      "Gorgias Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_057",
+    "prompt": "I need to create a new presentation for my marketing strategy and save it as a .pptx file.",
+    "ground_truth_ids": [
+      "87dace51410e"
+    ],
+    "ground_truth_names": [
+      "pptx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_058",
+    "prompt": "Can you extract the text from this .pptx file and summarize the key points for me?",
+    "ground_truth_ids": [
+      "87dace51410e"
+    ],
+    "ground_truth_names": [
+      "pptx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_059",
+    "prompt": "Create a new survey on SurveyMonkey to gauge customer satisfaction with our latest product launch.",
+    "ground_truth_ids": [
+      "5026a1738379"
+    ],
+    "ground_truth_names": [
+      "SurveyMonkey Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_060",
+    "prompt": "Set up a collector on SurveyMonkey to gather responses for my event feedback survey and share the link with my attendees.",
+    "ground_truth_ids": [
+      "5026a1738379"
+    ],
+    "ground_truth_names": [
+      "SurveyMonkey Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_061",
+    "prompt": "Can you merge these three PDF files into one document for me?",
+    "ground_truth_ids": [
+      "aac3216b9b78"
+    ],
+    "ground_truth_names": [
+      "pdf"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_062",
+    "prompt": "I need to extract the text from this PDF and save it as a Word document.",
+    "ground_truth_ids": [
+      "aac3216b9b78"
+    ],
+    "ground_truth_names": [
+      "pdf"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_063",
+    "prompt": "Please generate a detailed report of my cryptocurrency portfolio with current values and account balances in a PDF format.",
+    "ground_truth_ids": [
+      "db64cc1acf57"
+    ],
+    "ground_truth_names": [
+      "Coinbase Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_064",
+    "prompt": "Can you list all my cryptocurrency wallets and their respective balances in a CSV file?",
+    "ground_truth_ids": [
+      "db64cc1acf57"
+    ],
+    "ground_truth_names": [
+      "Coinbase Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_065",
+    "prompt": "Please give me a summary report of my recent emails in PDF format.",
+    "ground_truth_ids": [
+      "4aa989d4ce62"
+    ],
+    "ground_truth_names": [
+      "inbox-triage"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_066",
+    "prompt": "Can you process my inbox and send me the findings in an Excel spreadsheet?",
+    "ground_truth_ids": [
+      "4aa989d4ce62"
+    ],
+    "ground_truth_names": [
+      "inbox-triage"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_067",
+    "prompt": "Create a detailed strategy document outlining our data product roadmap and the implications of using customer data for AI training, to be presented in a PDF format to the executive team.",
+    "ground_truth_ids": [
+      "c72b9db17a96"
+    ],
+    "ground_truth_names": [
+      "chief-data-officer-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_068",
+    "prompt": "Prepare a valuation report for our customer data assets, including recommendations for M&A readiness, to be shared as a PowerPoint presentation with potential investors.",
+    "ground_truth_ids": [
+      "c72b9db17a96"
+    ],
+    "ground_truth_names": [
+      "chief-data-officer-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_069",
+    "prompt": "I need to draft a proposal for a new project and I want to ensure it follows the proper structure and includes all necessary sections.",
+    "ground_truth_ids": [
+      "88f0bc090c4b"
+    ],
+    "ground_truth_names": [
+      "doc-coauthoring"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_070",
+    "prompt": "Can you help me create a technical specification document that outlines the requirements for our new software feature?",
+    "ground_truth_ids": [
+      "88f0bc090c4b"
+    ],
+    "ground_truth_names": [
+      "doc-coauthoring"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_071",
+    "prompt": "Create a detailed report in PDF format analyzing our current engineering hiring funnel metrics, including time-to-fill and pipeline gaps, and suggest improvements.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_072",
+    "prompt": "Generate a presentation deck outlining the ideal engineering team structure for our startup, focusing on squad and tribe design, along with recommendations for tech-lead manager thresholds.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_073",
+    "prompt": "I need a detailed review of my API design documentation in a Markdown format, highlighting any potential issues and suggesting improvements.",
+    "ground_truth_ids": [
+      "c48ef7c6c7e7"
+    ],
+    "ground_truth_names": [
+      "cs-fullstack-engineer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_074",
+    "prompt": "Could you help me create a CI/CD pipeline configuration file for my project in YAML format that integrates with GitHub Actions and Docker?",
+    "ground_truth_ids": [
+      "c48ef7c6c7e7"
+    ],
+    "ground_truth_names": [
+      "cs-fullstack-engineer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_075",
+    "prompt": "Create a detailed marketing campaign plan for our upcoming product launch, including a budget breakdown for Google Ads and LinkedIn Ads.",
+    "ground_truth_ids": [
+      "6231d6e8e77f"
+    ],
+    "ground_truth_names": [
+      "marketing-demand-acquisition"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_076",
+    "prompt": "Develop an SEO strategy document that outlines the key keywords for our new service, along with recommendations for on-page optimization and backlink opportunities.",
+    "ground_truth_ids": [
+      "6231d6e8e77f"
+    ],
+    "ground_truth_names": [
+      "marketing-demand-acquisition"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_077",
+    "prompt": "Create a detailed report in PDF format outlining the key metrics and SLOs for our new microservice, including recommendations for alert thresholds and monitoring strategies.",
+    "ground_truth_ids": [
+      "f1edd255e748"
+    ],
+    "ground_truth_names": [
+      "observability-designer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_078",
+    "prompt": "Draft a presentation for our engineering team that highlights the observability strategy for our upcoming product launch, including visuals of golden signals and proposed logging practices.",
+    "ground_truth_ids": [
+      "f1edd255e748"
+    ],
+    "ground_truth_names": [
+      "observability-designer"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_079",
+    "prompt": "Can you evaluate my recent coding sessions and provide a report on their efficiency and code quality, including suggestions for improvements?",
+    "ground_truth_ids": [
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "skill-doctor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_080",
+    "prompt": "I need a shareable report that shows which of my installed skills are functioning correctly and any evidence-based recommendations for adjustments.",
+    "ground_truth_ids": [
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "skill-doctor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_081",
+    "prompt": "Create a weekly commenting schedule for my LinkedIn posts to increase my engagement",
+    "ground_truth_ids": [
+      "965f602ae9b3"
+    ],
+    "ground_truth_names": [
+      "linkedin-engagement"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_082",
+    "prompt": "Draft a personalized connection request message for a potential networking contact on LinkedIn",
+    "ground_truth_ids": [
+      "965f602ae9b3"
+    ],
+    "ground_truth_names": [
+      "linkedin-engagement"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_083",
+    "prompt": "Please take a screenshot of the login page of my local web application and save it as a PNG file.",
+    "ground_truth_ids": [
+      "f421c802090d"
+    ],
+    "ground_truth_names": [
+      "webapp-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_084",
+    "prompt": "I need you to check the console logs for any errors on the homepage of my web app and provide them in a text file.",
+    "ground_truth_ids": [
+      "f421c802090d"
+    ],
+    "ground_truth_names": [
+      "webapp-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_085",
+    "prompt": "Create a new skill for identifying customer support queries from chat logs and provide a performance report in a CSV format.",
+    "ground_truth_ids": [
+      "01fc73c1aef9"
+    ],
+    "ground_truth_names": [
+      "skill-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_086",
+    "prompt": "Revise the existing skill for generating product recommendations to improve its accuracy and generate a summary document outlining the changes made.",
+    "ground_truth_ids": [
+      "01fc73c1aef9"
+    ],
+    "ground_truth_names": [
+      "skill-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_087",
+    "prompt": "Generate the CHANGELOG.md for the upcoming release version 2.1.0 based on the last month of commits.",
+    "ground_truth_ids": [
+      "77ff701a19a0"
+    ],
+    "ground_truth_names": [
+      "changelog-generator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_088",
+    "prompt": "Determine what the next semantic version bump should be for these recent commits before we release.",
+    "ground_truth_ids": [
+      "77ff701a19a0"
+    ],
+    "ground_truth_names": [
+      "changelog-generator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_089",
+    "prompt": "I need a comprehensive report in a PDF format that evaluates the effectiveness of five different project management methodologies based on independent research and expert opinions. Please ensure that all claims are supported by at least three sources, and include verbatim quotes for reference.",
+    "ground_truth_ids": [
+      "1abe99306eee"
+    ],
+    "ground_truth_names": [
+      "deep-research"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_090",
+    "prompt": "Can you compile a detailed analysis in a Word document that maps the current trends in renewable energy technologies? I want to see how these trends compare across various markets, with each claim backed by multiple independent sources, and include an adversarial review to challenge the findings.",
+    "ground_truth_ids": [
+      "1abe99306eee"
+    ],
+    "ground_truth_names": [
+      "deep-research"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_091",
+    "prompt": "Can you check my recent API calls and ensure there are no hallucinations or invented functions? I also need you to review my past conversations and score my skill setup based on efficiency and code quality, then provide me with a report on what needs to be fixed.",
+    "ground_truth_ids": [
+      "82281bed3fbd",
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "strict-api",
+      "skill-doctor"
+    ],
+    "set_size": 2,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_092",
+    "prompt": "I want to verify that my installed APIs are functioning correctly without any fantasy elements in the responses. Additionally, please analyze my previous interactions to determine which skills are actually working and draft a report suggesting necessary edits based on that analysis.",
+    "ground_truth_ids": [
+      "82281bed3fbd",
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "strict-api",
+      "skill-doctor"
+    ],
+    "set_size": 2,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "eval_093",
+    "prompt": "I need a visually striking piece that captures the essence of our brand for an upcoming event.",
+    "ground_truth_ids": [
+      "8ab22693192e"
+    ],
+    "ground_truth_names": [
+      "canvas-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_094",
+    "prompt": "Can you help me come up with a creative design that conveys our message effectively for our marketing campaign?",
+    "ground_truth_ids": [
+      "8ab22693192e"
+    ],
+    "ground_truth_names": [
+      "canvas-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_095",
+    "prompt": "I need to understand the different pricing options for the various models available to ensure we choose the right one for our project.",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_096",
+    "prompt": "Can you help me figure out how to manage token usage effectively while implementing an LLM for our customer support automation?",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_097",
+    "prompt": "I need to ensure our cloud environments are secure and compliant, so I want to identify any potential vulnerabilities that could lead to data breaches.",
+    "ground_truth_ids": [
+      "9f5a35525596"
+    ],
+    "ground_truth_names": [
+      "cloud-security"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_098",
+    "prompt": "I’m looking to strengthen our cloud security posture by uncovering any misconfigurations or excessive permissions that could be exploited by attackers.",
+    "ground_truth_ids": [
+      "9f5a35525596"
+    ],
+    "ground_truth_names": [
+      "cloud-security"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_099",
+    "prompt": "I need to attract more potential customers and increase our online presence in new markets.",
+    "ground_truth_ids": [
+      "6231d6e8e77f"
+    ],
+    "ground_truth_names": [
+      "marketing-demand-acquisition"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_100",
+    "prompt": "We're looking to improve our lead conversion rates while keeping our advertising costs under control.",
+    "ground_truth_ids": [
+      "6231d6e8e77f"
+    ],
+    "ground_truth_names": [
+      "marketing-demand-acquisition"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_101",
+    "prompt": "I need to ensure our AI system meets all compliance requirements before we start the certification process.",
+    "ground_truth_ids": [
+      "13de2e3b2d4e"
+    ],
+    "ground_truth_names": [
+      "aims-audit"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_102",
+    "prompt": "I'm looking to evaluate our current AIMS practices to identify any gaps before the next internal audit cycle.",
+    "ground_truth_ids": [
+      "13de2e3b2d4e"
+    ],
+    "ground_truth_names": [
+      "aims-audit"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_103",
+    "prompt": "I need to understand how well our recent projects have performed so I can identify areas for improvement.",
+    "ground_truth_ids": [
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "skill-doctor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_104",
+    "prompt": "Can you help me evaluate the current setup of our skills and pinpoint which ones are actually delivering value?",
+    "ground_truth_ids": [
+      "502bb6b8e847"
+    ],
+    "ground_truth_names": [
+      "skill-doctor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_105",
+    "prompt": "I need a way for our AI to fetch real-time weather data and provide updates to users seamlessly during conversations.",
+    "ground_truth_ids": [
+      "7289d971a703"
+    ],
+    "ground_truth_names": [
+      "mcp-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_106",
+    "prompt": "I'm looking for a solution that allows our chatbot to access and display the latest product information from our inventory system while interacting with customers.",
+    "ground_truth_ids": [
+      "7289d971a703"
+    ],
+    "ground_truth_names": [
+      "mcp-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_107",
+    "prompt": "I want to ensure our application is thoroughly tested so we can catch any issues before we launch.",
+    "ground_truth_ids": [
+      "493bd7d88526"
+    ],
+    "ground_truth_names": [
+      "senior-qa"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_108",
+    "prompt": "Can you help me improve the reliability of our code by enhancing our testing strategy?",
+    "ground_truth_ids": [
+      "493bd7d88526"
+    ],
+    "ground_truth_names": [
+      "senior-qa"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_109",
+    "prompt": "I need to see how different approaches to this problem perform against each other, so we can choose the best one.",
+    "ground_truth_ids": [
+      "c56941be2ec7"
+    ],
+    "ground_truth_names": [
+      "spawn"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_110",
+    "prompt": "Can you help me test multiple strategies at once to find which one yields the best results for our project?",
+    "ground_truth_ids": [
+      "c56941be2ec7"
+    ],
+    "ground_truth_names": [
+      "spawn"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_111",
+    "prompt": "I need to understand the current landscape of electric vehicle technologies to make an informed decision on which product line to invest in next year.",
+    "ground_truth_ids": [
+      "1abe99306eee"
+    ],
+    "ground_truth_names": [
+      "deep-research"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_112",
+    "prompt": "I'm looking to validate our new market entry strategy by gathering comprehensive insights on competitive offerings and customer sentiments across various platforms.",
+    "ground_truth_ids": [
+      "1abe99306eee"
+    ],
+    "ground_truth_names": [
+      "deep-research"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_113",
+    "prompt": "I want to understand how changing the color of our call-to-action button will impact user engagement on our site.",
+    "ground_truth_ids": [
+      "2e55f5ad008e"
+    ],
+    "ground_truth_names": [
+      "ab-test-setup"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_114",
+    "prompt": "I'd like to explore whether a different headline on our landing page will lead to more sign-ups for our newsletter.",
+    "ground_truth_ids": [
+      "2e55f5ad008e"
+    ],
+    "ground_truth_names": [
+      "ab-test-setup"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_115",
+    "prompt": "I need to understand the financial health of our SaaS business to make informed decisions for the upcoming quarter.",
+    "ground_truth_ids": [
+      "c29b3d2985a2"
+    ],
+    "ground_truth_names": [
+      "cs-financial-analyst"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_116",
+    "prompt": "Can you help me evaluate our current spending and revenue projections so we can set realistic budget targets for next year?",
+    "ground_truth_ids": [
+      "c29b3d2985a2"
+    ],
+    "ground_truth_names": [
+      "cs-financial-analyst"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_117",
+    "prompt": "I need to gather feedback from our clients about their recent experience with our services.",
+    "ground_truth_ids": [
+      "5026a1738379"
+    ],
+    "ground_truth_names": [
+      "SurveyMonkey Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_118",
+    "prompt": "Can you help me understand what questions we should ask to improve our product based on user input?",
+    "ground_truth_ids": [
+      "5026a1738379"
+    ],
+    "ground_truth_names": [
+      "SurveyMonkey Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_119",
+    "prompt": "Help me identify the key factors that could boost our sales pipeline this quarter.",
+    "ground_truth_ids": [
+      "da6633c690cb"
+    ],
+    "ground_truth_names": [
+      "cs-growth-strategist"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_120",
+    "prompt": "I need strategies to keep our customers engaged and reduce the risk of them leaving us.",
+    "ground_truth_ids": [
+      "da6633c690cb"
+    ],
+    "ground_truth_names": [
+      "cs-growth-strategist"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_121",
+    "prompt": "I need to ensure that our onboarding process is clear and up-to-date so new hires have a seamless experience without any confusion.",
+    "ground_truth_ids": [
+      "52a3704eef31"
+    ],
+    "ground_truth_names": [
+      "knowledge-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "eval_122",
+    "prompt": "Can we make sure that our incident response guidelines are comprehensive and easy to follow, so the team knows exactly what to do when an issue arises?",
+    "ground_truth_ids": [
+      "52a3704eef31"
+    ],
+    "ground_truth_names": [
+      "knowledge-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  }
+]

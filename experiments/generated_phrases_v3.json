@@ -1,0 +1,106 @@
+{
+  "PhantomBuster Automation": [
+    "Can you help me extract LinkedIn contact details and save them in a CSV for my outreach campaign?",
+    "I need to compile social media engagement stats from different accounts and put them into a Google Sheets document.",
+    "Please assist me in gathering insights from social media to improve our outreach strategy.",
+    "How can I automate the process of collecting contact information from LinkedIn profiles for my campaign?",
+    "I want to gather and analyze social media engagement data and present it in a Google Sheets file.",
+    "Can you guide me on how to extract potential client insights from social media for our outreach efforts?"
+  ],
+  "ma-playbook": [
+    "Can you guide me in building a valuation model for a target company with cash flows and discount rates?",
+    "I need to create a valuation analysis that includes comparable company evaluations for my acquisition.",
+    "How do I develop a valuation model that meets investment banking standards for a potential target?",
+    "What are the best practices for projecting cash flows and discount rates in a valuation model?",
+    "Can you help me analyze a target company's value using cash flow projections and comparable analyses?",
+    "I want to create a detailed valuation model for a company I'm considering acquiring, can you assist?"
+  ],
+  "pm-skills": [
+    "Can you create a project health report in Confluence that shows our sprint velocity and any blockers?",
+    "I need a report in Confluence that highlights our sprint velocity and addresses any blockers we have.",
+    "Please generate a Confluence report focusing on our sprint velocity and any existing blockers.",
+    "Could you help me with a project health report in Confluence that includes our sprint velocity and blockers?",
+    "I want to see a project health report in Confluence that details our sprint velocity and any issues we need to fix.",
+    "Can you provide a report in Confluence that highlights our sprint velocity and lists any blockers we should tackle?"
+  ],
+  "snowflake-development": [
+    "Can you help me set up a scheduled task to refresh my data pipeline every hour?",
+    "I need assistance with creating a task that notifies me of errors in my data pipeline.",
+    "How do I automate the refreshing of my data pipeline every hour with notifications for errors?",
+    "I want to schedule a task that refreshes my data pipeline hourly and alerts me on issues.",
+    "Can you walk me through setting up an hourly refresh for my data pipeline with error notifications?",
+    "What steps do I need to take to create a scheduled task that refreshes my data pipeline and alerts me?"
+  ],
+  "webapp-testing": [
+    "I want to test my React web app's functionality by capturing screenshots and analyzing the logs.",
+    "Can you assist me in verifying the UI behavior of my Angular application?",
+    "Help me check the frontend functionality of my web app using screenshots and browser logs.",
+    "I need to automate alert notifications after testing my React application's UI and functionality.",
+    "Can you guide me in verifying the user interface of my Angular app and checking its behavior?",
+    "I want to analyze the logs and take screenshots while testing my web app's functionality."
+  ],
+  "marketing-psychology": [
+    "Can you assist me in creating location pages that engage users through psychological principles?",
+    "I need help designing comparison pages that leverage cognitive biases for better conversions using programmatic SEO.",
+    "How can I apply behavioral science to my programmatic SEO content for location pages?",
+    "What psychological strategies can I use to enhance user engagement on my comparison pages?",
+    "I'm interested in using cognitive biases to optimize my location pages for programmatic SEO.",
+    "Can you guide me on how to incorporate psychological insights into my comparison pages for improved results?"
+  ],
+  "cs-karpathy-reviewer": [
+    "Can you analyze my code changes for any unnecessary complexity that might arise?",
+    "I need assistance in spotting potential issues in my staged changes that could lead to problems later.",
+    "Could you help me find any hidden assumptions in my recent code updates?",
+    "Can you review my git changes to ensure they align with Karpathy's coding principles?",
+    "I'd like to know if there are any diff noises in my staged changes that I should be aware of.",
+    "Can you check my latest code changes for any goals that might not be achieved?"
+  ],
+  "New Relic Automation": [
+    "How can I set up alerts for when our application performance falls below certain levels?",
+    "I want to improve our incident response process to minimize downtime in our monitoring system.",
+    "Can you help me configure alerts for performance dips in our applications?",
+    "I need assistance in enhancing communication for incident management to reduce downtime.",
+    "How do I ensure our team gets notified if application performance drops below our thresholds?",
+    "I want to optimize our response to incidents in the monitoring system to avoid downtime."
+  ],
+  "pptx": [
+    "Can you help me create a visual summary for my strategy meeting that highlights our main points and data?",
+    "I need assistance organizing the information from last week's training into a presentation for management.",
+    "Could you help me design a presentation that summarizes our key data for an upcoming meeting?",
+    "I want to turn the notes from last week's training into a clear presentation for the team.",
+    "Can you assist me in preparing a visual outline for our strategy meeting that includes key data?",
+    "I need to compile the information from our training session into a format suitable for a presentation."
+  ],
+  "board-deck-builder": [
+    "How can I make sure our investor meeting highlights our growth strategies and addresses any challenges we're facing?",
+    "I want to prepare a presentation for our investors that clearly communicates our growth plans and how we are handling setbacks.",
+    "Can you assist me in crafting a message for our upcoming investor meeting that outlines our growth and addresses any issues?",
+    "I need guidance on presenting our growth plans and managing setbacks in the deck for my next investor meeting.",
+    "What should I focus on to effectively communicate our growth strategy and setbacks in the upcoming investor update?",
+    "Can you help me outline the key points for our investor meeting to ensure we convey our growth and how we are overcoming challenges?"
+  ],
+  "self-eval": [
+    "I need to reflect on our recent project and see how well we met our goals.",
+    "Can you help me identify areas for improvement after completing my latest project?",
+    "I want to evaluate how effectively we executed our objectives in the last project.",
+    "After finishing my recent work, I\u2019d like to assess our performance and find blind spots.",
+    "How can I review the execution of our objectives from the latest project for better insights?",
+    "I want to analyze the quality of our work on the last project and pinpoint improvement areas."
+  ],
+  "discernment-nudge": [
+    "I want to review the marketing strategy and make sure we address any important details before we show it to the client.",
+    "Can you assist me in examining the project plan to uncover any assumptions or gaps we need to discuss with the team?",
+    "Help me evaluate the proposed marketing strategy and identify any critical factors we might be missing.",
+    "I'd like to go over the project plan and see if there are any assumptions we should clarify with the team.",
+    "Can you guide me in refining our marketing strategy by pointing out any overlooked aspects before the client meeting?",
+    "I need help analyzing the project plan to find any potential gaps or assumptions we should address with the team."
+  ],
+  "compliance-readiness": [
+    "Can you guide me on how to confirm our new project meets all regulatory standards before we proceed?",
+    "I want to make sure our upcoming project is compliant with all necessary regulations before we start.",
+    "How do I check that our new initiative aligns with the required compliance frameworks before launching?",
+    "What steps should I take to ensure our project adheres to all relevant regulatory requirements before moving ahead?",
+    "I need assistance in verifying that our new project is fully compliant with the necessary regulations before we begin.",
+    "Can you help me understand how to ensure our project aligns with regulatory standards before we take the next steps?"
+  ]
+}

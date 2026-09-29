@@ -3,18 +3,20 @@
 skillrouter.py — Skill Router CLI
 
 Two-stage retrieve-then-decide pipeline:
-  Stage 1 (local, free): embed query with all-MiniLM-L6-v2, cosine-similarity
-    against cached skill vectors, return every skill above THRESHOLD.
-  Stage 2 (OpenRouter, cheap): send prompt + Stage-1 candidates to an LLM,
-    have it select the final subset. Skipped when Stage 1 produces a single
-    clearly-dominant match (gap to second-best >= UNAMBIGUOUS_GAP).
+  Stage 1 (local, free): embed query with all-MiniLM-L6-v2, score all skills,
+    optionally fuse with BM25 lexical scores (Change 1: hybrid retrieval),
+    aggregate per-skill scores (MAX or conservative weighted, Change 3),
+    apply relative-score gating (Change 4: alpha * top_score).
+  Stage 2 (OpenRouter, cheap): send prompt + Stage-1 candidates to an LLM;
+    classify each as REQUIRED / HELPFUL / IRRELEVANT (Change 5).
+    Stage 2 is skipped when Stage 1 produces a single clearly-dominant match.
 
 Usage:
     python scripts/skillrouter.py query "<prompt>" [options]
     python scripts/skillrouter.py cost
 
 Options (query):
-    --threshold FLOAT   Stage-1 cosine-similarity cut-off  (default: 0.30)
+    --threshold FLOAT   Stage-1 absolute cosine cut-off  (default: 0.30)
     --no-stage2         Skip Stage-2 LLM rerank entirely
     --dry-run           Print Stage-2 payload without making an API call
     --show-top INT      Debug: also print top-N scores below threshold
@@ -42,91 +44,218 @@ ROOT         = Path(__file__).resolve().parent.parent
 VECTORS_PATH = ROOT / "data" / "skills_index.npz"
 META_PATH    = ROOT / "data" / "skills_index_meta.json"
 COST_PATH    = ROOT / "data" / ".cost_tracker.json"
+LEX_PATH     = ROOT / "data" / "lexical_index.pkl"
 
 load_dotenv(ROOT / ".env")
 
 # ── constants ─────────────────────────────────────────────────────────────────
 MODEL_NAME      = "all-MiniLM-L6-v2"
-STAGE2_MODEL    = "openai/gpt-4o-mini"   # cheap, reliable JSON output
-# Pricing for STAGE2_MODEL (USD per token)
-S2_INPUT_PRICE  = 0.15  / 1_000_000     # $0.15 / M input tokens
-S2_OUTPUT_PRICE = 0.60  / 1_000_000     # $0.60 / M output tokens
-HALT_AT_USD     = 3.00                  # hard spend cap
-UNAMBIGUOUS_GAP = 0.15                  # top-1 vs top-2 score gap → skip Stage 2
+STAGE2_MODEL    = "openai/gpt-4o-mini"
+S2_INPUT_PRICE  = 0.15  / 1_000_000
+S2_OUTPUT_PRICE = 0.60  / 1_000_000
+HALT_AT_USD     = 3.00
+UNAMBIGUOUS_GAP = 0.15   # top-1 vs top-2 gap → skip Stage 2
 
 
-# ── module-level caches ───────────────────────────────────────────────────────
-_vectors = None   # np.ndarray (N, 384) float32, L2-normalised
-_meta    = None   # list of {id, name, description, source_repo}
-_model   = None   # SentenceTransformer instance
+# ── module-level caches ────────────────────────────────────────────────────────
+_index_cache   = {}   # {suffix: (vectors, meta)}
+_model_cache   = {}   # {model_name: SentenceTransformer}
+_lexical_cache: dict = {}  # {path_str: loaded BM25 data}
 
 
-def _load_index():
-    global _vectors, _meta
-    if _vectors is None:
-        if not VECTORS_PATH.exists():
+# ── index loaders ──────────────────────────────────────────────────────────────
+
+def _load_index(suffix: str = ""):
+    """Load semantic index for *suffix* (e.g. '' or '_multi')."""
+    global _index_cache
+    if suffix not in _index_cache:
+        vec_path  = ROOT / "data" / f"skills_index{suffix}.npz"
+        meta_path = ROOT / "data" / f"skills_index{suffix}_meta.json"
+        if not vec_path.exists():
             sys.exit(
-                f"Index not found at {VECTORS_PATH}\n"
+                f"Index not found at {vec_path}\n"
                 "Run:  python scripts/build_index.py"
             )
-        data = np.load(VECTORS_PATH)
-        _vectors = data["vectors"]
-        with open(META_PATH, encoding="utf-8") as f:
-            _meta = json.load(f)
-        if len(_vectors) != len(_meta):
-            sys.exit("Index corrupted: vectors/meta length mismatch. Rebuild with build_index.py")
-    return _vectors, _meta
+        data     = np.load(vec_path)
+        vectors  = data["vectors"]
+        with open(meta_path, encoding="utf-8") as f:
+            meta = json.load(f)
+        if len(vectors) != len(meta):
+            sys.exit(f"Index corrupted ({vec_path}): vectors/meta length mismatch.")
+        _index_cache[suffix] = (vectors, meta)
+    return _index_cache[suffix]
 
 
-def _get_model():
-    global _model
-    if _model is None:
+def _get_model(model_name: str = MODEL_NAME):
+    global _model_cache
+    if model_name not in _model_cache:
         from sentence_transformers import SentenceTransformer
-        _model = SentenceTransformer(MODEL_NAME)
-    return _model
+        _model_cache[model_name] = SentenceTransformer(model_name)
+    return _model_cache[model_name]
 
 
-# ── Stage 1: local embedding + cosine similarity ──────────────────────────────
-def stage1(prompt: str, threshold: float) -> tuple[list[dict], float, float]:
+def _load_lexical_index(path: str | None = None):
+    """Load BM25 index once per path; return None if not built yet."""
+    import pickle
+    lex_path = Path(path) if path else LEX_PATH
+    cache_key = str(lex_path)
+    if cache_key not in _lexical_cache and lex_path.exists():
+        with open(lex_path, "rb") as f:
+            _lexical_cache[cache_key] = pickle.load(f)
+    return _lexical_cache.get(cache_key)
+
+
+def _tokenize(text: str) -> list[str]:
+    """Match tokeniser used in build_lexical_index.py."""
+    tokens = re.findall(r'[a-z0-9]+', text.lower())
+    return [t for t in tokens if len(t) >= 2]
+
+
+# ── Stage 1: embed + score + (optional) BM25 fusion ──────────────────────────
+
+def stage1(
+    prompt: str,
+    threshold: float,
+    cap: int = 0,
+    # Change 4: relative gating (already in place)
+    alpha: float | None = None,
+    alpha_floor: float = 0.20,
+    # Lever B: embedding model / index selection
+    embed_model: str | None = None,
+    index_suffix: str = "",
+    # Change 1: hybrid BM25 + semantic retrieval
+    hybrid: bool = False,
+    semantic_weight: float = 0.7,
+    lexical_weight: float = 0.3,
+    lexical_path: str | None = None,  # override default lexical_index.pkl
+    # Change 3: conservative weighted aggregation (multi-vector mode only)
+    conservative_agg: bool = False,
+    w_desc: float = 0.50,
+    w_max_phrase: float = 0.30,
+    w_top2: float = 0.20,
+) -> tuple[list[dict], float, float]:
     """
-    Embed prompt, score all skills, return candidates above threshold.
+    Stage 1: embed prompt, score all skills, return candidates above cutoff.
+
+    Cutoff modes:
+      alpha=None  → absolute threshold (keep score >= threshold)
+      alpha=float → relative gating   (keep score >= max(alpha*top, alpha_floor))
+
+    Multi-vector index (detected by 'skill_id' field in meta):
+      Aggregation options:
+        conservative_agg=False → MAX over all vectors (original Lever D)
+        conservative_agg=True  → w_desc*desc + w_max_phrase*max_phrase + w_top2*mean_top2
+
+    Hybrid mode (hybrid=True):
+      Fuses semantic score with normalised BM25 score:
+        hybrid_score = semantic_weight * sem + lexical_weight * norm_bm25
+      Requires data/lexical_index.pkl (build with build_lexical_index.py).
+      If the lexical index is absent, falls back to semantic-only silently.
 
     Returns:
-        candidates    — list of skill dicts with added 'score' key, sorted desc
-        top_score     — cosine sim of the best-matching skill
-        second_score  — cosine sim of the second-best skill (may be < threshold)
+        candidates   — skill dicts with 'score' key, sorted descending
+        top_score    — best per-skill score after fusion/aggregation
+        second_score — second-best per-skill score
     """
-    model = _get_model()
-    vec = model.encode([prompt], convert_to_numpy=True, normalize_embeddings=True)[0]
-    vec = vec.astype(np.float32)
+    model   = _get_model(embed_model or MODEL_NAME)
+    vec     = model.encode([prompt], convert_to_numpy=True, normalize_embeddings=True)[0]
+    vec     = vec.astype(np.float32)
+    vectors, meta = _load_index(index_suffix)
+    scores  = vectors @ vec   # cosine similarity (L2-normalised)
 
-    vectors, meta = _load_index()
-    scores = vectors @ vec                     # dot product == cosine sim (normalised)
+    # ── Multi-vector mode ─────────────────────────────────────────────────────
+    if meta and "skill_id" in meta[0]:
+        # Collect per-skill: description score + phrase scores
+        skill_desc   = {}   # {sid: desc_score}
+        skill_phrs   = {}   # {sid: [phrase_score, ...]}
+        skill_entry  = {}   # {sid: meta entry from the description vector}
 
-    order = np.argsort(scores)[::-1]
-    top_score    = float(scores[order[0]])
-    second_score = float(scores[order[1]]) if len(order) > 1 else 0.0
+        for i, m in enumerate(meta):
+            sid   = m["skill_id"]
+            s     = float(scores[i])
+            vtype = m.get("vector_type", "description")
+
+            if vtype == "description":
+                skill_desc[sid]  = s
+                skill_entry[sid] = m   # description meta as canonical entry
+            elif vtype.startswith("phrase"):
+                skill_phrs.setdefault(sid, []).append(s)
+
+        # Aggregate per-skill semantic score
+        skill_sem = {}
+        for sid in skill_entry:
+            desc_score    = skill_desc.get(sid, 0.0)
+            phrase_scores = sorted(skill_phrs.get(sid, []), reverse=True)
+            max_phrase    = phrase_scores[0] if phrase_scores else 0.0
+            top2_mean     = (sum(phrase_scores[:2]) / max(1, len(phrase_scores[:2]))
+                             if phrase_scores else 0.0)
+
+            if conservative_agg:
+                skill_sem[sid] = (w_desc * desc_score
+                                  + w_max_phrase * max_phrase
+                                  + w_top2 * top2_mean)
+            else:
+                skill_sem[sid] = max(desc_score, max_phrase)   # original MAX
+
+    # ── Single-vector mode ────────────────────────────────────────────────────
+    else:
+        skill_sem   = {m["id"]: float(scores[i]) for i, m in enumerate(meta)}
+        skill_entry = {m["id"]: m for m in meta}
+
+    # ── Change 1: BM25 fusion ─────────────────────────────────────────────────
+    if hybrid:
+        lex_data = _load_lexical_index(lexical_path)
+        if lex_data is not None:
+            query_tokens = _tokenize(prompt)
+            bm25_raw     = np.array(lex_data["bm25"].get_scores(query_tokens),
+                                    dtype=np.float32)
+            max_bm25     = float(bm25_raw.max())
+            if max_bm25 > 0:
+                norm_lex = bm25_raw / max_bm25
+            else:
+                norm_lex = bm25_raw
+            lex_ids      = lex_data["skill_ids"]
+            lex_meta_map = {m["id"]: m for m in lex_data["skill_meta"]}
+
+            for i, sid in enumerate(lex_ids):
+                sem = skill_sem.get(sid, 0.0)
+                lex = float(norm_lex[i])
+                # Union: add skills from lexical that weren't in semantic index
+                if sid not in skill_entry and sid in lex_meta_map:
+                    skill_entry[sid] = lex_meta_map[sid]
+                skill_sem[sid] = semantic_weight * sem + lexical_weight * lex
+        # else: lexical index absent — fall through to semantic-only
+
+    # ── Sort, gate, cap ───────────────────────────────────────────────────────
+    sorted_items = sorted(skill_sem.items(), key=lambda kv: -kv[1])
+    top_score    = sorted_items[0][1]    if sorted_items else 0.0
+    second_score = sorted_items[1][1]    if len(sorted_items) > 1 else 0.0
+    cutoff       = (max(alpha * top_score, alpha_floor)
+                    if alpha is not None else threshold)
 
     candidates = []
-    for idx in order:
-        s = float(scores[idx])
-        if s < threshold:
+    for sid, s in sorted_items:
+        if s < cutoff:
             break
-        candidates.append({"score": s, **meta[idx]})
+        entry = skill_entry[sid]
+        candidates.append({"score": s, **entry})
+
+    if cap and len(candidates) > cap:
+        candidates = candidates[:cap]
 
     return candidates, top_score, second_score
 
 
 def is_unambiguous(candidates: list[dict], top_score: float, second_score: float) -> bool:
     """
-    True when Stage 1 has a single dominant match and Stage 2 would add no value.
-    Condition: exactly one candidate above threshold, and the gap to the
-    second-best skill (wherever it sits) is >= UNAMBIGUOUS_GAP.
+    True when Stage 1 has a single dominant match and Stage 2 adds no value.
+    Condition: exactly one candidate, gap to second-best >= UNAMBIGUOUS_GAP.
     """
     return len(candidates) == 1 and (top_score - second_score) >= UNAMBIGUOUS_GAP
 
 
-# ── Stage 2: LLM rerank (OpenRouter) ─────────────────────────────────────────
+# ── Stage 2: LLM rerank (OpenRouter) ──────────────────────────────────────────
+
 def _load_cost() -> dict:
     if COST_PATH.exists():
         with open(COST_PATH, encoding="utf-8") as f:
@@ -172,17 +301,10 @@ def _build_stage2_prompt(task: str, candidates: list[dict]) -> str:
 
 
 def _parse_stage2_response(raw: str, candidates: list[dict]) -> list[dict] | None:
-    """
-    Parse LLM output into a list of chosen candidates.
-    Returns None if parsing fails.
-    """
     raw = raw.strip()
-
-    # Try direct JSON parse
     try:
         parsed = json.loads(raw)
     except json.JSONDecodeError:
-        # Fall back: extract first JSON array from anywhere in the response
         m = re.search(r'\[[\s\S]*?\]', raw)
         if not m:
             return None
@@ -191,7 +313,6 @@ def _parse_stage2_response(raw: str, candidates: list[dict]) -> list[dict] | Non
         except json.JSONDecodeError:
             return None
 
-    # parsed may be a list of ints, or {"skills": [1, 2]}, etc.
     if isinstance(parsed, dict):
         nums = next((v for v in parsed.values() if isinstance(v, list)), [])
     elif isinstance(parsed, list):
@@ -199,11 +320,10 @@ def _parse_stage2_response(raw: str, candidates: list[dict]) -> list[dict] | Non
     else:
         return None
 
-    # Extract integers (1-based indices into candidates)
     chosen = []
     for n in nums:
         try:
-            idx = int(n) - 1          # convert 1-based → 0-based
+            idx = int(n) - 1
         except (TypeError, ValueError):
             continue
         if 0 <= idx < len(candidates):
@@ -214,16 +334,14 @@ def _parse_stage2_response(raw: str, candidates: list[dict]) -> list[dict] | Non
 
 def stage2(prompt: str, candidates: list[dict], dry_run: bool = False) -> list[dict]:
     """
-    Call the Stage-2 LLM to select the final subset from Stage-1 candidates.
-    Returns the chosen subset; falls back to candidates if anything goes wrong.
+    Stage-2 LLM rerank.  Returns chosen subset; falls back to candidates on error.
     """
     import requests as req
 
     api_key = os.environ.get("OPENROUTER_API_KEY", "")
     if not api_key and not dry_run:
         print(
-            "[WARN] OPENROUTER_API_KEY not set — skipping Stage 2 "
-            "(set it in .env or environment)",
+            "[WARN] OPENROUTER_API_KEY not set — skipping Stage 2",
             file=sys.stderr,
         )
         return candidates
@@ -238,7 +356,6 @@ def stage2(prompt: str, candidates: list[dict], dry_run: bool = False) -> list[d
         print(f"  model:           {STAGE2_MODEL}")
         print(f"  candidates:      {len(candidates)}")
         print(f"  user_msg chars:  {len(user_msg)}")
-        print(f"  ~prompt tokens:  ~{len(user_msg) // 4} (rough estimate)")
         return candidates
 
     resp = req.post(
@@ -271,12 +388,10 @@ def stage2(prompt: str, candidates: list[dict], dry_run: bool = False) -> list[d
     resp.raise_for_status()
     body = resp.json()
 
-    # ── cost accounting ───────────────────────────────────────────────────────
-    usage = body.get("usage", {})
+    usage             = body.get("usage", {})
     prompt_tokens     = usage.get("prompt_tokens",     0)
     completion_tokens = usage.get("completion_tokens", 0)
-    # OpenRouter may include a 'cost' field (in USD); fall back to estimate
-    call_cost = usage.get("cost") or _estimate_cost(prompt_tokens, completion_tokens)
+    call_cost         = usage.get("cost") or _estimate_cost(prompt_tokens, completion_tokens)
 
     tracker["total_usd"] = round(tracker["total_usd"] + call_cost, 6)
     tracker["calls"]    += 1
@@ -291,8 +406,7 @@ def stage2(prompt: str, candidates: list[dict], dry_run: bool = False) -> list[d
 
     _check_budget(tracker)
 
-    # ── parse & validate ──────────────────────────────────────────────────────
-    raw = body["choices"][0]["message"]["content"]
+    raw    = body["choices"][0]["message"]["content"]
     chosen = _parse_stage2_response(raw, candidates)
 
     if chosen is None:
@@ -313,20 +427,21 @@ def stage2(prompt: str, candidates: list[dict], dry_run: bool = False) -> list[d
     return chosen
 
 
-# ── CLI commands ──────────────────────────────────────────────────────────────
+# ── CLI commands ───────────────────────────────────────────────────────────────
+
 def cmd_query(args):
     prompt    = args.prompt
     threshold = args.threshold
     no_stage2 = args.no_stage2
     dry_run   = args.dry_run
     show_top  = args.show_top
+    cap       = args.cap
 
     print(f"\nQuery:     {prompt!r}")
-    print(f"Threshold: {threshold}")
+    print(f"Threshold: {threshold}  cap: {cap if cap else 'none'}")
 
-    candidates, top_score, second_score = stage1(prompt, threshold)
+    candidates, top_score, second_score = stage1(prompt, threshold, cap=cap)
 
-    # ── Stage 1 output ────────────────────────────────────────────────────────
     print(f"\nStage 1 — {len(candidates)} candidate(s) above {threshold}:")
     if candidates:
         for c in candidates:
@@ -335,18 +450,17 @@ def cmd_query(args):
     else:
         print(f"  (none — top score was {top_score:.4f})")
 
-    # Optional: show more scores below threshold for debugging
     if show_top and show_top > len(candidates):
         model = _get_model()
-        vec = model.encode([prompt], convert_to_numpy=True, normalize_embeddings=True)[0].astype(np.float32)
+        v = model.encode([prompt], convert_to_numpy=True, normalize_embeddings=True)[0].astype(np.float32)
         vectors, meta = _load_index()
-        scores = vectors @ vec
-        order = np.argsort(scores)[::-1]
+        sc = vectors @ v
+        order = np.argsort(sc)[::-1]
         n_extra = show_top - len(candidates)
         print(f"\n  Next {n_extra} below threshold:")
         shown = 0
         for idx in order:
-            s = float(scores[idx])
+            s = float(sc[idx])
             if s >= threshold:
                 continue
             print(f"  [{s:.4f}]  {meta[idx]['name']}")
@@ -357,7 +471,6 @@ def cmd_query(args):
     if not candidates:
         return
 
-    # ── decide whether to run Stage 2 ────────────────────────────────────────
     skip_reason = None
     if no_stage2:
         skip_reason = "--no-stage2 flag"
@@ -374,7 +487,6 @@ def cmd_query(args):
         print(f"\nStage 2: calling {STAGE2_MODEL} …")
         final = stage2(prompt, candidates, dry_run=dry_run)
 
-    # ── final output ──────────────────────────────────────────────────────────
     print(f"\nFinal skill set ({len(final)}):")
     for s in final:
         score_tag = f"[{s['score']:.4f}] " if "score" in s else ""
@@ -400,29 +512,16 @@ def main():
     )
     sub = parser.add_subparsers(dest="cmd", metavar="COMMAND")
 
-    # query subcommand
     qp = sub.add_parser("query", help="Route a prompt to matching skills")
     qp.add_argument("prompt", help="Task description to route")
-    qp.add_argument(
-        "--threshold", type=float, default=0.30,
-        help="Stage-1 cosine-similarity cut-off (default: 0.30)",
-    )
-    qp.add_argument(
-        "--no-stage2", action="store_true",
-        help="Skip Stage-2 LLM rerank entirely",
-    )
-    qp.add_argument(
-        "--dry-run", action="store_true",
-        help="Show Stage-2 payload without calling the API",
-    )
-    qp.add_argument(
-        "--show-top", type=int, default=0, metavar="N",
-        help="Also print top-N scores below threshold (debug)",
-    )
+    qp.add_argument("--threshold", type=float, default=0.30)
+    qp.add_argument("--no-stage2", action="store_true")
+    qp.add_argument("--dry-run",   action="store_true")
+    qp.add_argument("--show-top",  type=int, default=0, metavar="N")
+    qp.add_argument("--cap",       type=int, default=40, metavar="N")
 
-    # cost subcommand
     cp = sub.add_parser("cost", help="Show current running cost")
-    cp.add_argument("_unused", nargs="*")   # absorb accidental extra args
+    cp.add_argument("_unused", nargs="*")
 
     args = parser.parse_args()
     if args.cmd == "query":

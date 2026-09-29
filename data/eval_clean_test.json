@@ -1,0 +1,1442 @@
+[
+  {
+    "prompt_id": "ct_001",
+    "prompt": "Generate five variations of ad copy for a LinkedIn campaign promoting our new software tool.",
+    "ground_truth_ids": [
+      "bf6857fcbdc6"
+    ],
+    "ground_truth_names": [
+      "ad-creative"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_002",
+    "prompt": "Create ten headlines for Facebook ads aimed at increasing sign-ups for our online course.",
+    "ground_truth_ids": [
+      "bf6857fcbdc6"
+    ],
+    "ground_truth_names": [
+      "ad-creative"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_003",
+    "prompt": "Create a detailed onboarding checklist for new users to enhance their first-run experience and ensure they reach their aha moment quickly.",
+    "ground_truth_ids": [
+      "54be6a6423c2"
+    ],
+    "ground_truth_names": [
+      "onboarding-cro"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_004",
+    "prompt": "Analyze our current activation rate and provide a report with recommendations to optimize the onboarding flow for better user engagement.",
+    "ground_truth_ids": [
+      "54be6a6423c2"
+    ],
+    "ground_truth_names": [
+      "onboarding-cro"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_005",
+    "prompt": "Create an automated workflow in Zoho Desk that categorizes incoming support tickets based on keywords and assigns them to the appropriate team members.",
+    "ground_truth_ids": [
+      "815c33b5505d"
+    ],
+    "ground_truth_names": [
+      "Zoho Desk Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_006",
+    "prompt": "Set up a rule in Zoho Desk to automatically send follow-up emails to customers who have unresolved tickets after 48 hours.",
+    "ground_truth_ids": [
+      "815c33b5505d"
+    ],
+    "ground_truth_names": [
+      "Zoho Desk Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_007",
+    "prompt": "Create a feature comparison matrix for our product and three competitors, scoring them across key dimensions to inform our upcoming strategy meeting.",
+    "ground_truth_ids": [
+      "9c1ea10c174e"
+    ],
+    "ground_truth_names": [
+      "competitive-teardown"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_008",
+    "prompt": "Generate a SWOT analysis and a positioning map for our main competitor based on their recent product updates and market positioning.",
+    "ground_truth_ids": [
+      "9c1ea10c174e"
+    ],
+    "ground_truth_names": [
+      "competitive-teardown"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_009",
+    "prompt": "Create a detailed marketing budget allocation report for our upcoming product launch, including recommendations for channel mix and expected ROI.",
+    "ground_truth_ids": [
+      "f69537ed112f"
+    ],
+    "ground_truth_names": [
+      "cmo-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_010",
+    "prompt": "Design a brand strategy presentation for our startup that outlines our growth model and key marketing objectives, formatted for a stakeholder meeting.",
+    "ground_truth_ids": [
+      "f69537ed112f"
+    ],
+    "ground_truth_names": [
+      "cmo-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_011",
+    "prompt": "Create a detailed sales battlecard for our top three competitors, highlighting their strengths, weaknesses, and recent market moves using the provided template.",
+    "ground_truth_ids": [
+      "79b538dc7124"
+    ],
+    "ground_truth_names": [
+      "competitive-intel"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_012",
+    "prompt": "Compile a competitive analysis report in PowerPoint format that outlines our positioning against key alternatives in the market, including win/loss insights and strategic recommendations.",
+    "ground_truth_ids": [
+      "79b538dc7124"
+    ],
+    "ground_truth_names": [
+      "competitive-intel"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_013",
+    "prompt": "Create a GIF of a cat playing piano that I can use in my Slack channel",
+    "ground_truth_ids": [
+      "9a5fffdd29d6"
+    ],
+    "ground_truth_names": [
+      "slack-gif-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_014",
+    "prompt": "Make me a Slack-friendly GIF of a dog doing a backflip",
+    "ground_truth_ids": [
+      "9a5fffdd29d6"
+    ],
+    "ground_truth_names": [
+      "slack-gif-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_015",
+    "prompt": "Please sync the latest test results to TestRail so the team can review the progress.",
+    "ground_truth_ids": [
+      "ca281a5d965d"
+    ],
+    "ground_truth_names": [
+      "testrail"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_016",
+    "prompt": "Can you import all the test cases from TestRail for our new project iteration?",
+    "ground_truth_ids": [
+      "ca281a5d965d"
+    ],
+    "ground_truth_names": [
+      "testrail"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_017",
+    "prompt": "Can you help me clean up the messy data in the CSV file I downloaded? I need it to be organized into a proper Excel spreadsheet.",
+    "ground_truth_ids": [
+      "46bfd3654bf3"
+    ],
+    "ground_truth_names": [
+      "xlsx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_018",
+    "prompt": "I need to create a new spreadsheet from scratch to track my expenses. Please make it an .xlsx file with the categories I've listed.",
+    "ground_truth_ids": [
+      "46bfd3654bf3"
+    ],
+    "ground_truth_names": [
+      "xlsx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_019",
+    "prompt": "Evaluate the proposed AI model selection for our new customer support chatbot, focusing on risk classification and cost economics, and provide a detailed report in PDF format.",
+    "ground_truth_ids": [
+      "48012173f5f5"
+    ],
+    "ground_truth_names": [
+      "caio-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_020",
+    "prompt": "Classify our new AI-driven marketing tool under the EU AI Act and prepare a presentation that outlines the compliance requirements and potential risks involved.",
+    "ground_truth_ids": [
+      "48012173f5f5"
+    ],
+    "ground_truth_names": [
+      "caio-review"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_021",
+    "prompt": "Create a new job posting for a software engineer position and publish it to our careers page.",
+    "ground_truth_ids": [
+      "c4f4ff8df0fc"
+    ],
+    "ground_truth_names": [
+      "Lever Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_022",
+    "prompt": "Update the status of all candidates in the interview stage to 'offer extended' and notify them via email.",
+    "ground_truth_ids": [
+      "c4f4ff8df0fc"
+    ],
+    "ground_truth_names": [
+      "Lever Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_023",
+    "prompt": "Create a landing page for my new product that features smooth scrolling animations, overlapping sections, and text that reveals on scroll. It should have a cinematic feel and engage users as they navigate.",
+    "ground_truth_ids": [
+      "032ad18035c7"
+    ],
+    "ground_truth_names": [
+      "epic-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_024",
+    "prompt": "Design an interactive website for my art portfolio that includes parallax scrolling effects, floating images between sections, and text animations that activate as users scroll down. The final output should be a fully functional HTML page.",
+    "ground_truth_ids": [
+      "032ad18035c7"
+    ],
+    "ground_truth_names": [
+      "epic-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_025",
+    "prompt": "Log 5 hours of work on the website redesign project today",
+    "ground_truth_ids": [
+      "007eb29edf67"
+    ],
+    "ground_truth_names": [
+      "Harvest Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_026",
+    "prompt": "Create an invoice for the client for the graphic design services rendered last month",
+    "ground_truth_ids": [
+      "007eb29edf67"
+    ],
+    "ground_truth_names": [
+      "Harvest Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_027",
+    "prompt": "Can you show me the current results and progress of my autoresearch experiment dashboard?",
+    "ground_truth_ids": [
+      "09911148e4cb"
+    ],
+    "ground_truth_names": [
+      "ar-status"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_028",
+    "prompt": "I'd like to see the active loops and overall status of my autoresearch experiment right now.",
+    "ground_truth_ids": [
+      "09911148e4cb"
+    ],
+    "ground_truth_names": [
+      "ar-status"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_029",
+    "prompt": "Scan our codebase for potential GDPR compliance issues and provide a detailed report in PDF format highlighting any privacy risks.",
+    "ground_truth_ids": [
+      "5a18d7f9cc2e"
+    ],
+    "ground_truth_names": [
+      "gdpr-dsgvo-expert"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_030",
+    "prompt": "Generate a Data Protection Impact Assessment (DPIA) document for our new customer data processing service based on the latest regulations.",
+    "ground_truth_ids": [
+      "5a18d7f9cc2e"
+    ],
+    "ground_truth_names": [
+      "gdpr-dsgvo-expert"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_031",
+    "prompt": "I need a starter codebase for a web application that allows users to create and manage their own to-do lists.",
+    "ground_truth_ids": [
+      "d15c65538bc3"
+    ],
+    "ground_truth_names": [
+      "spec-to-repo"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_032",
+    "prompt": "Can you generate a complete repository for a mobile app that helps users track their fitness goals and workouts?",
+    "ground_truth_ids": [
+      "d15c65538bc3"
+    ],
+    "ground_truth_names": [
+      "spec-to-repo"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_033",
+    "prompt": "Create a new skill that helps users find nearby coffee shops and provide a PDF guide on how to use it effectively.",
+    "ground_truth_ids": [
+      "01fc73c1aef9"
+    ],
+    "ground_truth_names": [
+      "skill-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_034",
+    "prompt": "Modify the existing skill for scheduling meetings to improve its accuracy and generate a performance report with the results in a spreadsheet format.",
+    "ground_truth_ids": [
+      "01fc73c1aef9"
+    ],
+    "ground_truth_names": [
+      "skill-creator"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_035",
+    "prompt": "Create a PowerPoint presentation for the upcoming board meeting that includes insights from the CEO, CFO, and CTO, focusing on our quarterly performance and future strategies.",
+    "ground_truth_ids": [
+      "2d2041a5ffa3"
+    ],
+    "ground_truth_names": [
+      "board-deck-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_036",
+    "prompt": "Assemble an investor update deck in Google Slides that highlights our progress, any setbacks we've encountered, and our plans for the next quarter, incorporating feedback from all C-suite executives.",
+    "ground_truth_ids": [
+      "2d2041a5ffa3"
+    ],
+    "ground_truth_names": [
+      "board-deck-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_037",
+    "prompt": "Create a Bicep template to deploy a web app with a Cosmos DB backend on Azure, ensuring it follows best practices for scalability and cost efficiency.",
+    "ground_truth_ids": [
+      "4f618554916f"
+    ],
+    "ground_truth_names": [
+      "azure-cloud-architect"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_038",
+    "prompt": "Design an Azure DevOps pipeline that automates the deployment of an AKS cluster and deploys a containerized application to it, including all necessary configurations.",
+    "ground_truth_ids": [
+      "4f618554916f"
+    ],
+    "ground_truth_names": [
+      "azure-cloud-architect"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_039",
+    "prompt": "Create a mood board for my new mobile app that captures a modern and minimalist aesthetic, focusing on color palettes and typography choices.",
+    "ground_truth_ids": [
+      "becaf2345d73"
+    ],
+    "ground_truth_names": [
+      "frontend-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_040",
+    "prompt": "Design a set of custom UI components for my website that are visually cohesive and avoid generic templates, including buttons and input fields in a Figma file.",
+    "ground_truth_ids": [
+      "becaf2345d73"
+    ],
+    "ground_truth_names": [
+      "frontend-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_041",
+    "prompt": "Generate Jest test stubs for my React components and include assertions for each one.",
+    "ground_truth_ids": [
+      "493bd7d88526"
+    ],
+    "ground_truth_names": [
+      "senior-qa"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_042",
+    "prompt": "Set up a Playwright configuration file for testing my Next.js application routes.",
+    "ground_truth_ids": [
+      "493bd7d88526"
+    ],
+    "ground_truth_names": [
+      "senior-qa"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_043",
+    "prompt": "Create a new time entry for 3 hours of design work on the Clockify app",
+    "ground_truth_ids": [
+      "9a3c1b358021"
+    ],
+    "ground_truth_names": [
+      "Clockify Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_044",
+    "prompt": "Add a new user to my workspace in Clockify with the email address example@example.com",
+    "ground_truth_ids": [
+      "9a3c1b358021"
+    ],
+    "ground_truth_names": [
+      "Clockify Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_045",
+    "prompt": "Please scan the codebase for technical debt and provide a detailed report in PDF format outlining the findings.",
+    "ground_truth_ids": [
+      "b6568540ecd0"
+    ],
+    "ground_truth_names": [
+      "tech-debt"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_046",
+    "prompt": "Can you prioritize the identified technical debt items and generate a spreadsheet with recommendations for resolution?",
+    "ground_truth_ids": [
+      "b6568540ecd0"
+    ],
+    "ground_truth_names": [
+      "tech-debt"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_047",
+    "prompt": "I need a detailed report that outlines the 510(k) submission process for my new medical device, including timelines and necessary documentation.",
+    "ground_truth_ids": [
+      "fe4978533578"
+    ],
+    "ground_truth_names": [
+      "fda-consultant-specialist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_048",
+    "prompt": "Can you help me draft a compliance plan that aligns with ISO 13485:2016 for my medical device manufacturing process?",
+    "ground_truth_ids": [
+      "fe4978533578"
+    ],
+    "ground_truth_names": [
+      "fda-consultant-specialist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_049",
+    "prompt": "Review the current memory directory and provide a detailed report in PDF format on what information is stored, including any redundancies and recommendations for expiration.",
+    "ground_truth_ids": [
+      "a55109282753"
+    ],
+    "ground_truth_names": [
+      "memory-engineering"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_050",
+    "prompt": "Create a new memory policy document that outlines what types of information should be retained and how we will manage forgetting, formatted as a Word document.",
+    "ground_truth_ids": [
+      "a55109282753"
+    ],
+    "ground_truth_names": [
+      "memory-engineering"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_051",
+    "prompt": "Create a sequenced touchpoint calendar and a primary announcement for our upcoming all-hands meeting, including audience-segmented FAQs and manager talking points.",
+    "ground_truth_ids": [
+      "c07f90b4642e"
+    ],
+    "ground_truth_names": [
+      "internal-comms"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_052",
+    "prompt": "Draft a communication for the recent leadership transition, providing a detailed primary announcement and segmented FAQs for different departments, along with talking points for managers.",
+    "ground_truth_ids": [
+      "c07f90b4642e"
+    ],
+    "ground_truth_names": [
+      "internal-comms"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_053",
+    "prompt": "Analyze the results of our recent A/B test and provide a detailed report in PDF format, including the sample size justification, statistical significance of the results, and recommendations based on the findings.",
+    "ground_truth_ids": [
+      "f58de700b461"
+    ],
+    "ground_truth_names": [
+      "senior-data-scientist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_054",
+    "prompt": "Create a predictive model using our customer data and present the model evaluation metrics in an Excel spreadsheet, highlighting AUC-ROC and feature importance rankings.",
+    "ground_truth_ids": [
+      "f58de700b461"
+    ],
+    "ground_truth_names": [
+      "senior-data-scientist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_055",
+    "prompt": "Create a Helm chart for deploying a PostgreSQL database with a custom values.yaml file that includes settings for replication and storage size.",
+    "ground_truth_ids": [
+      "3588f1eac652"
+    ],
+    "ground_truth_names": [
+      "helm-chart-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_056",
+    "prompt": "Audit an existing Helm chart for security vulnerabilities and generate a report detailing RBAC configurations and network policies.",
+    "ground_truth_ids": [
+      "3588f1eac652"
+    ],
+    "ground_truth_names": [
+      "helm-chart-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_057",
+    "prompt": "Can you help me design a pipeline for retrieving information from our customer support documents and provide a summary of the architecture in a presentation format?",
+    "ground_truth_ids": [
+      "072e9ba94e0a"
+    ],
+    "ground_truth_names": [
+      "rag-architect"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_058",
+    "prompt": "I need to evaluate the precision and recall of my current document retrieval system against a set of labeled examples. Could you generate a report detailing the metrics in a PDF?",
+    "ground_truth_ids": [
+      "072e9ba94e0a"
+    ],
+    "ground_truth_names": [
+      "rag-architect"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_059",
+    "prompt": "Create a new folder in my Jotform account to organize my event registration forms.",
+    "ground_truth_ids": [
+      "6770644a4aae"
+    ],
+    "ground_truth_names": [
+      "Jotform Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_060",
+    "prompt": "Generate a report of user activity on my Jotform forms for the last month.",
+    "ground_truth_ids": [
+      "6770644a4aae"
+    ],
+    "ground_truth_names": [
+      "Jotform Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_061",
+    "prompt": "Create a report analyzing our team's current delivery throughput and identify any bottlenecks in our process, using a presentation format for the upcoming executive meeting.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_062",
+    "prompt": "Draft a comprehensive outline for our engineering hiring funnel, including metrics for each stage and suggestions for improvement, to share with the HR department in a document.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_063",
+    "prompt": "Can you take a screenshot of the login page of my local web app and save it as a PNG file?",
+    "ground_truth_ids": [
+      "f421c802090d"
+    ],
+    "ground_truth_names": [
+      "webapp-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_064",
+    "prompt": "Please run a series of tests on my web application's UI to ensure all buttons are functioning correctly and provide me with the browser logs in a text file.",
+    "ground_truth_ids": [
+      "f421c802090d"
+    ],
+    "ground_truth_names": [
+      "webapp-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_065",
+    "prompt": "Create a PowerPoint presentation using Anthropic's brand colors and typography for our upcoming client pitch.",
+    "ground_truth_ids": [
+      "3a641960f03a"
+    ],
+    "ground_truth_names": [
+      "brand-guidelines"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_066",
+    "prompt": "Design a social media post template in Canva that incorporates Anthropic's official brand colors and typography for our marketing campaign.",
+    "ground_truth_ids": [
+      "3a641960f03a"
+    ],
+    "ground_truth_names": [
+      "brand-guidelines"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_067",
+    "prompt": "Can you create a professional memo in a Word document format for our upcoming team meeting?",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_068",
+    "prompt": "I need a report formatted as a .docx file with a table of contents and headings for each section.",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_069",
+    "prompt": "Generate a six-question readiness assessment for our SOC 2 Type II audit, focusing on our observation period, and provide it in a PDF format.",
+    "ground_truth_ids": [
+      "ceeccf8f17b9"
+    ],
+    "ground_truth_names": [
+      "soc2-audit-prep"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_070",
+    "prompt": "Create a mid-period checkpoint questionnaire for our SOC 2 Type II readiness and deliver it as a Word document for our compliance team.",
+    "ground_truth_ids": [
+      "ceeccf8f17b9"
+    ],
+    "ground_truth_names": [
+      "soc2-audit-prep"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_071",
+    "prompt": "Create a multi-page interactive dashboard using React and Tailwind CSS that displays real-time data visualizations and allows users to navigate between different sections.",
+    "ground_truth_ids": [
+      "2178db169f9e"
+    ],
+    "ground_truth_names": [
+      "web-artifacts-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_072",
+    "prompt": "Build a complex web application that includes user authentication, dynamic routing, and advanced form handling using shadcn/ui components for a seamless experience.",
+    "ground_truth_ids": [
+      "2178db169f9e"
+    ],
+    "ground_truth_names": [
+      "web-artifacts-builder"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_073",
+    "prompt": "Can you analyze my LinkedIn posts and give me a report on which types of content are performing best, including medians and outliers?",
+    "ground_truth_ids": [
+      "57a22feeabe2"
+    ],
+    "ground_truth_names": [
+      "linkedin-analytics"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_074",
+    "prompt": "I need help understanding why my reach has dropped on LinkedIn; please provide insights based on my exported post data.",
+    "ground_truth_ids": [
+      "57a22feeabe2"
+    ],
+    "ground_truth_names": [
+      "linkedin-analytics"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_075",
+    "prompt": "Create a video script for a 5-minute YouTube tutorial on how to use video editing software.",
+    "ground_truth_ids": [
+      "df53c196ffdb"
+    ],
+    "ground_truth_names": [
+      "video-content-strategist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_076",
+    "prompt": "Help me plan a content strategy for my new TikTok account, including ideas for 10 short videos.",
+    "ground_truth_ids": [
+      "df53c196ffdb"
+    ],
+    "ground_truth_names": [
+      "video-content-strategist"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_077",
+    "prompt": "Help me create a detailed technical specification document for our new software feature, including sections for requirements, design, and testing.",
+    "ground_truth_ids": [
+      "88f0bc090c4b"
+    ],
+    "ground_truth_names": [
+      "doc-coauthoring"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_078",
+    "prompt": "I need to draft a proposal for a new project, outlining the objectives, timeline, and budget, so it can be shared with the stakeholders.",
+    "ground_truth_ids": [
+      "88f0bc090c4b"
+    ],
+    "ground_truth_names": [
+      "doc-coauthoring"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_079",
+    "prompt": "Generate a detailed penetration testing report for our web application, including findings and recommendations in PDF format.",
+    "ground_truth_ids": [
+      "c35d03c11971"
+    ],
+    "ground_truth_names": [
+      "security-pen-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_080",
+    "prompt": "Conduct a vulnerability scan on our API and provide a summary of the OWASP Top 10 issues in a CSV file.",
+    "ground_truth_ids": [
+      "c35d03c11971"
+    ],
+    "ground_truth_names": [
+      "security-pen-testing"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_081",
+    "prompt": "Generate a detailed report on our current npm package vulnerabilities and license conflicts in a PDF format.",
+    "ground_truth_ids": [
+      "bdf8587198af"
+    ],
+    "ground_truth_names": [
+      "dependency-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_082",
+    "prompt": "Create a summary document outlining the safe-upgrade paths for our Python dependencies before the next release.",
+    "ground_truth_ids": [
+      "bdf8587198af"
+    ],
+    "ground_truth_names": [
+      "dependency-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_083",
+    "prompt": "Please audit the README.md file in my project directory for SEO improvements and generate a detailed report.",
+    "ground_truth_ids": [
+      "3b8827e216fd"
+    ],
+    "ground_truth_names": [
+      "seo-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_084",
+    "prompt": "Can you check the docs/ pages for broken links and update the sitemap.xml accordingly?",
+    "ground_truth_ids": [
+      "3b8827e216fd"
+    ],
+    "ground_truth_names": [
+      "seo-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_085",
+    "prompt": "Create a 90-day LinkedIn content plan that outlines my content pillars and a posting schedule to grow my following.",
+    "ground_truth_ids": [
+      "1d1f42ca17a6"
+    ],
+    "ground_truth_names": [
+      "linkedin-strategy"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_086",
+    "prompt": "Help me decide if I should start a LinkedIn newsletter and outline the commitment required for a six-month cadence.",
+    "ground_truth_ids": [
+      "1d1f42ca17a6"
+    ],
+    "ground_truth_names": [
+      "linkedin-strategy"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_087",
+    "prompt": "Create a presentation slide deck that explains five key cognitive biases and how they can be applied to improve our marketing strategy.",
+    "ground_truth_ids": [
+      "c6d1c619b562"
+    ],
+    "ground_truth_names": [
+      "marketing-psychology"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_088",
+    "prompt": "Write a blog post outlining three mental models that can help understand consumer behavior and drive more effective advertising campaigns.",
+    "ground_truth_ids": [
+      "c6d1c619b562"
+    ],
+    "ground_truth_names": [
+      "marketing-psychology"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_089",
+    "prompt": "Can you give me the latest pricing details for using the Claude API for a project I’m planning?",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_090",
+    "prompt": "I need help understanding the token limits and caching strategies for the Claude model when making API calls.",
+    "ground_truth_ids": [
+      "b84b8b479bb3"
+    ],
+    "ground_truth_names": [
+      "claude-api"
+    ],
+    "set_size": 1,
+    "trigger_type": "explicit"
+  },
+  {
+    "prompt_id": "ct_091",
+    "prompt": "I need a starting point for my new mobile idea so we can begin development right away.",
+    "ground_truth_ids": [
+      "d15c65538bc3"
+    ],
+    "ground_truth_names": [
+      "spec-to-repo"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_092",
+    "prompt": "Can you help me set up a foundation for my project based on these requirements I have?",
+    "ground_truth_ids": [
+      "d15c65538bc3"
+    ],
+    "ground_truth_names": [
+      "spec-to-repo"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_093",
+    "prompt": "I want to create a visual identity for our new product that really stands out and speaks to our target audience.",
+    "ground_truth_ids": [
+      "becaf2345d73"
+    ],
+    "ground_truth_names": [
+      "frontend-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_094",
+    "prompt": "I'm looking for some inspiration on how to refresh our website's look so it feels more unique and engaging for visitors.",
+    "ground_truth_ids": [
+      "becaf2345d73"
+    ],
+    "ground_truth_names": [
+      "frontend-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_095",
+    "prompt": "I need to ensure all our test cases are up to date and properly documented for the upcoming release.",
+    "ground_truth_ids": [
+      "ca281a5d965d"
+    ],
+    "ground_truth_names": [
+      "testrail"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_096",
+    "prompt": "Can you help me keep track of the test results from our last sprint and make sure everything is aligned with our project requirements?",
+    "ground_truth_ids": [
+      "ca281a5d965d"
+    ],
+    "ground_truth_names": [
+      "testrail"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_097",
+    "prompt": "I have so many ideas for our new marketing campaign that I need to sort out and prioritize before we move forward.",
+    "ground_truth_ids": [
+      "df03a3a7ec46"
+    ],
+    "ground_truth_names": [
+      "capture"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_098",
+    "prompt": "I’ve been thinking about several projects I want to tackle this quarter, but I need to get everything out of my head and figure out the next steps.",
+    "ground_truth_ids": [
+      "df03a3a7ec46"
+    ],
+    "ground_truth_names": [
+      "capture"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_099",
+    "prompt": "I need to draft a formal correspondence to a client that includes specific details and a professional layout.",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_100",
+    "prompt": "Can you help me compile our project findings into a structured document with clear sections and a summary at the end?",
+    "ground_truth_ids": [
+      "3a6bd3ec2dca"
+    ],
+    "ground_truth_names": [
+      "docx"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_101",
+    "prompt": "I need a way to streamline our customer support processes so that our team can respond to inquiries more efficiently.",
+    "ground_truth_ids": [
+      "815c33b5505d"
+    ],
+    "ground_truth_names": [
+      "Zoho Desk Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_102",
+    "prompt": "Can we set up a system that automatically categorizes and prioritizes incoming tickets to reduce response times?",
+    "ground_truth_ids": [
+      "815c33b5505d"
+    ],
+    "ground_truth_names": [
+      "Zoho Desk Automation"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_103",
+    "prompt": "I need to ensure our device meets all regulatory requirements before we launch it to market.",
+    "ground_truth_ids": [
+      "fe4978533578"
+    ],
+    "ground_truth_names": [
+      "fda-consultant-specialist"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_104",
+    "prompt": "Can you help me navigate the complexities of getting our new product approved in a timely manner?",
+    "ground_truth_ids": [
+      "fe4978533578"
+    ],
+    "ground_truth_names": [
+      "fda-consultant-specialist"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_105",
+    "prompt": "Ensure our project is secure and compliant with licensing before the upcoming release",
+    "ground_truth_ids": [
+      "bdf8587198af"
+    ],
+    "ground_truth_names": [
+      "dependency-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_106",
+    "prompt": "Identify any potential risks in our dependencies that could affect our planned upgrade to the latest framework version",
+    "ground_truth_ids": [
+      "bdf8587198af"
+    ],
+    "ground_truth_names": [
+      "dependency-auditor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_107",
+    "prompt": "I want to ensure our code is maintainable and adheres to best practices before merging any changes.",
+    "ground_truth_ids": [
+      "a182fa9a0937"
+    ],
+    "ground_truth_names": [
+      "code-reviewer"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_108",
+    "prompt": "I need to identify any potential risks in the new features being added to our project so we can address them early.",
+    "ground_truth_ids": [
+      "a182fa9a0937"
+    ],
+    "ground_truth_names": [
+      "code-reviewer"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_109",
+    "prompt": "I need to align our messaging for the upcoming product launch across all channels to ensure a cohesive campaign.",
+    "ground_truth_ids": [
+      "6f14bf4a0c17"
+    ],
+    "ground_truth_names": [
+      "marketing-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_110",
+    "prompt": "Can you help me prioritize our marketing initiatives for the next quarter based on our current goals and resources?",
+    "ground_truth_ids": [
+      "6f14bf4a0c17"
+    ],
+    "ground_truth_names": [
+      "marketing-ops"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_111",
+    "prompt": "I need to figure out the best way to allocate our marketing budget to maximize growth this year.",
+    "ground_truth_ids": [
+      "f69537ed112f"
+    ],
+    "ground_truth_names": [
+      "cmo-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_112",
+    "prompt": "I'm looking for guidance on how to position our brand to stand out in a competitive market while driving customer acquisition effectively.",
+    "ground_truth_ids": [
+      "f69537ed112f"
+    ],
+    "ground_truth_names": [
+      "cmo-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_113",
+    "prompt": "I want to ensure our new users have a smooth experience after signing up so they feel engaged right from the start.",
+    "ground_truth_ids": [
+      "54be6a6423c2"
+    ],
+    "ground_truth_names": [
+      "onboarding-cro"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_114",
+    "prompt": "Can we improve how we guide users through their initial setup to help them realize the value of our product faster?",
+    "ground_truth_ids": [
+      "54be6a6423c2"
+    ],
+    "ground_truth_names": [
+      "onboarding-cro"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_115",
+    "prompt": "I need to ensure our team is fully prepared for the upcoming SOC 2 Type II audit, so we can identify any gaps before the observation period starts.",
+    "ground_truth_ids": [
+      "ceeccf8f17b9"
+    ],
+    "ground_truth_names": [
+      "soc2-audit-prep"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_116",
+    "prompt": "Can you help me assess our current readiness for the SOC 2 Type II audit? I want to make sure we're on track as we approach the mid-point of our observation period.",
+    "ground_truth_ids": [
+      "ceeccf8f17b9"
+    ],
+    "ground_truth_names": [
+      "soc2-audit-prep"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_117",
+    "prompt": "I want to create a web experience that captivates visitors and keeps them engaged as they explore our new product features.",
+    "ground_truth_ids": [
+      "032ad18035c7"
+    ],
+    "ground_truth_names": [
+      "epic-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_118",
+    "prompt": "I need to design a landing page that tells our brand story in a way that feels dynamic and visually stunning, drawing users in with every scroll.",
+    "ground_truth_ids": [
+      "032ad18035c7"
+    ],
+    "ground_truth_names": [
+      "epic-design"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_119",
+    "prompt": "I need to figure out why our delivery timelines are slipping and what we can do to get back on track.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  },
+  {
+    "prompt_id": "ct_120",
+    "prompt": "We're struggling to fill engineering positions quickly, and I want to understand how we can improve our hiring process to attract the right talent.",
+    "ground_truth_ids": [
+      "606532959dc2"
+    ],
+    "ground_truth_names": [
+      "vpe-advisor"
+    ],
+    "set_size": 1,
+    "trigger_type": "implied"
+  }
+]
